@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+#toc {
+    &:before {
+        content: 'Table of contents';
+        color: #537abd;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: normal;
+        display: block;
+        font-size: 1.17em;
+    }
+
+    &:empty {
+        display: none;
+    }
+}
+
 .project-name {
     font-weight: normal;
 }

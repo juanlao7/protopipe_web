@@ -1,6 +1,6 @@
 ## The basics
 
-This page explains everything you need to know to use Protopipe. **Don't worry, it's not much.**
+This page explains everything you need to know to use Protopipe. Don't worry, it's not much.
 
 If you feel more confortable following a **tutorial**, open [this link](TODO).
 
@@ -52,7 +52,7 @@ An example of this architecture is found in the [K-fold cross-validation](cards/
 
 #### Parameters
 
-Protopipe can find **approximated** optimal values for the parameters of your model (e.g., number of layers in a neural network or mutation probability in a genetic algorithm).
+Protopipe can find approximated optimal values for the parameters of your model (e.g., number of layers in a neural network or mutation probability in a genetic algorithm).
 
 [foto parameter]
 
@@ -74,7 +74,7 @@ Most machine learning models can be fine tuned with parameters, such as the numb
 
 These parameters have a **huge** effect on the performance of the model and it is not trivial to assign them a value, since it usually depends on the intrinsic properties of the data that is used for training.
 
-Although there is a lot of literature about how to choose the right values, in most cases **it is impossible to predict the final behavior of the model without actual experimentation**, so the common approach is to find the right values by performing actual experiments.
+Although there is a lot of literature about how to choose the right values, in most cases **it is unfeasible to predict the final behavior of the model**, so the common approach is to find the optimum by actual experimentation.
 
 At this point there are different strategies that can be followed:
 
@@ -83,14 +83,17 @@ At this point there are different strategies that can be followed:
 * Try random values for *n* iterations.
 * etc.
 
-The only thing in common among all these methods is that you need to perform an **immense** amount of experiments in order to have a good approximation of your parameters.
+The only thing in common among all these methods is that you need to perform an **immense** amount of experiments in order to have a good approximation.
 
-Protopipe automatically searches an optimal value for any parameter provided with a [parameter card](#TODO).
+Protopipe does this search for you, letting you choose your prefered method and the domain of possible values for each parameter. Say goodbye to those cumbersome python scripts!
 
 ### Analysis
 
 [foto cross sectional]
 
-After performing a series of experiments, some questions may arise. What combination of values for the parameters result in the best performance? How does the dropout factor affect the performance of the neural network model?
+After performing a series of experiments, some questions may arise. Probably you may want to know what combination of learning rate and dropout results in the lowest error, or how the number of layers affects the performance of a neural network.
 
-Protopipe answers these questions by automatically generating tables that relate the values assigned to the [parameter cards](#TODO) with the values obtained from the [return cards](#TODO) and offering an interactive tool for performing **cross-sectional analysis**.
+Protopipe answers these questions by:
+
+* Automatically generating tables that relate the values assigned to the [parameter cards](#TODO) with the values obtained from the [return cards](#TODO)
+* Offering an interactive tool for performing **cross-sectional analysis** and drawing cool charts, letting you know how each parameter affects the outcome.
