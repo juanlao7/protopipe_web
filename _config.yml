@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+title: Protopipe
+description: We are still looking for a good motto
+
+github:
+  is_project_page: false

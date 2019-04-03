@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Let's talk about the elephant in the room
 
-You can use the [editor on GitHub](https://github.com/juanlao7/protopipe_docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Data scientists spend **massive** amounts of time on trivial tasks, such as:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Writing scripts to prepare the data.
+* Writing scripts to optimize parameters.
+* Manually writing out their results in tables and charts.
 
-### Markdown
+**This is not research**. We must get rid of all this tedious work so we can focus on the things that really matter.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Protopipe is a general solution for data processing, model training and result analysis. All in one and **without having to write a single line of code!**
 
-```markdown
-Syntax highlighted code block
+## Ok, but what is Protopipe?
 
-# Header 1
-## Header 2
-### Header 3
+Protopipe is a **web platform** where you can visually design a pipeline for your **machine learning** experiments and test it against any data you upload.
 
-- Bulleted
-- List
+[foto pipeline]
 
-1. Numbered
-2. List
+## I don't get it
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juanlao7/protopipe_docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Take a look at [the basics](basics.html) or watch [a quick tutorial](http://youtube.com).
