@@ -2,11 +2,11 @@
 
 This page explains everything you need to know to use Protopipe. Don't worry, it's not much.
 
-If you feel more confortable following a **tutorial**, open [this link](/tutorials/intro.html).
+If you feel more confortable following a **tutorial**, open [this link](tutorials/intro.html).
 
 ### Design
 
-![2 connected cards: "Open file" and "Read as CSV"](/assets/img/basics/design_1.png)
+![2 connected cards: "Open file" and "Read as CSV"](assets/img/basics/design_1.png)
 
 **Cards** are the main pillar of Protopipe.
 
@@ -14,41 +14,41 @@ Cards are like **functions** of any common programming language: they receive so
 
 Examples:
 
-* The [Mean](/cards/mean.html) card receives a list of numbers and returns their mean.
-* The [Train SLAVE](/cards/trainSLAVE.html) card receives a training dataset, trains a fuzzy logic model and returns it.
-* The [Predict](/cards/predict.html) card receives a model plus the inputs of a test dataset and returns the model's predictions.
+* The [Mean](cards/mean.html) card receives a list of numbers and returns their mean.
+* The [Train SLAVE](cards/trainSLAVE.html) card receives a training dataset, trains a fuzzy logic model and returns it.
+* The [Predict](cards/predict.html) card receives a model plus the inputs of a test dataset and returns the model's predictions.
 
 You can design a pipeline for your experiments just by putting some cards in the blueprint and connecting them.
 
-![A card with inputs and outputs of different types](/assets/img/basics/design_2.png)
+![A card with inputs and outputs of different types](assets/img/basics/design_2.png)
 
-The inputs of a card are at its left and the outputs at its right. They can be of different **types** (e.g., [String](/types/String.html), [Integer](/types/Integer.html), [Float](/types/Float.html)) and you can recognize them by the **color** or **shape** of the socket.
+The inputs of a card are at its left and the outputs at its right. They can be of different **types** (e.g., [String](types/String.html), [Integer](types/Integer.html), [Float](types/Float.html)) and you can recognize them by the **color** or **shape** of the socket.
 
-For instance a [String](/types/String.html) is represented by a red circle, a list of multiple [Strings](/types/String.html) by **two** red circles, a [Callback](/types/Callback.html) by an orange square, etc.
+For instance a [String](types/String.html) is represented by a red circle, a list of multiple [Strings](types/String.html) by **two** red circles, a [Callback](types/Callback.html) by an orange square, etc.
 
-![A card with inputs which their value directly entered](/assets/img/basics/design_3.png)
+![A card with inputs which their value directly entered](assets/img/basics/design_3.png)
 
-You can directly provide a value for some specific kind of inputs. See [this page](/work_screen.html#provide-an-input-directly) for more information.
+You can directly provide a value for some specific kind of inputs. See [this page](work_screen.html#provide-an-input-directly) for more information.
 
 Cards aim to be general and atomic enough so they can be used in lots of different cases, but also complete and handy enough so you don't need to create hundreds of them for performing a simple task.
 
 #### Events and callbacks
 
-![A card that outputs an Event connected to a listener card](/assets/img/basics/events-and-callbacks_1.png)
+![A card that outputs an Event connected to a listener card](assets/img/basics/events-and-callbacks_1.png)
 
-When a card outputs an [Event](/types/Event.html), you can assign a **listener** card to it.
+When a card outputs an [Event](types/Event.html), you can assign a **listener** card to it.
 
 When the first card gets processed, it may---or may not---trigger the event. If the event gets triggered, the listener card will get processed too.
 
 The listener card provides some outputs that you can connect to other cards, and they will get processed too.
 
-![A pipeline that uses Events and Callbacks](/assets/img/basics/events-and-callbacks_2.png)
+![A pipeline that uses Events and Callbacks](assets/img/basics/events-and-callbacks_2.png)
 
 Sometimes it is not enough for a card to receive some inputs and return some outputs. In some cases it is required that it generates an output, other cards do something with it and send it back to the original card, that takes the control again to generate a final output.
 
-This situation can be covered with [Events](/types/Event.html) and [Callbacks](/types/Callback.html): a card triggers an [Event](/types/Event.html) that provides a [Callback](/types/Callback.html); when the listener gets processed, it calls the [Callback](/types/Callback.html) and the execution control goes back to the original card so it can perform its final action.
+This situation can be covered with [Events](types/Event.html) and [Callbacks](types/Callback.html): a card triggers an [Event](types/Event.html) that provides a [Callback](types/Callback.html); when the listener gets processed, it calls the [Callback](types/Callback.html) and the execution control goes back to the original card so it can perform its final action.
 
-An example of this architecture is found in the [K-fold cross-validation](/cards/kFoldCrossValidation.html) card, that lets you define the pipeline of every fold just once, instead of having to define it *K* times:
+An example of this architecture is found in the [K-fold cross-validation](cards/kFoldCrossValidation.html) card, that lets you define the pipeline of every fold just once, instead of having to define it *K* times:
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Protopipe can find approximated optimal values for the parameters of your model 
 
 [foto parameter]
 
-There is a special set of cards that represent parameters that need to be optimized. Some of them, such as the [Float parameter](/cards/parameterFloat.html) lets you specify a **domain** in order to simplify the search.
+There is a special set of cards that represent parameters that need to be optimized. Some of them, such as the [Float parameter](cards/parameterFloat.html) lets you specify a **domain** in order to simplify the search.
 
 #### Returns
 
@@ -64,7 +64,7 @@ Protopipe lets you analyze the results of your experiments and do cool things su
 
 [foto return]
 
-There is a special set of cards that collect a value for the later analysis phase. For example, the [Return float](/cards/returnFloat.html) card stores a [Float](/types/Float.html) value that appears later in the reports.
+There is a special set of cards that collect a value for the later analysis phase. For example, the [Return float](cards/returnFloat.html) card stores a [Float](types/Float.html) value that appears later in the reports.
 
 ### Optimization
 

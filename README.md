@@ -18,4 +18,4 @@ Protopipe is a **web platform** where you can visually design a pipeline for you
 
 ## I don't get it
 
-Take a look at [the basics](/basics.html) or watch [a quick tutorial](/tutorials/intro.html).
+Take a look at [the basics](basics.html) or watch [a quick tutorial](tutorials/intro.html).

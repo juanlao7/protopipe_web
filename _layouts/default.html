@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    {% include base.html %}
-    <base href="{{ base }}" />
+    <base href="/protopipe_web/" />
 
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -23,11 +22,11 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
+      <h1 class="project-name"><a href="">{{ site.title }}</a></h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
-      <a href="/help.html" class="btn">Help</a>
-      <a href="/contact.html" class="btn">Contact</a>
+      <a href="help.html" class="btn">Help</a>
+      <a href="contact.html" class="btn">Contact</a>
     </header>
 
     <main id="content" class="main-content" role="main">
