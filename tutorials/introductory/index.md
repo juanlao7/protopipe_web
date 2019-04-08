@@ -129,7 +129,7 @@ We want to use the first 11 cards for the input of our model and predict the val
 
 Now we have all the pieces needed for training the model. Open the card menu, select the **Modules** tab, navigate to **Models** --- **Fuzzy logic** and click on **Train SLAVE**.
 
-Connect the cards like this:
+Connect the [Train SLAVE](cards/trainSLAVE.html) card like this:
 
 [foto conexiones]
 
@@ -139,7 +139,11 @@ In this tutorial we will try to analyze the effect of the population size and th
 
 First of all, let's specify that the population size is a parameter. Open the card menu, select the **Modules** tab, navigate to **Parameters** and click on **Integer parameter**.
 
-Connect the card as follows:
+Name it "Population size":
+
+[foto dialogo name]
+
+Connect the [Integer parameter](cards/parameterInteger.html) card as follows:
 
 [foto integer parameter conectado]
 
@@ -147,4 +151,108 @@ Now we must specify the domain of the values for this parameter. For instance, l
 
 [foto integer parameter con 10,25,50,75,100]
 
-That's it! The system is ready to test several values of this parameter.
+Now let's do the same with the mutation probability. Open the card menu, select the **Modules** tab, navigate to **Parameters** and click on **Float parameter**.
+
+Name it "Mutation probability":
+
+[foto dialogo name]
+
+Connect the [Float parameter](cards/parameterFloat.html) card as follows:
+
+[foto float parameter conectado]
+
+This time let's specify that the domain of this parameter is between 0.1 and 0.9. That would be:
+
+[foto float parameter con 0.1:0.9]
+
+That's it!
+
+### 5. Testing the model
+
+First of all we need to split the input and output of the testing table, as we did with the training table.
+
+Open the card menu, select the **Modules** tab, navigate to **Tables** and click on **Split into X and Y by columns**. Then connect the new card and assign the proper values for its inputs:
+
+[foto split XY conectada y con inputs]
+
+Now let's make the model predict the output of the testing dataset. Open the card menu, select the **Modules** tab, navigate to **Models** and click on **Predict**. Connect the cards as follows:
+
+[foto predict conectada]
+
+Take a look at the model's prediction. Select the [Predict](cards/predict.html) card and click on the preview button at the top bar.
+
+[foto preview model predict]
+
+The performance of the model will be determined by averaging the mean absolute error measure obtained in each fold. Open the card menu, select the **Modules** tab, navigate to **Loss functions** and click on **Mean absolute error**.
+
+Connect the [Mean absolute error](cards/meanAbsoluteError.html) card as follows:
+
+[foto MAD conectada]
+
+The event listener card outputs a [Callback](types/Callback.html) that can be **called**. Drag & drop the socket of the **For each fold** card to an empty space of the blueprint.
+
+[gif drag&drop]
+
+Now connect the output of the [Mean absolute error](cards/meanAbsoluteError.html) card to the input of the **Report** callback:
+
+[foto conexion]
+
+Finally, average all the measures. Open the card menu, select the **Modules** tab, navigate to **Statistics** and click on **Mean**.
+
+Connect the [Mean](cards/mean.html) card as follows:
+
+[foto mean conectada]
+
+Open the card menu, select the **Modules** tab, navigate to **Returns** and click on **Return float**.
+
+Name it "Error":
+
+[foto dialogo name]
+
+Connect the [Return float](cards/returnFloat.html) card as follows:
+
+[foto return float conectada]
+
+All ready! We finished our pipeline.
+
+### 6. Experimenting
+
+Click on this button to start the experiment:
+
+[foto boton play]
+
+You will see something like this in the side panel:
+
+[foto panel play]
+
+When the process finishes, this dialog will appear:
+
+[foto dialog finished]
+
+Press **See report** to see a table that summarizes all the experiments performed.
+
+[foto experiments]
+
+You can sort the table by the "Error" column, in ascending order. Note that our best model got an error around XXXXXX.
+
+[foto error]
+
+Easy peasy.
+
+### 7. Analysis
+
+On the side panel, under the most recent report, click on **Cross-sectional analysis**.
+
+[foto cross-sectional]
+
+This will open an interactive chart where you can choose the parameter represented in the X-axis and the results represented in the Y-axis.
+
+For example, here we see how the population size affects the performance of the model:
+
+[foto chart]
+
+### 8. Conclusions
+
+In this tutorial we designed our own pipeline for training and testing a model for predicting the quality of white wine.
+
+Our best model, with a population size of XXXX and a mutation probability of XXXXX, got an error of XXXX.

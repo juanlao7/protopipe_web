@@ -2,7 +2,7 @@
 
 This page explains everything you need to know to use Protopipe. Don't worry, it's not much.
 
-If you feel more confortable following a **tutorial**, open [this link](tutorials/intro.html).
+If you feel more confortable following a **tutorial**, open [this link](tutorials/introductory).
 
 ### Design
 

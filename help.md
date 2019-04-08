@@ -1,6 +1,7 @@
 ## Help index
 
 * [The basics](basics.html)
+* [Quick introductory tutorial](tutorials/introductory/)
 * How to use Protopipe
     * [Projects screen](projects_screen.html)
     * [Work screen](work_screen.html)
@@ -18,11 +19,12 @@
     * [String](types/String.html)
     * [Tensor](types/Tensor.html)
 * Cards
-    * [Open file](cards/openFile.html)
-    * [Read as CSV](cards/readAsCSV.html)
     * [K-fold cross-validation](cards/kFoldCrossValidation.html)
     * [Mean](cards/mean.html)
+    * [Mean absolute error](cards/meanAbsoluteError.html)
+    * [Open file](cards/openFile.html)
+    * [Predict](cards/predict.html)
+    * [Read as CSV](cards/readAsCSV.html)
     * [Split into X and Y columns](cards/splitIntoXAndYColumns.html)
     * [Train SLAVE](cards/trainSLAVE.html)
-    * [Predict](cards/predict.html)
-    * [Mean absolute error](cards/meanAbsoluteError.html)
+* [System requirements](requirements.html)
