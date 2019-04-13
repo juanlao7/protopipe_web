@@ -27,7 +27,8 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div id="toc">{% include toc.html html=content h_min=3 %}</div>
+      {% assign baseURL = '.' | append: page.url %}
+      <div id="toc">{% include toc.html html=content h_min=3 baseurl=baseURL %}</div>
 
       {{ content }}
 
