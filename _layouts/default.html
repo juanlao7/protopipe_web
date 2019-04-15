@@ -47,7 +47,13 @@
 
     <script type="text/javascript">
         var toc = document.getElementById('toc');
-        toc.parentNode.insertBefore(toc, document.getElementsByTagName('h3')[0]);
+        
+        if (window.location.pathname.indexOf('/cards/') >= 0) {
+          toc.parentNode.removeChild(toc);
+        }
+        else {
+          toc.parentNode.insertBefore(toc, document.getElementsByTagName('h3')[0]);
+        }
 
         var imgs = document.getElementsByTagName('img');
 
