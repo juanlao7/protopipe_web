@@ -91,7 +91,7 @@ Protopipe automatizes the search, following any of the multiple configurable met
 
 See [this page](work_screen.html#tune-parameters-automatically) for more information.
 
-### Results analysis
+### Result analysis
 
 After performing a set of experiments, Protopipe generates a table where each row represents a single experiment containing all values assigned to [parameter cards](#parameters) and all values obtained from [return cards](#returns). This may help, for instance, to know what combination of learning rate and dropout factor leads to the lowest testing error.
 

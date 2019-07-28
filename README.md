@@ -10,7 +10,7 @@ Prepare your data and train multiple models just by connecting a few nodes.
 
 Automatically find the optimal value for any parameter of your pipeline.
 
-## All your results organized
+## All results organized
 
 Keep track of all your experiments.
 
