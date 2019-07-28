@@ -90,3 +90,15 @@ p {
 body {
     color: #3c4043;
 }
+
+@media screen and (max-width: 42em) {
+    .btn {
+        display: inline-block;
+        width: auto;
+    }
+
+    .btn + .btn {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}

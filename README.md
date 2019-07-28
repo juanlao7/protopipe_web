@@ -1,20 +1,30 @@
-## Fast machine learning workflows
+<p style="text-align: center; font-size: 1.5em; margin-bottom: 2em">
+    A visual tool for implementing machine learning pipelines.
+</p>
 
-Protopipe is a visual tool for designing and executing machine learning pipelines with no programming involved.
+## No programming involved
 
-* Prepare data and train multiple models just by connecting a few nodes.
-* Automatically find the optimal value for the parameters of any model.
-* Export experimental data to tables and charts with a single click.
+Prepare your data and train multiple models just by connecting a few nodes.
 
-[foto pipeline]
+## Find the best model
 
-## Requirements
+Automatically find the optimal value for any parameter of your pipeline.
 
-**No installation required**. Protopipe is a web platform accessible from any web browser, operating system and device.
+## All your results organized
 
-[foto logos]
+Keep track of all your experiments.
 
-[TODO: backend]
+Integrated cross-sectional analysis.
+
+Export experimental data with a single click.
+
+## No installation required
+
+Protopipe is a web platform accessible from any web browser, operating system and device.
+
+<p style="text-align: center">
+    <img class="hardcoded" src="assets/img/operating_systems.svg" alt="Windows, Linux, macOS, iOS, Android" style="margin: 1rem 0" />
+</p>
 
 ## Getting started
 

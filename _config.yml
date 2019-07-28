@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Protopipe
-description: Prototyping machine learning pipelines
+description: Speed up your machine learning workflows
 baseurl: /protopipe_web
 
 github:
