@@ -177,4 +177,4 @@ After the project has been processed ([how?](#process-the-project)), the system 
 
 [foto boton reports]
 
-Click on it to open the report screen. Please, continue reading [here](report_screen.html).
+Click on it to open the report screen. Please, continue reading [here](reports_screen.html).
