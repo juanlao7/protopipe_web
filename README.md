@@ -28,6 +28,6 @@ Protopipe is a web platform accessible from any web browser, operating system an
 
 ## Getting started
 
-[The basics](basics.html) explain everything you need to know to use Protopipe.
+Read [the basics](basics.html) to learn how to use Protopipe.
 
-However, if you prefer to learn by doing, you can follow [this quick introductory tutorial](tutorials/introductory).
+However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory).
