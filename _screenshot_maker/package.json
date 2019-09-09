@@ -1,0 +1,14 @@
+{
+  "name": "screenshot_maker",
+  "version": "1.0.0",
+  "description": "Automatically takes all the screenshots needed for Protopipe documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pageres": "^5.1.0"
+  }
+}
