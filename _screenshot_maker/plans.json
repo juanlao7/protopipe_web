@@ -1,4 +1,25 @@
 {
-    "we": {
+    "basics/design_1": {
+        "project": "projects/basics!design_1.zip",
+        "frameCards": true
+    },
+    "basics/design_2": {
+        "card": ["Files and formats", "Read as CSV"],
+        "frameCards": true
+    },
+    "basics/events-and-callbacks_1": {
+        "project": "projects/basics!events-and-callbacks_1.zip",
+        "frameCards": true,
+        "dx": 301,
+        "dw": -497
+    },
+    "basics/parameters_1": {
+        "project": "projects/basics!parameters_1.zip",
+        "frameCards": true
+    },
+    "basics/returns_1": {
+        "card": ["Returns", "Return float"],
+        "cardImplicit": "Loss",
+        "frameCards": true
     }
 }

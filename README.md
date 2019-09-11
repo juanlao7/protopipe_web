@@ -6,6 +6,8 @@
 
 Prepare your data and train multiple models just by connecting a few nodes.
 
+![3 connected cards](assets/img/basics/design_1.png)
+
 ## Find the best model
 
 Automatically find the optimal value for any parameter of your pipeline.
