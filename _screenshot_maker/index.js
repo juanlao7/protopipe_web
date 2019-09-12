@@ -10,7 +10,7 @@ const constants = {
 };
 
 let chosenPlans = null;
-chosenPlans = ['basics/returns_1'];
+//chosenPlans = ['basics/returns_1'];
 //chosenPlans = ['basics/events-and-callbacks_1'];
 
 (async () => {
@@ -74,7 +74,7 @@ chosenPlans = ['basics/returns_1'];
         const captureOptions = {
             width: plan.width,
             height: plan.height,
-            scaleFactor: 1,
+            scaleFactor: 2,
             modules: [scriptContents],
             overwrite: true,
             waitForElement: '#patata',

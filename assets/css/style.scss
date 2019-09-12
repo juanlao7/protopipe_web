@@ -77,9 +77,15 @@ a:visited {
     color: #673ab7;
 }
 
-a.img {
+.img {
     text-align: center;
-    display: block;
+
+    a {
+        display: inline-block;
+
+        img {
+        }
+    }
 }
 
 li > ul {
