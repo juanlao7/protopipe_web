@@ -45,7 +45,8 @@
         "margin": 22
     },
     "work_screen/create_1": {
-        "elementWithMargin": "t:add"
+        "elementWithMargin": "t:add",
+        "styles": [".ppui_protopipeFAB { animation: none !important; }"]
     },
     "work_screen/create_2": {
         "project": "projects/work_screen!create_2.zip",

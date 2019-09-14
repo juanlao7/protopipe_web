@@ -2,7 +2,7 @@ const fs = require('fs');
 const request = require('request-promise-native');
 const captureWebsite = require('capture-website');
 
-const DEBUG = true;
+const DEBUG = false;
 
 const constants = {
     username: 'juan',
@@ -10,10 +10,10 @@ const constants = {
 };
 
 let chosenPlans = null;
-chosenPlans = ['basics/result_2'];
+//chosenPlans = ['work_screen/create_1'];
 
 (async () => {
-    const directOptions = ['element', 'clickElement'];
+    const directOptions = ['element', 'clickElement', "styles"];
 
     const defaultPlanOptions = {
         login: true,
