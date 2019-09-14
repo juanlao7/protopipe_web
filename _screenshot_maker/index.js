@@ -2,7 +2,7 @@ const fs = require('fs');
 const request = require('request-promise-native');
 const captureWebsite = require('capture-website');
 
-const DEBUG = false;
+const DEBUG = true;
 
 const constants = {
     username: 'juan',
@@ -10,11 +10,10 @@ const constants = {
 };
 
 let chosenPlans = null;
-//chosenPlans = ['basics/returns_1'];
-//chosenPlans = ['basics/events-and-callbacks_1'];
+chosenPlans = ['basics/result_2'];
 
 (async () => {
-    const directOptions = ['delay', 'selector'];
+    const directOptions = ['element', 'clickElement'];
 
     const defaultPlanOptions = {
         login: true,
@@ -24,7 +23,9 @@ let chosenPlans = null;
         dx: 0,
         dy: 0,
         dw: 0,
-        dh: 0
+        dh: 0,
+        delay: 0,
+        margin: 30
     }
 
     const plans = JSON.parse(fs.readFileSync('plans.json', 'utf8'));
@@ -81,7 +82,7 @@ let chosenPlans = null;
             debug: DEBUG
         }
 
-        if (('x' in plan && 'y' in plan && 'w' in plan && 'h' in plan) || 'frameCards' in plan) {
+        if (('x' in plan && 'y' in plan && 'w' in plan && 'h' in plan) || 'frameCards' in plan || 'elementWithMargin' in plan) {
             captureOptions.element = '#screenshotArea';
         }
 

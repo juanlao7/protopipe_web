@@ -1,4 +1,165 @@
 {
+    "projects_screen/introduction_1": {
+        "createProject": false,
+        "width": 1280,
+        "height": 800
+    },
+    "projects_screen/create_1": {
+        "createProject": false,
+        "elementWithMargin": "t:add"
+    },
+    "projects_screen/create_2": {
+        "projectName": null,
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+    "work_screen/introduction_1": {
+        "projectName": "Untitled project",
+        "width": 1280,
+        "height": 800
+    },
+    "projects_screen/open_1": {
+        "createProject": false,
+        "element": ".ppui_projectIcon"
+    },
+    "projects_screen/options": {
+        "createProject": false,
+        "elementWithMargin": "t:more_vert"
+    },
+    "projects_screen/rename_1": {
+        "createProject": false,
+        "clickElementWhenReady": ["t:more_vert", "t:Rename"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+    "projects_screen/delete_1": {
+        "createProject": false,
+        "clickElementWhenReady": ["t:more_vert", "t:Delete"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+    "projects_screen/upload_1": {
+        "createProject": false,
+        "elementWithMargin": "t:cloud_upload"
+    },
+    "projects_screen/log-out_1": {
+        "createProject": false,
+        "elementWithMargin": ".ppui_dialogTitleButtons > button:nth-child(2)",
+        "margin": 22
+    },
+    "work_screen/create_1": {
+        "elementWithMargin": "t:add"
+    },
+    "work_screen/create_2": {
+        "project": "projects/work_screen!create_2.zip",
+        "clickElementWhenReady": [".ppui_protopipeFAB"],
+        "elementWithMargin": ".ppui_protopipeFAB"
+    },
+    "work_screen/create_3": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "frameCards": true
+    },
+    "work_screen/create_4": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules"],
+        "elementWithMargin": ".ppui_protopipeFAB"
+    },
+    "work_screen/delete_1": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": [".ppui_blueprintCard"],
+        "elementWithMargin": "t:delete",
+        "margin": 22,
+        "marginTop": 16
+    },
+    "work_screen/provide_1": {
+        "card": ["Files and formats", "Read as CSV"],
+        "frameCards": true
+    },
+    "work_screen/preview_1": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": [".ppui_blueprintCard"],
+        "elementWithMargin": "t:pageview",
+        "margin": 22,
+        "marginTop": 16
+    },
+    "work_screen/preview_2": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": [".ppui_blueprintCard:nth-child(2)", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 2000
+    },
+    "work_screen/preview_3": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": [".ppui_blueprintCard:nth-child(2)", "t:pageview"],
+        "elementWithMargin": "t:info"
+    },
+    "work_screen/process_1": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "elementWithMargin": "t:play_arrow"
+    },
+    "work_screen/process_2": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": ["t:play_arrow"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "width": 1280,
+        "height": 800,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 30,
+        "removeElements": [".ppui_style_darkLayer"]
+    },
+    "work_screen/process_3": {
+        "project": "projects/work_screen!create_2.zip",
+        "projectName": "work_screen/create_2",
+        "clickElementWhenReady": ["t:play_arrow"],
+        "elementWithMargin": "t:stop",
+        "removeElements": [".ppui_style_darkLayer"]
+    },
+    "work_screen/tune_1": {
+        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules", "t:Parameters"],
+        "elementWithMargin": ".ppui_protopipeFAB"
+    },
+    "work_screen/tune_2": {
+        "project": "projects/work_screen!tune_2.zip",
+        "frameCards": true
+    },
+    "work_screen/tune_3": {
+        "project": "projects/work_screen!tune_3.zip",
+        "frameCards": true
+    },
+    "work_screen/tune_4": {
+        "project": "projects/work_screen!tune_3.zip",
+        "projectName": "work_screen/tune_3",
+        "elementWithMargin": "t:tune",
+        "margin": 22,
+        "marginTop": 16
+    },
+    "work_screen/tune_5": {
+        "project": "projects/work_screen!tune_3.zip",
+        "projectName": "work_screen/tune_3",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "width": 1280,
+        "height": 800,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 30
+    },
+    "work_screen/analyze_1": {
+        "project": "projects/work_screen!analyze_1.zip",
+        "projectName": "Example project",
+        "elementWithMargin": ".ppui_SVGIcon",
+        "margin": 22,
+        "marginTop": 19,
+        "marginBottom": 26
+    },
     "basics/design_1": {
         "project": "projects/basics!design_1.zip",
         "frameCards": true
@@ -7,8 +168,8 @@
         "card": ["Files and formats", "Read as CSV"],
         "frameCards": true
     },
-    "basics/events-and-callbacks_1": {
-        "project": "projects/basics!events-and-callbacks_1.zip",
+    "basics/events_1": {
+        "project": "projects/basics!events_1.zip",
         "frameCards": true,
         "dx": 301,
         "dw": -497
@@ -21,5 +182,29 @@
         "card": ["Returns", "Return float"],
         "cardImplicit": "Loss",
         "frameCards": true
+    },
+    "basics/parameter_1": {
+        "project": "projects/basics!parameter_1.zip",
+        "clickElementWhenReady": ["t:tune", "t:Brute-force"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "width": 1280,
+        "height": 800,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 30
+    },
+    "basics/result_1": {
+        "project": "projects/basics!result_1.zip",
+        "projectName": "Example project",
+        "clickElementWhenReady": [".ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],
+        "width": 1280,
+        "height": 800
+    },
+    "basics/result_2": {
+        "project": "projects/basics!result_1.zip",
+        "projectName": "Example project",
+        "clickElementWhenReady": [".ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Cross-sectional analysis"],
+        "width": 1280,
+        "height": 800
     }
 }

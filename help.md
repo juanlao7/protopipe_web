@@ -1,23 +1,12 @@
 ## Help index
 
-* [The basics](basics.html)
-* [Quick introductory tutorial](tutorials/introductory/)
 * How to use Protopipe
+    * [The basics](basics.html)
     * [Projects screen](projects_screen.html)
     * [Work screen](work_screen.html)
     * [Reports screen](reports_screen.html)
-* Data types
-    * [Boolean](types/Boolean.html)
-    * [Callback](types/Callback.html)
-    * [DynamicObject](types/DynamicObject.html)
-    * [Event](types/Event.html)
-    * [FileStream](types/FileStream.html)
-    * [Float](types/Float.html)
-    * [FloatRanges](types/FloatRanges.html)
-    * [Integer](types/Integer.html)
-    * [IntegerRanges](types/IntegerRanges.html)
-    * [String](types/String.html)
-    * [Tensor](types/Tensor.html)
+* Tutorials
+    * [Quick introductory tutorial](tutorials/introductory/)
 * Cards
     * [Boolean parameter](cards/parameterBoolean.html)
     * [Float parameter](cards/parameterFloat.html)
@@ -31,4 +20,16 @@
     * [Return float](cards/returnFloat.html)
     * [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html)
     * [Train SLAVE](cards/trainSLAVE.html)
+* Data types
+    * [Boolean](types/Boolean.html)
+    * [Callback](types/Callback.html)
+    * [DynamicObject](types/DynamicObject.html)
+    * [Event](types/Event.html)
+    * [FileStream](types/FileStream.html)
+    * [Float](types/Float.html)
+    * [FloatRanges](types/FloatRanges.html)
+    * [Integer](types/Integer.html)
+    * [IntegerRanges](types/IntegerRanges.html)
+    * [String](types/String.html)
+    * [Tensor](types/Tensor.html)
 * [System requirements](requirements.html)

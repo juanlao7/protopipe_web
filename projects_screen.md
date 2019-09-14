@@ -1,51 +1,67 @@
-# Projects screen
+## Projects screen
 
-[foto projects screen]
+![Empty projects screen](assets/img/projects_screen/introduction_1.png)
 
-In this screen you can create, open or delete a project among other things.			# TODO se le dice "screen"?
+In this screen you can manage your projects.
 
-## Create a new project
+### Create a new project
 
-Just press this button:
+Press the *Create new project* button.
 
-[foto boton +]
+!["Create new project" button](assets/img/projects_screen/create_1.png)
 
-Write a name for your new project:
+Write a name for the new project.
 
-[foto dialogo new project]
+!["Create new project" dialog](assets/img/projects_screen/create_2.png)
 
-And press **Create**.
+And press **Start**.
 
-## Open a project
+### Open a project
 
-Just click on the project you want to open:
+Press the project you want to open.
 
-[foto raton encima de proyecto]
+![Project icon](assets/img/projects_screen/open_1.png)
 
-## Rename a project
+### Rename a project
 
-Open the options menu of your project:
+Open the options menu of the project.
 
-[foto menu opciones]
+![Options menu button](assets/img/projects_screen/options.png)
 
-Click on **Rename**, write a new name:
+Press **Rename**, write a new name.
 
-[foto dialogo rename]
+!["Rename project" dialog](assets/img/projects_screen/rename_1.png)
 
-And click on **Rename**.
+And press **Rename**.
 
-## Delete a project
+### Delete a project
 
-Open the options menu of your project:
+Open the options menu of the project.
 
-[foto menu opciones]
+![Options menu button](assets/img/projects_screen/options.png)
 
-Click on **Delete** and confirm.
+Press **Delete** and confirm.
 
-[foto dialogo delete]
+!["Delete project" dialog](assets/img/projects_screen/delete_1.png)
 
-## Log out		# TODO: le he puesto este nombre?
+### Export and download a project
 
-Just click the log out button:
+Open the options menu of the project.
 
-[foto boton log out]
+![Options menu button](assets/img/projects_screen/options.png)
+
+And press **Download**.
+
+### Upload and import a project
+
+Press the *Upload* button.
+
+!["Upload" button](assets/img/projects_screen/upload_1.png)
+
+And select from your computer the ZIP file containing the project.
+
+### Log out
+
+Press the *Log out* button:
+
+!["Log out" button](assets/img/projects_screen/log-out_1.png)

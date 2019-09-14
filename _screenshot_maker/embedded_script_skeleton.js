@@ -5,10 +5,35 @@
 
     const CARD_INIT_DELAY = 500;
     const DIALOG_INIT_DELAY = 500;
+    const GENERAL_ANIMATION_DELAY = 500;
 
-    const CARDS_FRAME_MARGIN = 30;
+    // Inheriting properties.
+    const margins = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
 
-    function takeScreenshot() {
+    for (var i = 0; i < margins.length; ++i) {
+        if (!(margins[i] in plan)) {
+            plan[margins[i]] = plan.margin;
+        }
+    }
+
+    async function takeScreenshot() {
+        console.log('3.. 2.. 1...');
+        await clickElementWhenReady();
+        await timeout(plan.delay);
+
+        if ('elementWithMargin' in plan) {
+            await waitForSelector(plan.elementWithMargin);
+            await timeout(GENERAL_ANIMATION_DELAY);
+            const bounds = findSelector(plan.elementWithMargin).getBoundingClientRect();
+            screenshotArea.style.left = (bounds.x - plan.marginLeft) + 'px';
+            screenshotArea.style.top = (bounds.y - plan.marginTop) + 'px';
+            screenshotArea.style.width = (bounds.width + plan.marginLeft + plan.marginRight) + 'px';
+            screenshotArea.style.height = (bounds.height + plan.marginTop + plan.marginBottom) + 'px';
+        }
+
+        await removeElements();
+
+        console.log('PATATA!');
         const patata = document.createElement('span');
         patata.id = 'patata';
         patata.style.position = 'fixed';
@@ -44,8 +69,12 @@
         return element;
     }
 
-    function findSelector(selector, index=0) {
-        return document.querySelectorAll(selector)[index];
+    function findSelector(selector) {
+        if (selector.startsWith('t:')) {
+            return find(selector.substr(2));
+        }
+
+        return document.querySelector(selector);
     }
 
     async function waitForNoProgressBar() {
@@ -70,6 +99,37 @@
         //console.log(`Selector "${selector}" disappeared.`);
     }
 
+    async function clickElementWhenReady() {
+        if (!('clickElementWhenReady' in plan)) {
+            return;
+        }
+
+        while (plan.clickElementWhenReady.length > 0) {
+            let selector = plan.clickElementWhenReady.shift();
+            await waitForSelector(selector);
+            const element = findSelector(selector);
+            var event = new MouseEvent('mousedown');
+            element.dispatchEvent(event);
+            element.click();
+        }
+
+        await timeout(GENERAL_ANIMATION_DELAY);
+    }
+
+    async function removeElements() {
+        if (!('removeElements' in plan)) {
+            return;
+        }
+
+        while (plan.removeElements.length > 0) {
+            const selector = plan.removeElements.pop();
+            console.log(`Removing "${selector}"`);
+            await waitForSelector(selector);
+            const element = findSelector(selector);
+            element.parentElement.removeChild(element);
+        }
+    }
+
     const screenshotArea = document.createElement('div');
     screenshotArea.id = 'screenshotArea';
     screenshotArea.style.position = 'fixed';
@@ -80,7 +140,7 @@
     document.body.appendChild(screenshotArea);
 
     if (!plan.login) {
-        takeScreenshot();
+        await takeScreenshot();
         return;
     }
 
@@ -131,10 +191,10 @@
                 maxY = Math.max(maxY, bounds.y + bounds.height);
             }
 
-            const x = parseInt(minX - CARDS_FRAME_MARGIN + plan.dx);
-            const y = parseInt(minY - CARDS_FRAME_MARGIN + plan.dy);
-            const w = parseInt(maxX + CARDS_FRAME_MARGIN - x + plan.dw);
-            const h = parseInt(maxY + CARDS_FRAME_MARGIN - y + plan.dh);
+            const x = parseInt(minX - plan.marginLeft + plan.dx);
+            const y = parseInt(minY - plan.marginTop + plan.dy);
+            const w = parseInt(maxX + plan.marginRight - x + plan.dw);
+            const h = parseInt(maxY + plan.marginBottom - y + plan.dh);
 
             screenshotArea.style.left = x + 'px';
             screenshotArea.style.top = y + 'px';
@@ -146,14 +206,17 @@
     if (plan.createProject) {
         findOrFail('add').click();
         await timeout(DIALOG_INIT_DELAY);
-        findOrFail('Project name').value = plan.projectName;
-        findOrFail('Start').click();
-        await afterProjectOpening();
+
+        if (plan.projectName) {
+            findOrFail('Project name').value = plan.projectName;
+            findOrFail('Start').click();
+            await afterProjectOpening();
+        }
     }
     else if (plan.openProject) {
         findOrFail(plan.projectName).click();
         await afterProjectOpening();
     }
 
-    takeScreenshot();
+    await takeScreenshot();
 })();

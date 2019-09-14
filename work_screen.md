@@ -1,50 +1,50 @@
 ## Work screen
 
-[foto work screen]
+![Empty work screen](assets/img/work_screen/introduction_1.png)
 
-In this screen you can design and test a pipeline for your machine learning experiments.
+In this screen you can design and test machine learning pipelines.
 
-If you feel more confortable following a tutorial, open [this link](TODO).
+This is page explains how to use the main graphical interface of Protopipe. If you are more interested in learning the basics of Protopipe, see [this page](basics.html).
 
-This is page explains how to use the graphical interface of this screen. If you are more interested in knowing the basics of Protopipe, go [here](basics.html).
+However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory).
 
 ### Create a card
 
-Right click on an empty space of the blueprint or press this button to open the card menu:
+Right click on an empty space of the blueprint or press the *Create card* button to open the menu.
 
-![Create card button](assets/img/work_screen/create-a-card_1.png)
+!["Create card" button](assets/img/work_screen/create_1.png)
 
-In the **Data** tab you will be able to upload files of any type, that supposedly contain the data required for your experiments. After uploading a file, you can click on their entry in the menu to create an [Open file](cards/openFile.html) card, that returns a [FileStream](types/FileStream.html) that can be read by another card (e.g., [Read as CSV](cards/readAsCSV.html)).
+In the **Data** tab you will be able to upload files of any type with the data required for your experiments. After uploading a file, you can press their entry in the menu to create an [Open file](cards/openFile.html) card.
 
-!["Data" tab](assets/img/work_screen/create-a-card_2.png)
+!["Data" tab](assets/img/work_screen/create_2.png)
 
-!["Open file" connected to "Read as CSV"](assets/img/work_screen/create-a-card_3.png)
+The [Open file](cards/openFile.html) card outputs a [FileStream](types/FileStream.html) that can be read by other cards, for example, the [Read as CSV](cards/readAsCSV.html) card.
 
-In the **Modules** tab you will see a catalog of all the cards available in the system, classified in a tree. If you click on a module, the card will be created in the blueprint.
+!["Open file" card connected to "Read as CSV" card](assets/img/work_screen/create_3.png)
 
-!["Modules" tab](assets/img/work_screen/create-a-card_4.png)
+The **Modules** tab contains a catalog of all the cards available in the system, organized by categories. If you press a module, the card will be added to the blueprint.
+
+!["Modules" tab](assets/img/work_screen/create_4.png)
 
 ### Select cards
 
-Select cards by clicking on them (press `Ctrl` while clicking to select multiple cards) or by surrounding them with a rectangle.
+Select cards by pressing them (press `Ctrl` while clicking to select multiple cards) or by enclosing them in a selection rectangle.
 
-[gif click para seleccionar]
-
-[gif seleccion rectangular]
+[gif selecting with a rectangle]
 
 ### Delete cards
 
-Select all the cards you want to delete ([how?](#select-cards)) and press this button on the top bar:
+[Select](#select-cards) all the cards you want to delete and press the *Delete* button on the top bar.
 
-![Delete button](assets/img/work_screen/delete-cards_1.png)
+!["Delete" button](assets/img/work_screen/delete_1.png)
 
 ### Connect two cards
 
-Drag & drop the input socket of one card into the output socket of another (or viceversa).
+Drag & drop the output socket of one card into the input socket of another (or vice versa).
 
 [gif connect 2 cards]
 
-Please, note that both sockets must be of the same type (i.e. same color and shape), otherwise the system will do absolutely nothing.
+Please, note that it is only possible connect sockets of the same type (i.e. same color and shape).
 
 ### Delete a connection
 
@@ -54,25 +54,13 @@ Drag & drop the **input** of the connected card into an empty space of the bluep
 
 Do not drag the **output** of the other connected card, since that would only create a new connection instead.
 
-### Create an Event listener card
-
-To create an [Event](types/Event.html) listener card, drag & drop the [Event](types/Event.html) socket into any empty space of the blueprint.
-
-[gif crear event card]
-
-### Create a Callback card
-
-To create a [Callback](types/Callback.html) card, drag & drop the [Callback](types/Callback.html) socket into any empty space of the blueprint.
-
-[gif crear callback]
-
 ### Provide an input directly
 
-For some types of input, it is possible to directly provide their value:
+It is possible to directly provide the value of certain types of inputs.
 
-![Card with inputs that can be written directly](assets/img/work_screen/provide-an-input-directly_1.png)
+![Card with inputs that can be provided directly](assets/img/work_screen/provide_1.png)
 
-These are the input types that allow that:
+The types that allow direct values are:
 
 * [String](types/String.html)
 * [Integer](types/String.html)
@@ -83,98 +71,78 @@ These are the input types that allow that:
 * [IntegerRanges](types/IntegerRanges.html)---write a comma-separated list of integers and closed intervals.
 * [FloatRanges](types/FloatRanges.html)---write a comma-separated list of floats and closed intervals.
 
-To define a closed interval from A to B just write "A:B".
+To define a closed interval from A to B, of either [Integers](types/String.html) or [Floats](types/String.html), just write "A:B".
 
 ### Preview the output of a card
 
-Select the card with the output you want to preview ([how?](#select-cards)) and press this button:
+[Select](#select-cards) the card with the output you want to preview and press the *Preview* button.
 
-![Preview button](assets/img/work_screen/preview-the-output-of-a-card_1.png)
+!["Preview" button](assets/img/work_screen/preview_1.png)
 
-If the card has multiple outputs, a menu will appear to select the desired output.
+If the card has multiple outputs a menu will appear to let you choose the output you want to preview.
 
-After that, a dialog will show a small portion of the data.
+After selecting an output, a small portion of the data will be displayed in a dialog.
 
-![Preview dialog](assets/img/work_screen/preview-the-output-of-a-card_2.png)
+!["Preview" dialog](assets/img/work_screen/preview_2.png)
 
-For some types of data the system will show a button for obtaining more information (e.g., the number of rows and columns in a table):
+For some types of data the system will show a button for obtaining more information (e.g., the number of rows and columns in a table).
 
-![Data info button](assets/img/work_screen/preview-the-output-of-a-card_3.png)
+!["Info" button](assets/img/work_screen/preview_3.png)
 
 ### Process the project
 
-Click on this button:
+Press the *Start process* button.
 
-![Start process button](assets/img/work_screen/process-the-project_1.png)
+!["Start process" button](assets/img/work_screen/process_1.png)
 
-A new panel will appear at the side of the screen. It contains some live information about the state of the processing.
+A new panel will appear at the side of the screen. It contains real-time information about the state of the processing.
 
-[foto panel]
+!["Processing" panel](assets/img/work_screen/process_2.png)
 
-After the process finishes, a dialog will appear:
+You can stop the process at any moment by clicking the *Stop process* button.
 
-[foto dialog success]
+!["Stop process" button](assets/img/work_screen/process_3.png)
 
-If the process stops prematurely, due to a manual stop or an internal error of the system, this dialog is shown:
-
-[foto dialog error]
-
-You can stop the process whenever you want by clicking this button:
-
-![Stop process button](assets/img/work_screen/process-the-project_2.png)
-
-Note the project is not editable during the processing. Stop the process to make any change.
+Note that the project is not editable during the processing.
 
 ### Tune parameters automatically
 
-To let the system find an optimal value for a parameter, first create a parameter card.
+To let the system find the optimal value of a parameter of your pipeline, first create a parameter card.
 
-For example, create an [Integer parameter](types/parameterInteger.html) card:
+For example, create an [Integer parameter](types/parameterInteger.html) card.
 
-![Stop process button](assets/img/work_screen/tune-parameters-automatically_1.png)
+![Modules menu -> Parameters -> Integer parameter](assets/img/work_screen/tune_1.png)
 
-The system will ask you to give it a name. Write something descriptive, like "Population size".
+The system will ask you to give it a name. Write something descriptive, like "Population size". After that, a new card will appear.
 
-[foto dialogo nombre]
+![Integer parameter card](assets/img/work_screen/tune_2.png)
 
-After that, a new card will appear:
+Now it's time to define the domain of the parameter. In this example we will specify that this parameter can have any value from 5 to 11, both included.
 
-[foto card int param]
+![Integer parameter card with domain 5:11](assets/img/work_screen/tune_3.png)
 
-Now it's time to define the domain of the parameter. In this example we will specify that this parameter can have any value from 5 to 11, both included:
-
-[foto card int param con domain 5:11]
-
-Connect the output of the parameter card to the input of any card you wish. For instance, let's connect it to the [Train SLAVE](cards/trainSLAVE.html) card:
+Connect the output of the parameter card to the input you want to optimize. For instance, let's connect it to the [Train SLAVE](cards/trainSLAVE.html) card.
 
 [foto int parameter conectado a train slave]
 
-When the pipeline contains optimizable parameters, the top bar shows a button for adjusting the tuning settings:
+When the pipeline contains optimizable parameters, the *Tune settings* button appears in the top bar.
 
-![Stop process button](assets/img/work_screen/tune-parameters-automatically_2.png)
+!["Tune settings" button](assets/img/work_screen/tune_4.png)
 
-If you press it, a new panel appears at the side of the screen:
+If you press it, a new panel appears at the side of the screen.
 
-[foto panel tune]
+!["Tune settings" panel](assets/img/work_screen/tune_5.png)
 
-Here you can choose the optimization method the system will use. Each method has its own settings.
+In this panel you can choose which method the system will use for finding the optimal values for the parameters. Of course, each method has its own set of settings.
 
-For instance, if we choose **Bruteforce**, the system will try every possible value of the domain of the parameters.
+For instance, the **Bruteforce** method will test every possible value of the domain of the parameters. If we [process the project](#process-the-project) the system will perform 7 experiments in total.
 
-As you can see, it is possible to choose how many samples from the parameter's domain we want to try. Let's write "3" for our parameter.
-
-If we process the project ([how?](#process-the-project)), the system will perform 3 experiments:
-
-[foto table Population size 5, 8, 11 & result]
-
-Note that the system takes the samples uniformly along the specified domain.
-
-If we had another optimizable parameter with 5 samples, the system would try every possible combination of both parameters, resulting in 15 experiments.
+Moreover, if we had another optimizable integer parameter with a domain size of 5 the system would try every possible combination of both parameters, resulting in 35 different experiments.
 
 ### Analyze the results
 
-After the project has been processed ([how?](#process-the-project)), the system generates a report and this button is shown in the top bar:
+The result of [processing a project](#process-the-project) is a report. The *Reports* button will appear in the top bar after the first time you process the project.
 
-[foto boton reports]
+!["Reports" button](assets/img/work_screen/analyze_1.png)
 
-Click on it to open the report screen. Please, continue reading [here](reports_screen.html).
+Click on it to open the reports screen. Please, continue reading [here](reports_screen.html).

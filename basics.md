@@ -32,7 +32,7 @@ Cards aim to be general and atomic so they can be used in lots of different situ
 
 #### Events
 
-![A card triggers two events](assets/img/basics/events-and-callbacks_1.png)
+![A card triggers two events](assets/img/basics/events_1.png)
 
 Some cards have the ability of triggering [Events](types/Event.html) when they are processed. In the example above, card [K-fold cross-validation](cards/kFoldCrossValidation.html) triggers the *On each fold* event K times and the event *On finish* at the end.
 
@@ -88,7 +88,7 @@ The only thing in common among all the strategies is that you need to perform an
 
 Protopipe comes equipped with several optimizing methods that automatize the search.
 
-[foto optimizer]
+![Parameter optimization panel](assets/img/basics/parameter_1.png)
 
 See [this page](work_screen.html#tune-parameters-automatically) for more information.
 
@@ -96,10 +96,10 @@ See [this page](work_screen.html#tune-parameters-automatically) for more informa
 
 After processing a project, Protopipe generates a table where each row represents a single experiment containing all values assigned to [parameter cards](#parameters) and all values obtained from [return cards](#returns). This may help, for example, to know what combination of *learning rate* and *dropout factor* leads to the lowest *testing loss*.
 
-[foto tabla]
+![Results table](assets/img/basics/result_1.png)
 
-Protopipe also has an integrated interactive tool for performing **cross-sectional analysis** between any parameter and return value, letting you know, for example, how the *number of layers* affects the *accuracy* of your neural network.
+Protopipe also has an integrated interactive tool for performing **cross-sectional analysis** between parameters and return values, letting you know, for example, how the *number of layers* affects the *accuracy* of your neural network.
 
-[foto cross sectional]
+![Cross-sectional analysis](assets/img/basics/result_2.png)
 
 See [this page](reports_screen.html) for more information.

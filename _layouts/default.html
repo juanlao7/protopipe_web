@@ -69,6 +69,17 @@
           link.appendChild(img);
           container.appendChild(link);
         }
+
+      var links = document.getElementsByTagName('a');
+      var myPath = window.location.href.split('#')[0];
+
+      for (var i = 0; i < links.length; ++i) {
+        var href = links[i].getAttribute('href');
+
+        if (href.charAt(0) == '#') {
+          links[i].setAttribute('href', myPath + href);
+        }
+      }
     </script>
   </body>
 </html>
