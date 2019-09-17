@@ -2,14 +2,15 @@
 
 ![Mean](assets/img/cards/mean.png)
 
-TODO: description
+Returns the mean value of a list of [Floats](types/Float.html)
 
 
 ### Inputs
 
 
 * **List** --- List of [Float](types/Float.html)
-  TODO: description
+
+  List of values.
 
 
 
@@ -19,7 +20,8 @@ TODO: description
 
 
 * **Mean** --- [Float](types/Float.html)
-  TODO: description
+
+  Mean of the values.
 
 
 

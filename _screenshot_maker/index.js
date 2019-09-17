@@ -9,8 +9,13 @@ const constants = {
     password: 'we'
 };
 
-let chosenPlans = null;
-//chosenPlans = ['work_screen/create_1'];
+if (process.argv.length == 2) {
+    console.log('Usage: node index.js <plans file> [chosenPlans...]');
+    return;
+}
+
+const plansFile = process.argv[2];
+let chosenPlans = (process.argv.length > 3) ? process.argv.slice(3) : null;
 
 (async () => {
     const directOptions = ['element', 'clickElement', "styles"];
@@ -28,7 +33,8 @@ let chosenPlans = null;
         margin: 30
     }
 
-    const plans = JSON.parse(fs.readFileSync('plans.json', 'utf8'));
+    const plansString = fs.readFileSync(plansFile, 'utf8')
+    const plans = JSON.parse(plansString);
 
     if (chosenPlans == null) {
         chosenPlans = Object.keys(plans);

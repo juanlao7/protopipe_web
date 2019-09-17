@@ -2,20 +2,23 @@
 
 ![Split into X and Y by columns](assets/img/cards/splitIntoXAndYByColumns.png)
 
-TODO: description
+Splits a table into two tables (X and Y).
 
 
 ### Inputs
 
 
 * **Data** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  2D tensor (a.k.a. table) to split.
 
 * **X columns** --- List of [Integer](types/Integer.html)
-  TODO: description
+
+  Columns for the resulting X table.
 
 * **Y columns** --- List of [Integer](types/Integer.html)
-  TODO: description
+
+  Columns for the resulting Y table.
 
 
 
@@ -25,10 +28,12 @@ TODO: description
 
 
 * **X** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Resulting table containing only the columns `X columns` of `Data`.
 
 * **Y** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Resulting table containing only the columns `Y columns` of `Data`.
 
 
 

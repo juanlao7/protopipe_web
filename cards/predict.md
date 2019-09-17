@@ -2,17 +2,19 @@
 
 ![Predict](assets/img/cards/predict.png)
 
-TODO: description
+Generates output predictions for the input samples, for a given model.
 
 
 ### Inputs
 
 
 * **Model** --- [DynamicObject](types/DynamicObject.html)
-  TODO: description
+
+  The model.
 
 * **X** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  The input samples.
 
 
 
@@ -22,7 +24,8 @@ TODO: description
 
 
 * **Y'** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  The output predictions.
 
 
 

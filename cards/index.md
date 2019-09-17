@@ -4,13 +4,17 @@
     * [Open file](cards/openFile.html)
     * [Read as CSV](cards/readAsCSV.html)
 * Java
-    * [Test Java](cards/testJavaModule.html)
+    * [Test java 1](cards/testJava1.html)
+    * [Test java 2](cards/testJava2.html)
+    * [Test java 3](cards/testJava3.html)
 * Lists
     * [Add float to list](cards/addFloatToList.html)
 * Loss functions
     * [Accuracy](cards/accuracy.html)
     * [Mean absolute error](cards/meanAbsoluteError.html)
 * Models
+    * Fuzzy logic
+        * [Train SLAVE](cards/trainSLAVE.html)
     * Neural networks
         * [Train neural network](cards/trainNeuralNetwork.html)
     * [Predict](cards/predict.html)
@@ -33,3 +37,6 @@
     * Setters
         * [Set float](cards/setFloat_1.html)
         * [Set list of float](cards/setFloat_n.html)
+* [Test](cards/test1.html)
+* [Test2](cards/test2.html)
+* [Test3](cards/test3.html)

@@ -2,17 +2,19 @@
 
 ![Add float to list](assets/img/cards/addFloatToList.png)
 
-TODO: description
+TODO
 
 
 ### Inputs
 
 
 * **List** --- List of [Float](types/Float.html)
-  TODO: description
+
+  TODO
 
 * **Value** --- [Float](types/Float.html)
-  TODO: description
+
+  TODO
 
 
 
@@ -22,7 +24,8 @@ TODO: description
 
 
 * **Result** --- List of [Float](types/Float.html)
-  TODO: description
+
+  TODO
 
 
 

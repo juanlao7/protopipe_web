@@ -2,20 +2,23 @@
 
 ![Read as CSV](assets/img/cards/readAsCSV.png)
 
-TODO: description
+Reads a comma-separated values stream and returns a labeled table.
 
 
 ### Inputs
 
 
 * **Stream** --- [FileStream](types/FileStream.html)
-  TODO: description
+
+  Comma-separated values stream.
 
 * **Delimiter** --- [String](types/String.html)
-  TODO: description
+
+  Delimiter or separator of the values.
 
 * **Header line(s)** --- List of [Integer](types/Integer.html)
-  TODO: description
+
+  Lines that define the headers of the data. Leave empty if the data has no headers. Set it to "0" if the headers are at the first line of the data.
 
 
 
@@ -25,7 +28,8 @@ TODO: description
 
 
 * **Table** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  The data represented as a 2D tensor (a.k.a. table).
 
 
 

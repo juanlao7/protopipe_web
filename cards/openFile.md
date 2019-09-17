@@ -2,14 +2,15 @@
 
 ![Open file](assets/img/cards/openFile.png)
 
-TODO: description
+Opens a file and returns its stream.
 
 
 ### Inputs
 
 
 * **Path** --- [String](types/String.html)
-  TODO: description
+
+  Path of the file to open.
 
 
 
@@ -19,7 +20,8 @@ TODO: description
 
 
 * **Stream** --- [FileStream](types/FileStream.html)
-  TODO: description
+
+  Stream of the file, ready to be read.
 
 
 

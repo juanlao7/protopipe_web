@@ -2,17 +2,19 @@
 
 ![Accuracy](assets/img/cards/accuracy.png)
 
-TODO: description
+TODO
 
 
 ### Inputs
 
 
 * **Predictions** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  TODO
 
 * **Target** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  TODO
 
 
 
@@ -22,7 +24,8 @@ TODO: description
 
 
 * **Result** --- [Float](types/Float.html)
-  TODO: description
+
+  TODO
 
 
 

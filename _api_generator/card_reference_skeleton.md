@@ -2,14 +2,15 @@
 
 ![{{ title }}](assets/img/cards/{{ id }}.png)
 
-TODO: description
+{{ help }}
 
 {% if inputs %}
 ### Inputs
 
 {% for argument in inputs %}
 * **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
-  TODO: description
+
+  {{ argument['help'] }}
 {% endfor %}
 
 {% endif %}
@@ -19,7 +20,8 @@ TODO: description
 
 {% for argument in outputs %}
 * **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
-  TODO: description
+
+  {{ argument['help'] }}
 {% endfor %}
 
 {% endif %}
@@ -30,14 +32,15 @@ TODO: description
 {% for event in events %}
 #### {{ event['text'] }}
 
-TODO: description
+{{ event['help'] }}
 
 {% if event['outputs'] %}
 Event outputs:
 
 {% for argument in event['outputs'] %}
 * **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
-  TODO: description
+
+  {{ argument['help'] }}
 {% endfor %}
 
 {% endif %}

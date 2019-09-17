@@ -7,22 +7,9 @@
     * [Reports screen](reports_screen.html)
 * Tutorials
     * [Quick introductory tutorial](tutorials/introductory/)
-* Cards
-    * [Boolean parameter](cards/parameterBoolean.html)
-    * [Float parameter](cards/parameterFloat.html)
-    * [Integer parameter](cards/parameterInteger.html)
-    * [K-fold cross-validation](cards/kFoldCrossValidation.html)
-    * [Mean](cards/mean.html)
-    * [Mean absolute error](cards/meanAbsoluteError.html)
-    * [Open file](cards/openFile.html)
-    * [Predict](cards/predict.html)
-    * [Read as CSV](cards/readAsCSV.html)
-    * [Return float](cards/returnFloat.html)
-    * [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html)
-    * [Train SLAVE](cards/trainSLAVE.html)
+* [Index of cards](cards)
 * Data types
     * [Boolean](types/Boolean.html)
-    * [Callback](types/Callback.html)
     * [DynamicObject](types/DynamicObject.html)
     * [Event](types/Event.html)
     * [FileStream](types/FileStream.html)

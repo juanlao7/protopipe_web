@@ -2,17 +2,19 @@
 
 ![Mean absolute error](assets/img/cards/meanAbsoluteError.png)
 
-TODO: description
+For two given tensors, returns the mean of the absolute value of the difference of each cell.
 
 
 ### Inputs
 
 
 * **Predictions** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Output predictions given by a model.
 
 * **Target** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Target values (ground truth).
 
 
 
@@ -22,7 +24,8 @@ TODO: description
 
 
 * **Result** --- [Float](types/Float.html)
-  TODO: description
+
+  Mean absolute error between the predictions and the ground truth.
 
 
 

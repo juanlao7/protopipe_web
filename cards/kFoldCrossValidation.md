@@ -2,17 +2,19 @@
 
 ![K-fold cross-validation](assets/img/cards/kFoldCrossValidation.png)
 
-TODO: description
+Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation).
 
 
 ### Inputs
 
 
 * **K** --- [Integer](types/Integer.html)
-  TODO: description
+
+  Number of subsamples to partition the data.
 
 * **Data** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Data to partition.
 
 
 
@@ -25,17 +27,19 @@ TODO: description
 
 #### On each fold
 
-TODO: description
+Event that gets triggered `K` times, one for each fold.
 
 
 Event outputs:
 
 
 * **Training** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Training data, of size `Data.size * (k - 1) / k`.
 
 * **Testing** --- [Tensor](types/Tensor.html)
-  TODO: description
+
+  Testing data, of size `Data.size * 1 / k`.
 
 
 
@@ -43,7 +47,7 @@ Event outputs:
 
 #### On finish
 
-TODO: description
+TODO
 
 
 
