@@ -1,18 +1,29 @@
 ## Predict
 
-[foto card]
+![Predict](assets/img/cards/predict.png)
 
-Generates output predictions for the input samples, for a given model.
+TODO: description
+
 
 ### Inputs
 
-* **Model** --- [DynamicObject](types/DynamicObject.html)  
-  The model.
 
-* **X** --- [Tensor](types/Tensor.html)  
-  The input samples.
+* **Model** --- [DynamicObject](types/DynamicObject.html)
+  TODO: description
+
+* **X** --- [Tensor](types/Tensor.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Y'*** --- [Tensor](types/Tensor.html)  
-  The output predictions.
+
+* **Y'** --- [Tensor](types/Tensor.html)
+  TODO: description
+
+
+
+

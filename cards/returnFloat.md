@@ -1,11 +1,18 @@
 ## Return float
 
-[foto card]
+![Return float](assets/img/cards/returnFloat.png)
 
-Stores a value that [can be analyzed](basics.html#analysis) later.
+TODO: description
+
 
 ### Inputs
 
-* **Value** --- [Float](types/Float.html)  
-  The value.
+
+* **Value** --- [Float](types/Float.html)
+  TODO: description
+
+
+
+
+
 

@@ -1,21 +1,32 @@
 ## Read as CSV
 
-[foto card]
+![Read as CSV](assets/img/cards/readAsCSV.png)
 
-Reads a comma-separated values stream and returns a labeled table.
+TODO: description
+
 
 ### Inputs
 
-* **Stream** --- [FileStream](types/FileStream.html)  
-  Comma-separated values stream.
 
-* **Delimiter** --- [String](types/String.html)  
-  Delimiter or separator of the values.
+* **Stream** --- [FileStream](types/FileStream.html)
+  TODO: description
 
-* **Header line(s)** --- List of [Integer](types/Integer.html)  
-  Lines that define the headers of the data. Leave empty if the data has no headers. Set it to "0" if the headers are at the first line of the data.
+* **Delimiter** --- [String](types/String.html)
+  TODO: description
+
+* **Header line(s)** --- List of [Integer](types/Integer.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Table** --- [Tensor](types/Tensor.html)  
-  The data represented as a 2D tensor (a.k.a. table).
+
+* **Table** --- [Tensor](types/Tensor.html)
+  TODO: description
+
+
+
+

@@ -1,10 +1,18 @@
 ## Boolean parameter
 
-[foto card]
+![Boolean parameter](assets/img/cards/parameterBoolean.png)
 
-Represents a [Boolean](types/Boolean.html) parameter that [can be optimized](basics.html#optimization).
+TODO: description
+
+
+
 
 ### Outputs
 
-* **Value** --- [Boolean](types/Boolean.html)  
-  Value of the parameter.
+
+* **Value** --- [Boolean](types/Boolean.html)
+  TODO: description
+
+
+
+

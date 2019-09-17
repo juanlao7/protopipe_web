@@ -1,15 +1,26 @@
 ## Mean
 
-[foto card]
+![Mean](assets/img/cards/mean.png)
 
-Returns the mean value of a list of [Floats](types/Float.html)
+TODO: description
+
 
 ### Inputs
 
+
 * **List** --- List of [Float](types/Float.html)
-  List of values.
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Mean** --- [Float](types/Float.html)  
-  Mean of the values.
+
+* **Mean** --- [Float](types/Float.html)
+  TODO: description
+
+
+
+

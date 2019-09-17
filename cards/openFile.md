@@ -1,15 +1,26 @@
 ## Open file
 
-[foto card]
+![Open file](assets/img/cards/openFile.png)
 
-Opens a file and returns its stream.
+TODO: description
+
 
 ### Inputs
 
-* **Path** --- [String](types/String.html)  
-  Path of the file to open.
+
+* **Path** --- [String](types/String.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Stream** --- [FileStream](types/FileStream.html)  
-  Stream of the file, ready to be read.
+
+* **Stream** --- [FileStream](types/FileStream.html)
+  TODO: description
+
+
+
+

@@ -1,10 +1,26 @@
 ## Float parameter
 
-[foto card]
+![Float parameter](assets/img/cards/parameterFloat.png)
 
-Represents a [Float](types/Float.html) parameter that [can be optimized](basics.html#optimization).
+TODO: description
+
+
+### Inputs
+
+
+* **Domain** --- [FloatIntervals](types/FloatIntervals.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Value** --- [Float](types/Float.html)  
-  Value of the parameter.
+
+* **Value** --- [Float](types/Float.html)
+  TODO: description
+
+
+
+

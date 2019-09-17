@@ -1,24 +1,35 @@
 ## Split into X and Y by columns
 
-[foto card]
+![Split into X and Y by columns](assets/img/cards/splitIntoXAndYByColumns.png)
 
-Splits a table into two tables (X and Y).
+TODO: description
+
 
 ### Inputs
 
-* **Data** --- [Tensor](types/Tensor.html)  
-  2D tensor (a.k.a. table) to split.
 
-* **X columns** --- List of [Integer](types/Integer.html)  
-  Columns for the resulting X table.
+* **Data** --- [Tensor](types/Tensor.html)
+  TODO: description
 
-* **Y columns** --- List of [Integer](types/Integer.html)  
-  Columns for the resulting Y table.
+* **X columns** --- List of [Integer](types/Integer.html)
+  TODO: description
+
+* **Y columns** --- List of [Integer](types/Integer.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **X** --- [Tensor](types/Tensor.html)  
-  Resulting table containing only the columns `X columns` of `Data`.
 
-* **Y** --- [Tensor](types/Tensor.html)  
-  Resulting table containing only the columns `Y columns` of `Data`.
+* **X** --- [Tensor](types/Tensor.html)
+  TODO: description
+
+* **Y** --- [Tensor](types/Tensor.html)
+  TODO: description
+
+
+
+

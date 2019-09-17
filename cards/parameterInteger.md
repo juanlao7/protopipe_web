@@ -1,10 +1,26 @@
 ## Integer parameter
 
-[foto card]
+![Integer parameter](assets/img/cards/parameterInteger.png)
 
-Represents an [Integer](types/Integer.html) parameter that [can be optimized](basics.html#optimization).
+TODO: description
+
+
+### Inputs
+
+
+* **Domain** --- [IntegerIntervals](types/IntegerIntervals.html)
+  TODO: description
+
+
+
+
 
 ### Outputs
 
-* **Value** --- [Integer](types/Integer.html)  
-  Value of the parameter.
+
+* **Value** --- [Integer](types/Integer.html)
+  TODO: description
+
+
+
+
