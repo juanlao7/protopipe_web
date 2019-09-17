@@ -4,7 +4,7 @@
 
 ## No programming involved
 
-Prepare your data and train multiple models just by connecting a few nodes.
+Prepare your data and train multiple models just by connecting a few cards.
 
 ![3 connected cards](assets/img/basics/design_1.png)
 
