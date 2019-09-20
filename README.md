@@ -1,6 +1,16 @@
-<p style="text-align: center; font-size: 1.5em; margin-bottom: 2em">
-    A visual tool for implementing machine learning pipelines.
-</p>
+<style type="text/css">
+    main p,
+    main h2 {
+        text-align: center;
+    }
+
+    #bigTitle {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+</style>
+
+<p id="bigTitle">A visual tool for implementing machine learning pipelines.</p>
 
 ## No programming involved
 
@@ -12,13 +22,21 @@ Prepare your data and train multiple models just by connecting a few cards.
 
 Automatically find the optimal value for any parameter of your pipeline.
 
+[foto configuración del optimizador + cross-sectional analysis]
+
 ## All results organized
 
 Keep track of all your experiments.
 
+[foto reports screen con varios experimentos + tabla]
+
 Integrated cross-sectional analysis.
 
+[foto gráfica]
+
 Export experimental data with a single click.
+
+[foto de la misma tabla y chart en latex, con el logo de latex]
 
 ## No installation required
 
