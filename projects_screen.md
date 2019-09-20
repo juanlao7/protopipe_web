@@ -28,11 +28,11 @@ Open the options menu of the project.
 
 ![Options menu button](assets/img/projects_screen/options.png)
 
-Press **Rename**, write a new name.
+Press **Rename**. A new dialog will appear.
+
+Write a new name and press **Rename**.
 
 !["Rename project" dialog](assets/img/projects_screen/rename_1.png)
-
-And press **Rename**.
 
 ### Delete a project
 
@@ -40,7 +40,9 @@ Open the options menu of the project.
 
 ![Options menu button](assets/img/projects_screen/options.png)
 
-Press **Delete** and confirm.
+Press **Delete**. A new dialog will appear.
+
+Press **Delete**.
 
 !["Delete project" dialog](assets/img/projects_screen/delete_1.png)
 
