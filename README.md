@@ -1,16 +1,19 @@
 <style type="text/css">
-    .main-content p,
-    .main-content h2 {
-        text-align: center;
-    }
-
     #bigTitle {
         font-size: 1.5em;
         margin-bottom: 2em;
+        text-align: center;
     }
 
-    .main-content h2 {
-        margin-top: 96px !important;
+    @media screen and (min-width: 42em) {
+        .main-content p,
+        .main-content h2 {
+            text-align: center;
+        }
+
+        .main-content h2 {
+            margin-top: 96px !important;
+        }
     }
 </style>
 
