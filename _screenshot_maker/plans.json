@@ -155,11 +155,51 @@
     },
     "work_screen/analyze_1": {
         "project": "projects/work_screen!analyze_1.zip",
-        "projectName": "Example project",
+        "projectName": "Untitled project",
         "elementWithMargin": ".ppui_SVGIcon",
         "margin": 22,
         "marginTop": 19,
         "marginBottom": 26
+    },
+    "reports_screen/introduction_1": {
+        "project": "projects/reports_screen!introduction_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon"],
+        "width": 1280,
+        "height": 800
+    },
+    "reports_screen/open_1": {
+        "project": "projects/reports_screen!introduction_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT"],
+        "elementWithMargin": "#reportsAndDrawerContainer .ppui_tree",
+        "margin": 15,
+        "marginLeft": 0
+    },
+    "reports_screen/open_2": {
+        "project": "projects/reports_screen!introduction_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],
+        "elementWithMargin": "table",
+        "margin": 25,
+        "marginBottom": -850
+    },
+    "reports_screen/cross-sectional_1": {
+        "project": "projects/reports_screen!introduction_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Cross-sectional analysis"],
+        "elementWithMargin": "#reportsAndDrawerContainer > div:last-child",
+        "margin": -50,
+        "width": 1060,
+        "height": 824
+    },
+    "reports_screen/delete-all_1": {
+        "project": "projects/reports_screen!introduction_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon"],
+        "elementWithMargin": "#reportsAndDrawerContainer .ppui_treeButton",
+        "margin": 15,
+        "marginLeft": 0
     },
     "basics/design_1": {
         "project": "projects/basics!design_1.zip",

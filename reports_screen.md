@@ -38,8 +38,6 @@ In this case the system will try every possible combination of parameters, perfo
 
 If you use the cross-sectional analysis tool for comparing *Dropout factor* and *Model loss* the system will display a line connecting the average *Model loss* obtained for each *Dropout factor*. Also, in each point, the system will display a column representing the standard deviation of *Model loss* for that specific *Dropout factor*.
 
-![Standard deviation representation](assets/img/reports_screen/cross-sectional_1.png)
-
 ### Delete a report
 
 The left panel shows all available reports, sorted by date. Expand the section of the report you want to open and press **Delete**.
