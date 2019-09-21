@@ -73,8 +73,10 @@
           var link = document.createElement('a');
           link.setAttribute('href', img.src);
           link.setAttribute('target', '_blank');
+          container.setAttribute('style', img.getAttribute('style'));
           img.setAttribute('srcset', img.src + ' 2x');
           img.removeAttribute('src');
+          img.removeAttribute('style');
           img.parentNode.replaceChild(container, img);
           link.appendChild(img);
           container.appendChild(link);

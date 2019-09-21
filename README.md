@@ -1,12 +1,16 @@
 <style type="text/css">
-    main p,
-    main h2 {
+    .main-content p,
+    .main-content h2 {
         text-align: center;
     }
 
     #bigTitle {
         font-size: 1.5em;
         margin-bottom: 2em;
+    }
+
+    .main-content h2 {
+        margin-top: 96px !important;
     }
 </style>
 
@@ -22,21 +26,25 @@ Prepare your data and train multiple models just by connecting a few cards.
 
 Automatically find the optimal value for any parameter of your pipeline.
 
-[foto configuración del optimizador + cross-sectional analysis]
+![Parameter tuning](assets/img/README/find_1.png)
 
 ## All results organized
 
 Keep track of all your experiments.
 
-[foto reports screen con varios experimentos + tabla]
+![Table of results](assets/img/README/all-results_1.png)
 
-Integrated cross-sectional analysis.
+## Integrated cross-sectional analysis.
 
-[foto gráfica]
+Study the effect of a certain parameter on the result.
 
-Export experimental data with a single click.
+![Cross-sectional analysis](assets/img/reports_screen/cross-sectional_1.png)
 
-[foto de la misma tabla y chart en latex, con el logo de latex]
+## Write faster
+
+Export experimental data to <img class="hardcoded" alt="LaTeX" src="assets/img/README/LaTeX_logo.svg" style="width: 65px; vertical-align: middle;" /> with a single click.
+
+[foto de la misma tabla y chart en latex]
 
 ## No installation required
 

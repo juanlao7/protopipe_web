@@ -236,16 +236,34 @@
     },
     "basics/result_1": {
         "project": "projects/basics!result_1.zip",
-        "projectName": "Example project",
+        "projectName": "Untitled project",
         "clickElementWhenReady": [".ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],
         "width": 1280,
         "height": 800
     },
     "basics/result_2": {
         "project": "projects/basics!result_1.zip",
-        "projectName": "Example project",
+        "projectName": "Untitled project",
         "clickElementWhenReady": [".ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Cross-sectional analysis"],
         "width": 1280,
         "height": 800
+    },
+    "README/find_1": {
+        "project": "projects/basics!result_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "height": 500,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 100,
+        "marginBottom": -130
+    },
+    "README/all-results_1": {
+        "project": "projects/basics!result_1.zip",
+        "projectName": "Untitled project",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],
+        "width": 750,
+        "height": 500
     }
 }
