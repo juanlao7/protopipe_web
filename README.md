@@ -39,7 +39,7 @@ Keep track of all your experiments.
 
 ## Integrated cross-sectional analysis.
 
-Study the effect of each parameter on the result.
+Study the effect of each parameter on the final result.
 
 ![Cross-sectional analysis](assets/img/reports_screen/cross-sectional_1.png)
 
