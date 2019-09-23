@@ -1,8 +1,8 @@
 ## Predict
 
-![Predict](assets/img/cards/predict.png)
+Generates output predictions for a given set of input samples and a given model.
 
-Generates output predictions for the input samples, for a given model.
+![Predict](assets/img/cards/predict.png)
 
 
 ### Inputs

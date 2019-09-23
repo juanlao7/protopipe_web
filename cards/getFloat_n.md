@@ -1,8 +1,8 @@
 ## Get list of float
 
+
+
 ![Get list of float](assets/img/cards/getFloat_n.png)
-
-
 
 
 ### Inputs

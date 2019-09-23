@@ -1,8 +1,8 @@
 ## Set list of float
 
+
+
 ![Set list of float](assets/img/cards/setFloat_n.png)
-
-
 
 
 ### Inputs

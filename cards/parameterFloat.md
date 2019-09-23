@@ -1,8 +1,8 @@
 ## Float parameter
 
+
+
 ![Float parameter](assets/img/cards/parameterFloat.png)
-
-
 
 
 ### Inputs

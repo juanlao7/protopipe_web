@@ -4,6 +4,7 @@ import pprint
 import jinja2
 import os
 import shutil
+import argparse
 
 def renderTemplate(templateFilePath, outputFilePath, **data):
     templateLoader = jinja2.FileSystemLoader(searchpath='./')
@@ -45,11 +46,19 @@ def treeToBullets(tree, indent=0):
     
     return buffer
 
+parser = argparse.ArgumentParser(prog='Protopipe API generator')
+parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots', help='Do not remove & create screenshots.')
+args = parser.parse_args()
+
 modules = json.loads(subprocess.check_output('protopipe-engine modules', shell=True))
 
 # Emptying ../cards and ../assets/img/cards
+directoriesToEmpty = ['../cards']
 
-for directoryToEmpty in ['../cards', '../assets/img/cards']:
+if not args.noScreenshots:
+    directoriesToEmpty.append('../assets/img/cards')
+
+for directoryToEmpty in directoriesToEmpty:
     for relativeFilePath in os.listdir(directoryToEmpty):
         filePath = os.path.join(directoryToEmpty, relativeFilePath)
 
@@ -75,15 +84,16 @@ for moduleId, module in modules.items():
     events = [x for x in module.get('outputs', []) if x['type'] == 'Event']
     renderTemplate('card_reference_skeleton.md', '../cards/%s.md' % moduleId, id=moduleId, title=module['title'], help=module.get('help', ''), inputs=module.get('inputs', []), outputs=outputs, events=events)
 
-    plan = {
-        'card': module['path'] + [module['title']],
-        'frameCards': True
-    }
+    if not args.noScreenshots:
+        plan = {
+            'card': module['path'] + [module['title']],
+            'frameCards': True
+        }
 
-    if moduleId.startswith('parameter') or moduleId.startswith('return'):
-        plan['clickElementWhenReady'] = ['t:Set']
-    
-    screenshotPlans['cards/%s' % moduleId] = plan
+        if moduleId.startswith('parameter') or moduleId.startswith('return'):
+            plan['clickElementWhenReady'] = ['t:Set']
+        
+        screenshotPlans['cards/%s' % moduleId] = plan
 
 os.chdir('../_screenshot_maker')
 

@@ -1,8 +1,8 @@
 ## Accuracy
 
-![Accuracy](assets/img/cards/accuracy.png)
+Calculates the proportion of predictions that are equal to a ground truth.
 
-TODO
+![Accuracy](assets/img/cards/accuracy.png)
 
 
 ### Inputs
@@ -10,11 +10,11 @@ TODO
 
 * **Predictions** --- [Tensor](types/Tensor.html)
 
-  TODO
+  Output predictions given by a model.
 
 * **Target** --- [Tensor](types/Tensor.html)
 
-  TODO
+  Ground truth.
 
 
 
@@ -25,7 +25,7 @@ TODO
 
 * **Result** --- [Float](types/Float.html)
 
-  TODO
+  Proportion of predictions that are equal to the ground truth.
 
 
 

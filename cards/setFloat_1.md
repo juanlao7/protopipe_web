@@ -1,8 +1,8 @@
 ## Set float
 
+
+
 ![Set float](assets/img/cards/setFloat_1.png)
-
-
 
 
 ### Inputs

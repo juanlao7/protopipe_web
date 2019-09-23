@@ -1,8 +1,8 @@
 ## Split into X and Y by columns
 
-![Split into X and Y by columns](assets/img/cards/splitIntoXAndYByColumns.png)
-
 Splits a table into two tables (X and Y).
+
+![Split into X and Y by columns](assets/img/cards/splitIntoXAndYByColumns.png)
 
 
 ### Inputs
@@ -10,15 +10,15 @@ Splits a table into two tables (X and Y).
 
 * **Data** --- [Tensor](types/Tensor.html)
 
-  2D tensor (a.k.a. table) to split.
+  2D tensor (a table) to split.
 
 * **X columns** --- List of [Integer](types/Integer.html)
 
-  Columns for the resulting X table.
+  Columns to include in the resulting X table.
 
 * **Y columns** --- List of [Integer](types/Integer.html)
 
-  Columns for the resulting Y table.
+  Columns to include in the resulting Y table.
 
 
 
@@ -29,11 +29,11 @@ Splits a table into two tables (X and Y).
 
 * **X** --- [Tensor](types/Tensor.html)
 
-  Resulting table containing only the columns `X columns` of `Data`.
+  Resulting table containing only columns **X columns** of **Data**.
 
 * **Y** --- [Tensor](types/Tensor.html)
 
-  Resulting table containing only the columns `Y columns` of `Data`.
+  Resulting table containing only columns **Y columns** of **Data**.
 
 
 

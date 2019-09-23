@@ -1,8 +1,8 @@
 ## Mean
 
-![Mean](assets/img/cards/mean.png)
+Returns the mean value of a list of [Floats](types/Float.html).
 
-Returns the mean value of a list of [Floats](types/Float.html)
+![Mean](assets/img/cards/mean.png)
 
 
 ### Inputs

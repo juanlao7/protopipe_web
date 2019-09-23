@@ -1,8 +1,8 @@
 ## Train neural network
 
+
+
 ![Train neural network](assets/img/cards/trainNeuralNetwork.png)
-
-
 
 
 ### Inputs

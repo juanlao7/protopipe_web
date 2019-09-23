@@ -1,8 +1,8 @@
 ## Integer parameter
 
+
+
 ![Integer parameter](assets/img/cards/parameterInteger.png)
-
-
 
 
 ### Inputs

@@ -1,8 +1,8 @@
 ## Read as CSV
 
-![Read as CSV](assets/img/cards/readAsCSV.png)
-
 Reads a comma-separated values stream and returns a labeled table.
+
+![Read as CSV](assets/img/cards/readAsCSV.png)
 
 
 ### Inputs
@@ -29,7 +29,7 @@ Reads a comma-separated values stream and returns a labeled table.
 
 * **Table** --- [Tensor](types/Tensor.html)
 
-  The data represented as a 2D tensor (a.k.a. table).
+  The data represented as a 2D tensor (a table).
 
 
 

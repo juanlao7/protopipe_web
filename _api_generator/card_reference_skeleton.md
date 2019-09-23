@@ -1,8 +1,8 @@
 ## {{ title }}
 
-![{{ title }}](assets/img/cards/{{ id }}.png)
-
 {{ help }}
+
+![{{ title }}](assets/img/cards/{{ id }}.png)
 
 {% if inputs %}
 ### Inputs

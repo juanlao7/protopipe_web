@@ -1,8 +1,8 @@
 ## K-fold cross-validation
 
-![K-fold cross-validation](assets/img/cards/kFoldCrossValidation.png)
-
 Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation).
+
+![K-fold cross-validation](assets/img/cards/kFoldCrossValidation.png)
 
 
 ### Inputs
@@ -27,7 +27,7 @@ Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validat
 
 #### On each fold
 
-Event that gets triggered `K` times, one for each fold.
+Triggered `K` times, one for each fold.
 
 
 Event outputs:
@@ -47,7 +47,7 @@ Event outputs:
 
 #### On finish
 
-TODO
+Triggered after all folds have been processed.
 
 
 

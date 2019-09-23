@@ -1,8 +1,8 @@
 ## Mean absolute error
 
-![Mean absolute error](assets/img/cards/meanAbsoluteError.png)
-
 For two given tensors, returns the mean of the absolute value of the difference of each cell.
+
+![Mean absolute error](assets/img/cards/meanAbsoluteError.png)
 
 
 ### Inputs
@@ -14,7 +14,7 @@ For two given tensors, returns the mean of the absolute value of the difference 
 
 * **Target** --- [Tensor](types/Tensor.html)
 
-  Target values (ground truth).
+  Ground truth.
 
 
 

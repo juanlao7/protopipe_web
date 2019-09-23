@@ -1,8 +1,8 @@
 ## Boolean parameter
 
+
+
 ![Boolean parameter](assets/img/cards/parameterBoolean.png)
-
-
 
 
 

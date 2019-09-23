@@ -1,8 +1,8 @@
 ## Add float to list
 
-![Add float to list](assets/img/cards/addFloatToList.png)
+Copies a list of [Float](types/Float.html) and adds an element.
 
-TODO
+![Add float to list](assets/img/cards/addFloatToList.png)
 
 
 ### Inputs
@@ -10,11 +10,11 @@ TODO
 
 * **List** --- List of [Float](types/Float.html)
 
-  TODO
+  Original list.
 
 * **Value** --- [Float](types/Float.html)
 
-  TODO
+  Element to append.
 
 
 
@@ -25,7 +25,7 @@ TODO
 
 * **Result** --- List of [Float](types/Float.html)
 
-  TODO
+  Copy of **List** with **Value** appended.
 
 
 

@@ -1,8 +1,8 @@
 ## Train SLAVE
 
+
+
 ![Train SLAVE](assets/img/cards/trainSLAVE.png)
-
-
 
 
 ### Inputs
