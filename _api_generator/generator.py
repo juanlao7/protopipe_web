@@ -47,16 +47,17 @@ def treeToBullets(tree, indent=0):
 
 modules = json.loads(subprocess.check_output('protopipe-engine modules', shell=True))
 
-# Emptying ../cards
+# Emptying ../cards and ../assets/img/cards
 
-for relativeFilePath in os.listdir('../cards'):
-    filePath = os.path.join('../cards', relativeFilePath)
+for directoryToEmpty in ['../cards', '../assets/img/cards']:
+    for relativeFilePath in os.listdir(directoryToEmpty):
+        filePath = os.path.join(directoryToEmpty, relativeFilePath)
 
-    try:
-        if os.path.isfile(filePath):
-            os.unlink(filePath)
-    except Exception as e:
-        print(e)
+        try:
+            if os.path.isfile(filePath):
+                os.unlink(filePath)
+        except Exception as e:
+            print(e)
 
 # Generating cards index.
 tree = {}
