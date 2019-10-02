@@ -37,7 +37,7 @@ Keep track of all your experiments.
 
 ![Table of results](assets/img/README/all-results_1.png)
 
-## Integrated cross-sectional analysis.
+## Integrated cross-sectional analysis
 
 Study the effect of each parameter on the final result.
 

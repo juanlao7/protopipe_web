@@ -1,8 +1,8 @@
 ## Quick introductory tutorial
 
-In this tutorial we will train and test a model for predicting [the quality of white wine](http://archive.ics.uci.edu/ml/datasets/wine+quality).
+In this tutorial we will train and test a model for [classifying wine](http://archive.ics.uci.edu/ml/datasets/Wine).
 
-We will use a fuzzy logic model, [SLAVE: a genetic learning system based on an iterative approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.379.2735&rep=rep1&type=pdf). The training process has some parameters that can be tuned, such as the population size or the mutation probability.
+We will use a fuzzy logic model, *[SLAVE: a genetic learning system based on an iterative approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.379.2735&rep=rep1&type=pdf)*. The training process has some parameters that can be tuned, such as the population size or the mutation probability.
 
 The performance of the model will be determined by averaging all the mean absolute error measures obtained in a 5-fold cross-validation. This mark will be used to automatically fine tune some parameters of the model.
 
