@@ -6,7 +6,7 @@
 
 ## System requirements
 
-To use Protopipe, you only need the latest version of one of these web browsers in Windows, macOS or Linux:
+Protopipe is compatible with the latest version of the most popular web browsers, on any operating system:
 
 * Google Chrome
 * Safari
