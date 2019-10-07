@@ -1,3 +1,9 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li>Work screen</li>
+</ul>
+
 ## Work screen
 
 ![Empty work screen](assets/img/work_screen/introduction_1.png)

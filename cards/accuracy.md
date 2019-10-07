@@ -1,3 +1,10 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li><a href="cards/">Index of cards</a></li>
+    <li>Accuracy</li>
+</ul>
+
 ## Accuracy
 
 Calculates the proportion of predictions that are equal to a ground truth.

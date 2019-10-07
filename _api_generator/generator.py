@@ -78,6 +78,7 @@ renderTemplate('cards_index_skeleton.md', '../cards/index.md', tree=treeToBullet
 
 # Generating reference page for each card.
 screenshotPlans = {}
+types = set()
 
 for moduleId, module in modules.items():
     outputs = [x for x in module.get('outputs', []) if x['type'] != 'Event']
@@ -94,10 +95,24 @@ for moduleId, module in modules.items():
             plan['clickElementWhenReady'] = ['t:Set']
         
         screenshotPlans['cards/%s' % moduleId] = plan
+    
+    for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
+        if argumentDefinition['type'] != 'Event':
+            types.add(argumentDefinition['type'])
 
-os.chdir('../_screenshot_maker')
+# Generating types index.
+renderTemplate('types_index_skeleton.md', '../types/index.md', types=types)
 
-with open('cards.json', 'w') as handler:
-    json.dump(screenshotPlans, handler)
+for dataType in types:
+    if not os.path.isfile('../types/%s.md' % dataType):
+        print('WARNING: reference for data type "%s" does not exist.' % dataType)
 
-subprocess.check_call(['node', 'index.js', 'cards.json'])
+# Generating card images.
+
+if not args.noScreenshots:
+    os.chdir('../_screenshot_maker')
+
+    with open('cards.json', 'w') as handler:
+        json.dump(screenshotPlans, handler)
+
+    subprocess.check_call(['node', 'index.js', 'cards.json'])

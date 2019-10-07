@@ -1,3 +1,10 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li><a href="cards/">Index of cards</a></li>
+    <li>K-fold cross-validation</li>
+</ul>
+
 ## K-fold cross-validation
 
 Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation).

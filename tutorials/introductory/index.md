@@ -1,3 +1,9 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li>Quick introductory tutorial</li>
+</ul>
+
 ## Quick introductory tutorial
 
 In this tutorial we will train and test a model for [classifying wine](http://archive.ics.uci.edu/ml/datasets/Wine).

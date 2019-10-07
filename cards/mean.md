@@ -1,3 +1,10 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li><a href="cards/">Index of cards</a></li>
+    <li>Mean</li>
+</ul>
+
 ## Mean
 
 Returns the mean value of a list of [Floats](types/Float.html).

@@ -1,3 +1,10 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li><a href="cards/">Index of cards</a></li>
+    <li>Integer parameter</li>
+</ul>
+
 ## Integer parameter
 
 Provides a [Integer](types/Integer.html) value set by [the global optimizer](work_screen.html#tune-parameters-automatically).

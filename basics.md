@@ -1,3 +1,9 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li>The basics</li>
+</ul>
+
 ## The basics
 
 This page explains everything you need to know to start using Protopipe.

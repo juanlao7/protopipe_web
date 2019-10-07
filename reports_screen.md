@@ -1,3 +1,9 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li>Reports screen</li>
+</ul>
+
 ## Reports screen
 
 ![Empty reports screen](assets/img/reports_screen/introduction_1.png)

@@ -1,3 +1,10 @@
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="help.html">Help index</a></li>
+    <li><a href="cards/">Index of cards</a></li>
+    <li>Read as CSV</li>
+</ul>
+
 ## Read as CSV
 
 Reads a comma-separated values stream and returns a labeled table.
