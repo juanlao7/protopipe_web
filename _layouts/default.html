@@ -13,6 +13,8 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#537abd">
 
+    {% include autotitle.html html=content %}
+
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
@@ -23,7 +25,8 @@
       </script>
     {% endif %}
 
-{% seo %}
+    {% seo title=false %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#537abd" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

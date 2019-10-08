@@ -1,3 +1,7 @@
+---
+no_title: true
+---
+
 <style type="text/css">
     #bigTitle {
         font-size: 1.5em;
