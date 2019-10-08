@@ -25,11 +25,11 @@
     
     li {
         display: inline;
-        padding-right: 1em;
+        padding-right: 0.5em;
 
         &:not(:last-child)::after {
             content: '\226B';
-            padding-left: 1em;
+            padding-left: 0.5em;
         }
     }
 }
@@ -46,10 +46,14 @@
     border-color: #888;
     color: #888;
     text-decoration: none;
-}
 
-.site-footer .btn:hover {
-    background-color: rgba(0, 0, 0, 0.1)
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1)
+    }
+
+    & + .btn {
+        margin-left: 1em;
+    }
 }
 
 .main-content h1,
@@ -119,14 +123,31 @@ body {
     color: #3c4043;
 }
 
+@media screen and (max-width: 64em) and (min-width: 42em) {
+    .btn {
+        display: inline-block;
+        width: auto;
+        padding: 0.75rem 1rem;
+        font-size: 1em;
+    }
+}
+
 @media screen and (max-width: 42em) {
     .btn {
         display: inline-block;
         width: auto;
+        padding: 0.75rem 1rem;
+        font-size: 1em;
     }
+}
 
-    .btn + .btn {
-        margin-top: 1rem;
-        margin-left: 1rem;
+@media screen and (max-width: 25em) {
+    #content .site-footer .btn {
+        display: block;
+        text-align: center;
+
+        & + .btn {
+            margin-left: 0;
+        }
     }
 }

@@ -50,6 +50,10 @@ Cards that receive the associated data of an event as input are called **implici
 
 Explicit and implicit listeners are processed only when the event is triggered. If the event is not triggered, these cards or the cards connected to their outputs are never processed.
 
+### Processing flow
+
+TODO
+
 #### Parameters
 
 Protopipe can find approximated optimal values any parameters of your model (e.g., number of layers in a neural network or mutation probability in a genetic algorithm).
