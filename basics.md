@@ -38,9 +38,9 @@ Cards aim to be general and atomic so they can be used in lots of different situ
 
 #### Events
 
-![A card triggers two events](assets/img/basics/events_1.png)
+Some cards have the ability of triggering [Events](types/Event.html) when they are processed. In the example below, card [K-fold cross-validation](cards/kFoldCrossValidation.html) triggers the *On each fold* event K times and the event *On finish* at the end.
 
-Some cards have the ability of triggering [Events](types/Event.html) when they are processed. In the example above, card [K-fold cross-validation](cards/kFoldCrossValidation.html) triggers the *On each fold* event K times and the event *On finish* at the end.
+![A card triggers two events](assets/img/basics/events_1.png)
 
 All events have a socket for explicitly calling other cards. Cards connected to that socket are called **explicit listeners**. In the example above, card [Get list of float](cards/getFloat_n.html) is an explicit listener of the *On finish* event.
 
@@ -49,10 +49,6 @@ Events can have associated data, only available when they are triggered. In exam
 Cards that receive the associated data of an event as input are called **implicit listeners**. In the example above, cards [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) are implicit listeners of the *On each fold event*.
 
 Explicit and implicit listeners are processed only when the event is triggered. If the event is not triggered, these cards or the cards connected to their outputs are never processed.
-
-### Processing flow
-
-TODO
 
 #### Parameters
 
@@ -77,6 +73,26 @@ There is a special set of cards that collect values for the later analysis phase
 See [this page](reports_screen.html) for more information.
 
 #### Variables
+
+In some cases it is **not** possible to connect the output of a card A to the input of a card B because card A is processed inside an [event](basics.html#Events) while card B is either processed in a different event or in no event at all.
+
+For instance, you may need to compute the testing error of a model inside a [K-fold cross-validation](cards/kFoldCrossValidation.html) and compute the mean of all obtained errors after all folds have been processed, but it is not possible to connect the output of a card inside the *On each fold* event to the input of a card of the *On finish* event.
+
+[foto k-fold sin variables]
+
+For this kind of situations Protopipe offers a system for getting and setting **variables**.
+
+Variables are values of any [type](types/) identified by a name ([String](types/String.html)) that can be accessed and modified during the project processing. Variables do not persist between project processings, so at the beginning of each project processing the set of variables is completely empty.
+
+There is a special set of cards that store variables---the **setter cards**---and another set of cards that loads them---the **getter cards**---. For example, the [Set float](cards/setFloat_1.html) card stores a [Float](types/Float.html) in the set of variables, while the [Get float](cards/getFloat_1.html) card loads it.
+
+[foto get float, set float]
+
+Using variables it is possible to share data between events. For instance, the example below shows how it is possible to accumulate the testing errors of a K-fold cross-validation in a list and compute their mean later.
+
+[foto k-fold bien hecho]
+
+#### Processing order
 
 TODO
 
