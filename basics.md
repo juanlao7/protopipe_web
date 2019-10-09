@@ -74,11 +74,11 @@ See [this page](reports_screen.html) for more information.
 
 #### Variables
 
-In some cases it is **not** possible to connect the output of a card A to the input of a card B because card A is processed inside an [event](basics.html#Events) while card B is either processed in a different event or in no event at all.
+In some cases it is **not** possible to connect the output of a card A to the input of a card B because card A is processed inside an [event](basics.html#events) while card B is either processed in a different event or in no event at all.
 
 For instance, you may need to compute the testing error of a model inside a [K-fold cross-validation](cards/kFoldCrossValidation.html) and compute the mean of all obtained errors after all folds have been processed, but it is not possible to connect the output of a card inside the *On each fold* event to the input of a card of the *On finish* event.
 
-[foto k-fold sin variables]
+![Unfinished k-fold cross-validation](assets/img/basics/variables_1.png)
 
 For this kind of situations Protopipe offers a system for getting and setting **variables**.
 
@@ -88,13 +88,45 @@ There is a special set of cards that store variables---the **setter cards**---an
 
 [foto get float, set float]
 
-Using variables it is possible to share data between events. For instance, the example below shows how it is possible to accumulate the testing errors of a K-fold cross-validation in a list and compute their mean later.
+Variables make possible to share data between events. For instance, the example below shows how it is possible to accumulate the testing errors of a K-fold cross-validation in a list and compute their mean later.
 
 [foto k-fold bien hecho]
 
+When a getter tries to load an unexistent variable, it just returns a default value, depending on the data type of the variable.
+
 #### Processing order
 
-TODO
+Protopipe pipelines work sequentially and parallelly at the same time. The system automatically detects when multiple cards can be processed at the same time---in no defined order---and when a card must wait until its dependencies are processed.
+
+For instance, in the example below there is only a single thread, processing both cards sequentially in this order:
+
+1. [Open file](cards/openFile.html) training.csv
+2. [Read as CSV](cards/readAsCSV.html)
+
+[foto open file + read as csv]
+
+On the other hand, in the next example there are 2 different processing threads, processing both sequential queues of cards in parallel:
+
+* Thread A:
+    1. [Open file](cards/openFile.html) training.csv
+    2. [Read as CSV](cards/readAsCSV.html)
+* Thread B:
+    1. [Open file](cards/openFile.html) testing.csv
+    2. [Read as CSV](cards/readAsCSV.html)
+
+[foto open file + read as csv, open file + read as csv]
+
+[As explained above](basics.html#events), when a card triggers an event all its explicit and implicit listeners get processed parallelly, and the cards that depend on them sequentially in their respective threads. After the system finishes processing the event, it comes back to finish the processing of the original card, and continues processing all cards that depend on it.
+
+A common mistake that may occur when accumulating values in a variable list inside an event (e.g., inside a [K-fold cross-validation](cards/kFoldCrossValidation.html) *On each fold* event) is that the getter card is left out of the event scope, like in the following example:
+
+[foto ejemplo getter dejado fuera]
+
+In this case the getter will be processed just once, loading an empty list since the variable does not exist. On each fold the system will add a new value to the empty list, forgetting about all the previous introduced values.
+
+To avoid this problem and force the system to load the variable inside the event, the getter must be assigned as an explicit listener of the *On each fold* event:
+
+[foto arreglado]
 
 ### Parameter optimization
 
