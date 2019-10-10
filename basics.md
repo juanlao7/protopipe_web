@@ -94,7 +94,7 @@ Analogously there is another set of cards that retrieve variables, the **getter 
 
 Variables make possible to share data between events. For instance, the example below shows how it is possible to accumulate the testing errors of a K-fold cross-validation in a list and compute their mean later.
 
-![Unfinished k-fold cross-validation](assets/img/basics/variables_4.png)
+![Finished k-fold cross-validation](assets/img/basics/variables_4.png)
 
 When a getter tries to retrieve an unexistent variable, it just returns a default value, depending on the data type of the variable.
 
@@ -107,7 +107,7 @@ For instance, in the example below there is only a single thread, processing bot
 1. [Open file](cards/openFile.html) training.csv
 2. [Read as CSV](cards/readAsCSV.html)
 
-[foto open file + read as csv]
+![Single thread with 2 sequentially processed cards](assets/img/basics/processing_1.png)
 
 On the other hand, in the next example there are 2 different processing threads, processing both sequential queues of cards in parallel:
 
@@ -118,19 +118,19 @@ On the other hand, in the next example there are 2 different processing threads,
     1. [Open file](cards/openFile.html) testing.csv
     2. [Read as CSV](cards/readAsCSV.html)
 
-[foto open file + read as csv, open file + read as csv]
+![Two threads with 2 sequentially processed cards each](assets/img/basics/processing_2.png)
 
 [As explained above](basics.html#events), when a card triggers an event all its explicit and implicit listeners get processed parallelly, and the cards that depend on them sequentially in their respective threads. After the system finishes processing the event, it comes back to finish the processing of the original card, and continues processing all cards that depend on it.
 
 A common mistake that may occur when accumulating values in a variable list inside an event (e.g., inside a [K-fold cross-validation](cards/kFoldCrossValidation.html) *On each fold* event) is that the getter card is left out of the event scope, like in the following example:
 
-[foto ejemplo getter dejado fuera]
+![Wrong performed k-fold cross-validation, getter is left out of the event](assets/img/basics/processing_3.png)
 
 In this case the getter will be processed just once, retrieving an empty list since the variable does not exist. On each fold the system will add a new value to the empty list, forgetting about all the previous introduced values.
 
 To avoid this problem and force the system to retrieve the variable inside the event, the getter must be assigned as an explicit listener of the *On each fold* event:
 
-[foto arreglado]
+![Correctly performed k-fold cross-validation, getter is inside the event](assets/img/basics/variables_4.png)
 
 ### Parameter optimization
 

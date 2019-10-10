@@ -242,6 +242,20 @@
         "width": 4000,
         "height": 4000
     },
+    "basics/processing_1": {
+        "project": "projects/basics!processing_1.zip",
+        "frameCards": true
+    },
+    "basics/processing_2": {
+        "project": "projects/basics!processing_2.zip",
+        "frameCards": true
+    },
+    "basics/processing_3": {
+        "project": "projects/basics!processing_3.zip",
+        "frameCards": true,
+        "width": 4000,
+        "height": 4000
+    },
     "basics/parameter_1": {
         "project": "projects/basics!parameter_1.zip",
         "clickElementWhenReady": ["t:tune", "t:Brute-force"],
