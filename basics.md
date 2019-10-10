@@ -84,15 +84,19 @@ For this kind of situations Protopipe offers a system for getting and setting **
 
 Variables are values of any [type](types/) identified by a name ([String](types/String.html)) that can be accessed and modified during the project processing. Variables do not persist between project processings, so at the beginning of each project processing the set of variables is completely empty.
 
-There is a special set of cards that store variables---the **setter cards**---and another set of cards that loads them---the **getter cards**---. For example, the [Set float](cards/setFloat_1.html) card stores a [Float](types/Float.html) in the set of variables, while the [Get float](cards/getFloat_1.html) card loads it.
+There is a special set of cards that store variables, the **setter cards**. For example, the [Set float](cards/setFloat_1.html) card stores a [Float](types/Float.html) in the set of variables.
 
-[foto get float, set float]
+![Set float](assets/img/basics/variables_2.png)
+
+Analogously there is another set of cards that retrieve variables, the **getter cards**. For example, the [Get float](cards/getFloat_1.html) card retrieves a [Float](types/Float.html) from the set of variables.
+
+![Get float](assets/img/basics/variables_3.png)
 
 Variables make possible to share data between events. For instance, the example below shows how it is possible to accumulate the testing errors of a K-fold cross-validation in a list and compute their mean later.
 
-[foto k-fold bien hecho]
+![Unfinished k-fold cross-validation](assets/img/basics/variables_4.png)
 
-When a getter tries to load an unexistent variable, it just returns a default value, depending on the data type of the variable.
+When a getter tries to retrieve an unexistent variable, it just returns a default value, depending on the data type of the variable.
 
 #### Processing order
 
@@ -122,9 +126,9 @@ A common mistake that may occur when accumulating values in a variable list insi
 
 [foto ejemplo getter dejado fuera]
 
-In this case the getter will be processed just once, loading an empty list since the variable does not exist. On each fold the system will add a new value to the empty list, forgetting about all the previous introduced values.
+In this case the getter will be processed just once, retrieving an empty list since the variable does not exist. On each fold the system will add a new value to the empty list, forgetting about all the previous introduced values.
 
-To avoid this problem and force the system to load the variable inside the event, the getter must be assigned as an explicit listener of the *On each fold* event:
+To avoid this problem and force the system to retrieve the variable inside the event, the getter must be assigned as an explicit listener of the *On each fold* event:
 
 [foto arreglado]
 

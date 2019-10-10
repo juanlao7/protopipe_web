@@ -224,6 +224,24 @@
         "cardImplicit": "Loss",
         "frameCards": true
     },
+    "basics/variables_1": {
+        "project": "projects/basics!variables_1.zip",
+        "frameCards": true
+    },
+    "basics/variables_2": {
+        "card": ["Variables", "Setters", "Set float"],
+        "frameCards": true
+    },
+    "basics/variables_3": {
+        "card": ["Variables", "Getters", "Get float"],
+        "frameCards": true
+    },
+    "basics/variables_4": {
+        "project": "projects/basics!variables_4.zip",
+        "frameCards": true,
+        "width": 4000,
+        "height": 4000
+    },
     "basics/parameter_1": {
         "project": "projects/basics!parameter_1.zip",
         "clickElementWhenReady": ["t:tune", "t:Brute-force"],
