@@ -38,7 +38,7 @@ Cards aim to be general and atomic so they can be used in lots of different situ
 
 #### Events
 
-Some cards have the ability of triggering [Events](types/Event.html) when they are processed. In the example below, card [K-fold cross-validation](cards/kFoldCrossValidation.html) triggers the *On each fold* event K times and the event *On finish* at the end.
+Some cards have the ability of triggering events when they are processed. In the example below, card [K-fold cross-validation](cards/kFoldCrossValidation.html) triggers the *On each fold* event K times and the event *On finish* at the end.
 
 ![A card triggers two events](assets/img/basics/events_1.png)
 
