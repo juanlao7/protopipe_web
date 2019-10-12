@@ -19,9 +19,19 @@
     }
 }
 
+[id]:not([id=toc])::before {
+    // ToC elements must have a top empty area to avoid the sticky breadcrumb.
+    display: block;
+    height: 76px;
+    margin-top: -76px;
+    visibility: hidden;
+    content: '';
+}
+
 .breadcrumb {
     margin: 0;
-    padding: 16px 0;
+    padding: 0;
+    line-height: 60px;
     position: sticky;
     top: 0;
     border-bottom: 1px solid #888;
