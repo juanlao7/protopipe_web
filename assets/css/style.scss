@@ -21,7 +21,12 @@
 
 .breadcrumb {
     margin: 0;
-    padding: 0;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #888;
+    background: #fff;
+    box-shadow: 0 0 16px 8px #fff;
     
     li {
         display: inline;
