@@ -19,6 +19,10 @@ Randomly shuffles the rows of a table.
 
   2D tensor (a table) to shuffle.
 
+* **Random seed** --- [Integer](types/Integer.html)
+
+  Number used to initialize a pseudorandom number generator.
+
 
 
 
