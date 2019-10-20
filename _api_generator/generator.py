@@ -101,7 +101,7 @@ for moduleId, module in modules.items():
             types.add(argumentDefinition['type'])
 
 # Generating types index.
-renderTemplate('types_index_skeleton.md', '../types/index.md', types=types)
+renderTemplate('types_index_skeleton.md', '../types/index.md', types=sorted(types))
 
 for dataType in types:
     if not os.path.isfile('../types/%s.md' % dataType):
