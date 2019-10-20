@@ -22,7 +22,7 @@ Cards in Protopipe are organized in groups:
     * [Mean absolute error](cards/meanAbsoluteError.html)
 * Models
     * Fuzzy logic
-        * [Train SLAVE](cards/trainSLAVE.html)
+        * [Train SLAVE classifier](cards/trainSLAVE.html)
     * Neural networks
         * [Train neural network](cards/trainNeuralNetwork.html)
     * [Predict](cards/predict.html)
@@ -35,6 +35,7 @@ Cards in Protopipe are organized in groups:
 * Statistics
     * [Mean](cards/mean.html)
 * Tables
+    * [Shuffle rows](cards/shuffleRows.html)
     * [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html)
 * Validation
     * [K-fold cross-validation](cards/kFoldCrossValidation.html)
