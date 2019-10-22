@@ -7,7 +7,7 @@
 
 ## Boolean parameter
 
-Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](work_screen.html#tune-parameters-automatically).
+Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 ![Boolean parameter](assets/img/cards/parameterBoolean.png)
 
@@ -19,7 +19,7 @@ Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](wor
 
 * **Value** --- [Boolean](types/Boolean.html)
 
-  Value provided by [the global optimizer](work_screen.html#tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 
 

@@ -111,7 +111,7 @@ You can stop the process at any moment by clicking the *Stop process* button.
 
 Note that the project is not editable during the processing.
 
-### Tune parameters automatically
+### Fine tune parameters automatically
 
 To let the system find the optimal value of a parameter of your pipeline, first create a parameter card.
 

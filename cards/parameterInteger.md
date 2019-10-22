@@ -7,7 +7,7 @@
 
 ## Integer parameter
 
-Provides a [Integer](types/Integer.html) value set by [the global optimizer](work_screen.html#tune-parameters-automatically).
+Provides a [Integer](types/Integer.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 ![Integer parameter](assets/img/cards/parameterInteger.png)
 
@@ -28,7 +28,7 @@ Provides a [Integer](types/Integer.html) value set by [the global optimizer](wor
 
 * **Value** --- [Integer](types/Integer.html)
 
-  Value provided by [the global optimizer](work_screen.html#tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 
 

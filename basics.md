@@ -60,7 +60,7 @@ There is a special set of cards that represent parameters that must be optimized
 
 When processing a project, the optimizer will perform multiple experiments, analyzing the previous results and assigning new values to parameter cards on each iteration. After a certain number of iterations, the parameter cards will output approximated optimal values.
 
-See [this page](work_screen.html#tune-parameters-automatically) for more information.
+See [this page](work_screen.html#fine-tune-parameters-automatically) for more information.
 
 #### Returns
 
@@ -152,7 +152,7 @@ Protopipe comes equipped with several optimizing methods that automatize the sea
 
 ![Parameter optimization panel](assets/img/basics/parameter_1.png)
 
-See [this page](work_screen.html#tune-parameters-automatically) for more information.
+See [this page](work_screen.html#fine-tune-parameters-automatically) for more information.
 
 ### Result analysis
 

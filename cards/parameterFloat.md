@@ -7,7 +7,7 @@
 
 ## Float parameter
 
-Provides a [Float](types/Float.html) value set by [the global optimizer](work_screen.html#tune-parameters-automatically).
+Provides a [Float](types/Float.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 ![Float parameter](assets/img/cards/parameterFloat.png)
 
@@ -28,7 +28,7 @@ Provides a [Float](types/Float.html) value set by [the global optimizer](work_sc
 
 * **Value** --- [Float](types/Float.html)
 
-  Value provided by [the global optimizer](work_screen.html#tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
 
 
