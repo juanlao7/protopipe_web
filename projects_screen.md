@@ -62,9 +62,9 @@ And press **Download**.
 
 ### Upload and import a project
 
-Press the *Upload* button.
+Press the *Upload project* button.
 
-!["Upload" button](assets/img/projects_screen/upload_1.png)
+!["Upload project" button](assets/img/projects_screen/upload_1.png)
 
 And select from your computer the ZIP file containing the project.
 
