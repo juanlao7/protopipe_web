@@ -36,8 +36,6 @@ The **Modules** tab contains a catalog of all the cards available in the system,
 
 Select cards by pressing them (press `Ctrl` while clicking to select multiple cards) or by enclosing them in a selection rectangle.
 
-[gif selecting with a rectangle]
-
 ### Delete cards
 
 [Select](#select-cards) all the cards you want to delete and press the *Delete* button on the top bar.
@@ -48,15 +46,11 @@ Select cards by pressing them (press `Ctrl` while clicking to select multiple ca
 
 Drag & drop the output socket of one card into the input socket of another (or vice versa).
 
-[gif connect 2 cards]
-
 Please, note that it is only possible connect sockets of the same type (i.e. same color and shape).
 
 ### Delete a connection
 
 Drag & drop the **input** of the connected card into an empty space of the blueprint.
-
-[gif remove connection]
 
 Do not drag the **output** of the other connected card, since that would only create a new connection instead.
 
@@ -81,15 +75,15 @@ To define a closed interval from A to B, of either [Integers](types/String.html)
 
 ### Preview the output of a card
 
-[Select](#select-cards) the card with the output you want to preview and press the *Preview* button.
+[Select](#select-cards) the card with the output you want to preview and press the *Preview output* button.
 
-!["Preview" button](assets/img/work_screen/preview_1.png)
+!["Preview output" button](assets/img/work_screen/preview_1.png)
 
 If the card has multiple outputs a menu will appear to let you choose the output you want to preview.
 
 After selecting an output, a small portion of the data will be displayed in a dialog.
 
-!["Preview" dialog](assets/img/work_screen/preview_2.png)
+!["Preview output" dialog](assets/img/work_screen/preview_2.png)
 
 For some types of data the system will show a button for obtaining more information (e.g., the number of rows and columns in a table).
 
@@ -97,17 +91,17 @@ For some types of data the system will show a button for obtaining more informat
 
 ### Process the project
 
-Press the *Start process* button.
+Press the *Start processing* button.
 
-!["Start process" button](assets/img/work_screen/process_1.png)
+!["Start processing" button](assets/img/work_screen/process_1.png)
 
 A new panel will appear at the side of the screen. It contains real-time information about the state of the processing.
 
 !["Processing" panel](assets/img/work_screen/process_2.png)
 
-You can stop the process at any moment by clicking the *Stop process* button.
+You can stop the process at any moment by clicking the *Stop processing* button.
 
-!["Stop process" button](assets/img/work_screen/process_3.png)
+!["Stop processing" button](assets/img/work_screen/process_3.png)
 
 Note that the project is not editable during the processing.
 
@@ -131,13 +125,13 @@ Connect the output of the parameter card to the input you want to optimize. For 
 
 [foto int parameter conectado a train slave]
 
-When the pipeline contains optimizable parameters, the *Tune settings* button appears in the top bar.
+When the pipeline contains optimizable parameters, the *Fine tune settings* button appears in the top bar.
 
-!["Tune settings" button](assets/img/work_screen/tune_4.png)
+!["Fine tune settings" button](assets/img/work_screen/tune_4.png)
 
 If you press it, a new panel appears at the side of the screen.
 
-!["Tune settings" panel](assets/img/work_screen/tune_5.png)
+!["Fine tune settings" panel](assets/img/work_screen/tune_5.png)
 
 In this panel you can choose which method the system will use for finding the optimal values for the parameters. Of course, each method has its own set of settings.
 
