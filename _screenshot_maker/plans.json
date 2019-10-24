@@ -153,6 +153,10 @@
         "marginTop": 30,
         "marginLeft": 30
     },
+    "work_screen/tune_6": {
+        "project": "projects/work_screen!tune_6.zip",
+        "frameCards": true
+    },
     "work_screen/analyze_1": {
         "project": "projects/work_screen!analyze_1.zip",
         "projectName": "Untitled project",

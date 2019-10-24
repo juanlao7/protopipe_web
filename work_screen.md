@@ -121,9 +121,9 @@ Now it's time to define the domain of the parameter. In this example we will spe
 
 ![Integer parameter card with domain 5:11](assets/img/work_screen/tune_3.png)
 
-Connect the output of the parameter card to the input you want to optimize. For instance, let's connect it to the [Train SLAVE](cards/trainSLAVE.html) card.
+Connect the output of the parameter card to the input you want to optimize. For instance, let's connect it to the [Train SLAVE classifier](cards/trainSLAVEClassifier.html) card.
 
-[foto int parameter conectado a train slave]
+![Integer parameter card connected to a Train SLAVE classifier card](assets/img/work_screen/tune_6.png)
 
 When the pipeline contains optimizable parameters, the *Fine tune settings* button appears in the top bar.
 

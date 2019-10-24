@@ -135,7 +135,7 @@ We want to use the first 11 cards for the input of our model and predict the val
 
 Now we have all the pieces needed for training the model. Open the card menu, select the **Modules** tab, navigate to **Models** --- **Fuzzy logic** and click on **Train SLAVE**.
 
-Connect the [Train SLAVE](cards/trainSLAVE.html) card like this:
+Connect the [Train SLAVE classifier](cards/trainSLAVEClassifier.html) card like this:
 
 [foto conexiones]
 

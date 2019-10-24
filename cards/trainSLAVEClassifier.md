@@ -7,9 +7,9 @@
 
 ## Train SLAVE classifier
 
-Trains a model based on [SLAVE: a genetic learning system based on an iterative approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.379.2735&rep=rep1&type=pdf).
+Trains a classifier based on [SLAVE: a genetic learning system based on an iterative approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.379.2735&rep=rep1&type=pdf).
 
-![Train SLAVE classifier](assets/img/cards/trainSLAVE.png)
+![Train SLAVE classifier](assets/img/cards/trainSLAVEClassifier.png)
 
 
 ### Inputs
@@ -56,7 +56,7 @@ Trains a model based on [SLAVE: a genetic learning system based on an iterative 
 
 * **Model** --- [DynamicObject](types/DynamicObject.html)
 
-  Trained SLAVE model.
+  Trained SLAVE classifier.
 
 
 

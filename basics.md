@@ -21,7 +21,7 @@ Cards are like **functions** of any common programming language: they receive so
 For instance:
 
 * The [Mean](cards/mean.html) card receives a list of numbers and returns their mean value.
-* The [Train SLAVE](cards/trainSLAVE.html) card receives a training dataset, trains a fuzzy logic model and returns it.
+* The [Train SLAVE classifier](cards/trainSLAVEClassifier.html) card receives a training dataset, trains a fuzzy logic model and returns it.
 * The [Predict](cards/predict.html) card receives a model plus the inputs of a test dataset and returns the model's predictions.
 
 To design a pipeline of a experiment, just add cards to the blueprint and connect them.
