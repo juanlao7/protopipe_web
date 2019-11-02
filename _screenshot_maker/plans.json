@@ -193,9 +193,10 @@
         "projectName": "Untitled project",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Cross-sectional analysis"],
         "elementWithMargin": "#reportsAndDrawerContainer > div:last-child",
-        "margin": -50,
+        "margin": -65,
+        "marginTop": -112,
         "width": 1060,
-        "height": 824
+        "height": 868
     },
     "reports_screen/delete-all_1": {
         "project": "projects/reports_screen!introduction_1.zip",
@@ -289,11 +290,11 @@
         "projectName": "Untitled project",
         "clickElementWhenReady": ["t:tune"],
         "elementWithMargin": ".ppui_drawerPanel",
-        "height": 500,
+        "height": 600,
         "margin": 0,
         "marginTop": 30,
         "marginLeft": 100,
-        "marginBottom": -130
+        "marginBottom": -230
     },
     "README/all-results_1": {
         "project": "projects/basics!result_1.zip",
