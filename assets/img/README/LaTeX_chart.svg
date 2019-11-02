@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,318 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="330.42993"
+   width="330.42996"
    height="271.89096"
-   viewBox="0 0 87.426255 71.937816"
+   viewBox="0 0 247.82246 203.91822"
    version="1.1"
-   id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="LaTeX_chart.svg">
-  <defs
-     id="defs2">
-    <clipPath
-       id="clipPath1059"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path1057"
-         d="M -16.1917,-13.45068 H 178.09885 V 147.94957 H -16.1917 Z" />
-    </clipPath>
-    <clipPath
-       id="clipPath2015"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path2013"
-         d="M -16.1917,-13.45068 H 178.09885 V 147.94957 H -16.1917 Z" />
-    </clipPath>
-    <clipPath
-       id="clipPath3019"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3017"
-         d="M -16.1917,-13.45068 H 178.09885 V 147.94957 H -16.1917 Z" />
-    </clipPath>
-    <g
-       id="g3854">
-      <symbol
-         id="glyph0-0"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3779"
-           d=""
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-1"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3782"
-           d="m 4.578125,-3.1875 c 0,-0.796875 -0.046875,-1.59375 -0.390625,-2.328125 -0.453125,-0.96875 -1.28125,-1.125 -1.6875,-1.125 -0.609375,0 -1.328125,0.265625 -1.75,1.1875 -0.3125,0.6875 -0.359375,1.46875 -0.359375,2.265625 0,0.75 0.03125,1.640625 0.453125,2.40625 0.421875,0.796875 1.15625,1 1.640625,1 0.53125,0 1.296875,-0.203125 1.734375,-1.15625 0.3125,-0.6875 0.359375,-1.46875 0.359375,-2.25 z M 2.484375,0 C 2.09375,0 1.5,-0.25 1.328125,-1.203125 1.21875,-1.796875 1.21875,-2.71875 1.21875,-3.3125 c 0,-0.640625 0,-1.296875 0.078125,-1.828125 0.1875,-1.1875 0.9375,-1.28125 1.1875,-1.28125 0.328125,0 0.984375,0.1875 1.171875,1.171875 0.109375,0.5625 0.109375,1.3125 0.109375,1.9375 0,0.75 0,1.421875 -0.109375,2.0625 C 3.5,-0.296875 2.9375,0 2.484375,0 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-2"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3785"
-           d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-3"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3788"
-           d="m 2.9375,-1.640625 v 0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 H 1.96875 V 0 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 v -0.3125 h -0.21875 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 V -1.640625 H 4.6875 v -0.3125 H 3.703125 v -4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 v 0.3125 z m 0.046875,-0.3125 H 0.5625 l 2.421875,-3.71875 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-4"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3791"
-           d="m 1.3125,-3.265625 v -0.25 c 0,-2.515625 1.234375,-2.875 1.75,-2.875 0.234375,0 0.65625,0.0625 0.875,0.40625 -0.15625,0 -0.546875,0 -0.546875,0.4375 0,0.3125 0.234375,0.46875 0.453125,0.46875 0.15625,0 0.46875,-0.09375 0.46875,-0.484375 0,-0.59375 -0.4375,-1.078125 -1.265625,-1.078125 -1.28125,0 -2.625,1.28125 -2.625,3.484375 0,2.671875 1.15625,3.375 2.078125,3.375 1.109375,0 2.0625,-0.9375 2.0625,-2.25 0,-1.265625 -0.890625,-2.21875 -2,-2.21875 -0.671875,0 -1.046875,0.5 -1.25,0.984375 z M 2.5,-0.0625 c -0.625,0 -0.921875,-0.59375 -0.984375,-0.75 -0.1875,-0.46875 -0.1875,-1.265625 -0.1875,-1.4375 0,-0.78125 0.328125,-1.78125 1.21875,-1.78125 0.171875,0 0.625,0 0.9375,0.625 0.171875,0.359375 0.171875,0.875 0.171875,1.359375 0,0.484375 0,0.984375 -0.171875,1.34375 C 3.1875,-0.109375 2.734375,-0.0625 2.5,-0.0625 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-5"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3794"
-           d="m 1.625,-4.5625 c -0.453125,-0.296875 -0.5,-0.625 -0.5,-0.796875 0,-0.609375 0.65625,-1.03125 1.359375,-1.03125 0.71875,0 1.359375,0.515625 1.359375,1.234375 0,0.578125 -0.390625,1.046875 -0.984375,1.390625 z m 1.453125,0.953125 C 3.796875,-3.984375 4.28125,-4.5 4.28125,-5.15625 c 0,-0.921875 -0.875,-1.484375 -1.78125,-1.484375 -1,0 -1.8125,0.734375 -1.8125,1.671875 0,0.171875 0.015625,0.625 0.4375,1.09375 0.109375,0.109375 0.484375,0.359375 0.734375,0.53125 C 1.28125,-3.046875 0.421875,-2.5 0.421875,-1.5 c 0,1.046875 1.015625,1.71875 2.0625,1.71875 1.125,0 2.078125,-0.828125 2.078125,-1.890625 0,-0.359375 -0.109375,-0.8125 -0.5,-1.234375 C 3.875,-3.109375 3.71875,-3.203125 3.078125,-3.609375 Z m -1,0.421875 1.234375,0.78125 c 0.28125,0.1875 0.75,0.484375 0.75,1.09375 0,0.734375 -0.75,1.25 -1.5625,1.25 -0.859375,0 -1.578125,-0.609375 -1.578125,-1.4375 0,-0.578125 0.3125,-1.21875 1.15625,-1.6875 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-6"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3797"
-           d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-7"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3800"
-           d="M 0.34375,-6.8125 V -6.5 h 0.25 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 v 5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 h -0.25 V 0 H 4 C 5.671875,0 7.046875,-1.46875 7.046875,-3.34375 7.046875,-5.25 5.703125,-6.8125 4,-6.8125 Z m 2.375,6.5 C 2.25,-0.3125 2.234375,-0.375 2.234375,-0.703125 V -6.09375 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 h 1 c 0.625,0 1.3125,0.21875 1.8125,0.921875 0.4375,0.59375 0.515625,1.453125 0.515625,2.234375 0,1.09375 -0.1875,1.703125 -0.546875,2.1875 -0.203125,0.265625 -0.765625,0.84375 -1.765625,0.84375 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-8"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3803"
-           d="M 1.671875,-3.3125 V -4.40625 L 0.28125,-4.296875 v 0.3125 c 0.703125,0 0.78125,0.0625 0.78125,0.5625 V -0.75 c 0,0.4375 -0.109375,0.4375 -0.78125,0.4375 V 0 c 0.390625,-0.015625 0.859375,-0.03125 1.140625,-0.03125 0.390625,0 0.859375,0 1.265625,0.03125 V -0.3125 H 2.46875 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 V -2.3125 c 0,-0.984375 0.421875,-1.875 1.171875,-1.875 0.0625,0 0.09375,0 0.109375,0.015625 -0.03125,0 -0.234375,0.125 -0.234375,0.390625 0,0.265625 0.21875,0.421875 0.4375,0.421875 0.171875,0 0.421875,-0.125 0.421875,-0.4375 0,-0.3125 -0.3125,-0.609375 -0.734375,-0.609375 -0.734375,0 -1.09375,0.671875 -1.21875,1.09375 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-9"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3806"
-           d="M 4.6875,-2.140625 C 4.6875,-3.40625 3.703125,-4.46875 2.5,-4.46875 c -1.25,0 -2.21875,1.09375 -2.21875,2.328125 0,1.296875 1.03125,2.25 2.203125,2.25 1.203125,0 2.203125,-0.984375 2.203125,-2.25 z m -2.1875,2 c -0.4375,0 -0.875,-0.203125 -1.140625,-0.671875 -0.25,-0.4375 -0.25,-1.046875 -0.25,-1.40625 0,-0.390625 0,-0.921875 0.234375,-1.359375 C 1.609375,-4.03125 2.078125,-4.25 2.484375,-4.25 c 0.4375,0 0.859375,0.21875 1.125,0.65625 0.265625,0.421875 0.265625,1 0.265625,1.375 0,0.359375 0,0.90625 -0.21875,1.34375 C 3.421875,-0.421875 2.984375,-0.140625 2.5,-0.140625 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-10"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3809"
-           d="m 1.71875,-3.75 v -0.65625 l -1.4375,0.109375 v 0.3125 c 0.703125,0 0.78125,0.0625 0.78125,0.5 v 4.65625 C 1.0625,1.625 0.953125,1.625 0.28125,1.625 V 1.9375 C 0.625,1.921875 1.140625,1.90625 1.390625,1.90625 c 0.28125,0 0.78125,0.015625 1.125,0.03125 V 1.625 C 1.859375,1.625 1.75,1.625 1.75,1.171875 V -0.59375 c 0.046875,0.171875 0.46875,0.703125 1.21875,0.703125 1.1875,0 2.21875,-0.984375 2.21875,-2.265625 0,-1.265625 -0.953125,-2.25 -2.078125,-2.25 -0.78125,0 -1.203125,0.4375 -1.390625,0.65625 z M 1.75,-1.140625 v -2.21875 C 2.03125,-3.875 2.515625,-4.15625 3.03125,-4.15625 c 0.734375,0 1.328125,0.875 1.328125,2 0,1.203125 -0.6875,2.046875 -1.421875,2.046875 -0.40625,0 -0.78125,-0.203125 -1.046875,-0.609375 C 1.75,-0.921875 1.75,-0.9375 1.75,-1.140625 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-11"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3812"
-           d="M 3.890625,-0.78125 V 0.109375 L 5.328125,0 V -0.3125 C 4.640625,-0.3125 4.5625,-0.375 4.5625,-0.875 v -3.53125 l -1.46875,0.109375 v 0.3125 c 0.6875,0 0.78125,0.0625 0.78125,0.5625 v 1.765625 c 0,0.875 -0.484375,1.546875 -1.21875,1.546875 -0.828125,0 -0.875,-0.46875 -0.875,-0.984375 v -3.3125 L 0.3125,-4.296875 v 0.3125 c 0.78125,0 0.78125,0.03125 0.78125,0.90625 v 1.5 c 0,0.78125 0,1.6875 1.515625,1.6875 0.5625,0 1,-0.28125 1.28125,-0.890625 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-12"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3815"
-           d="m 1.71875,-3.984375 h 1.4375 v -0.3125 H 1.71875 V -6.125 h -0.25 c 0,0.8125 -0.296875,1.875 -1.28125,1.921875 v 0.21875 h 0.84375 v 2.75 c 0,1.21875 0.9375,1.34375 1.296875,1.34375 0.703125,0 0.984375,-0.703125 0.984375,-1.34375 v -0.5625 h -0.25 V -1.25 c 0,0.734375 -0.296875,1.109375 -0.671875,1.109375 -0.671875,0 -0.671875,-0.90625 -0.671875,-1.078125 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-13"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3818"
-           d="m 1.75,-4.296875 v -1.15625 c 0,-0.875 0.46875,-1.359375 0.90625,-1.359375 0.03125,0 0.1875,0 0.328125,0.078125 C 2.875,-6.703125 2.6875,-6.5625 2.6875,-6.3125 c 0,0.21875 0.15625,0.421875 0.4375,0.421875 0.28125,0 0.4375,-0.203125 0.4375,-0.4375 0,-0.375 -0.375,-0.703125 -0.90625,-0.703125 -0.6875,0 -1.546875,0.53125 -1.546875,1.59375 v 1.140625 h -0.78125 v 0.3125 h 0.78125 V -0.75 C 1.109375,-0.3125 1,-0.3125 0.34375,-0.3125 V 0 c 0.390625,-0.015625 0.859375,-0.03125 1.125,-0.03125 0.40625,0 0.875,0 1.265625,0.03125 V -0.3125 H 2.53125 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 v -3.203125 h 1.125 v -0.3125 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-14"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3821"
-           d="m 3.3125,-0.75 c 0.046875,0.390625 0.3125,0.8125 0.78125,0.8125 0.21875,0 0.828125,-0.140625 0.828125,-0.953125 v -0.5625 h -0.25 v 0.5625 c 0,0.578125 -0.25,0.640625 -0.359375,0.640625 -0.328125,0 -0.375,-0.453125 -0.375,-0.5 v -1.984375 c 0,-0.421875 0,-0.8125 -0.359375,-1.1875 C 3.1875,-4.3125 2.6875,-4.46875 2.21875,-4.46875 c -0.828125,0 -1.515625,0.46875 -1.515625,1.125 0,0.296875 0.203125,0.46875 0.46875,0.46875 0.28125,0 0.453125,-0.203125 0.453125,-0.453125 0,-0.125 -0.046875,-0.453125 -0.515625,-0.453125 C 1.390625,-4.140625 1.875,-4.25 2.1875,-4.25 c 0.5,0 1.0625,0.390625 1.0625,1.28125 v 0.359375 c -0.515625,0.03125 -1.203125,0.0625 -1.828125,0.359375 -0.75,0.34375 -1,0.859375 -1,1.296875 0,0.8125 0.96875,1.0625 1.59375,1.0625 0.65625,0 1.109375,-0.40625 1.296875,-0.859375 z M 3.25,-2.390625 v 1 c 0,0.9375 -0.71875,1.28125 -1.171875,1.28125 -0.484375,0 -0.890625,-0.34375 -0.890625,-0.84375 0,-0.546875 0.421875,-1.375 2.0625,-1.4375 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph0-15"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3824"
-           d="m 1.171875,-2.171875 c 0,-1.625 0.8125,-2.046875 1.34375,-2.046875 0.09375,0 0.71875,0.015625 1.0625,0.375 -0.40625,0.03125 -0.46875,0.328125 -0.46875,0.453125 0,0.265625 0.1875,0.453125 0.453125,0.453125 0.265625,0 0.46875,-0.15625 0.46875,-0.46875 0,-0.671875 -0.765625,-1.0625 -1.53125,-1.0625 -1.25,0 -2.15625,1.078125 -2.15625,2.3125 0,1.28125 0.984375,2.265625 2.140625,2.265625 1.328125,0 1.65625,-1.203125 1.65625,-1.296875 0,-0.09375 -0.109375,-0.09375 -0.140625,-0.09375 -0.078125,0 -0.109375,0.03125 -0.125,0.09375 -0.28125,0.921875 -0.9375,1.046875 -1.296875,1.046875 -0.53125,0 -1.40625,-0.421875 -1.40625,-2.03125 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph1-0"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3827"
-           d=""
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph1-1"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3830"
-           d="m 1.90625,-0.53125 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-0"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3833"
-           d=""
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-1"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3836"
-           d="m -6.59375,-2.40625 c -0.21875,0.09375 -0.21875,0.125 -0.21875,0.359375 V -0.375 H -6.5 v -0.234375 c 0,-0.765625 0.109375,-0.78125 0.46875,-0.78125 h 4.984375 c 0.265625,0 0.734375,0 0.734375,1.015625 H 0 c -0.015625,-0.34375 -0.03125,-0.828125 -0.03125,-1.15625 0,-0.328125 0.015625,-0.828125 0.03125,-1.171875 h -0.3125 c 0,1.03125 -0.46875,1.03125 -0.734375,1.03125 h -5.375 V -1.6875 L -0.21875,-4.09375 C -0.09375,-4.140625 0,-4.1875 0,-4.28125 0,-4.390625 -0.078125,-4.421875 -0.1875,-4.46875 L -6.5,-6.921875 h 5.71875 c 0.359375,0 0.46875,0.015625 0.46875,0.78125 V -5.90625 H 0 c -0.03125,-0.359375 -0.03125,-1.046875 -0.03125,-1.4375 0,-0.375 0,-1.046875 0.03125,-1.421875 h -0.3125 v 0.25 c 0,0.765625 -0.109375,0.78125 -0.46875,0.78125 h -5.25 C -6.390625,-7.734375 -6.5,-7.75 -6.5,-8.515625 v -0.25 h -0.3125 v 1.6875 c 0,0.265625 0.015625,0.265625 0.1875,0.328125 L -1,-4.5625 Z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-2"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3839"
-           d="m -2.140625,-4.6875 c -1.265625,0 -2.328125,0.984375 -2.328125,2.1875 0,1.25 1.09375,2.21875 2.328125,2.21875 1.296875,0 2.25,-1.03125 2.25,-2.203125 0,-1.203125 -0.984375,-2.203125 -2.25,-2.203125 z m 2,2.1875 c 0,0.4375 -0.203125,0.875 -0.671875,1.140625 -0.4375,0.25 -1.046875,0.25 -1.40625,0.25 -0.390625,0 -0.921875,0 -1.359375,-0.234375 C -4.03125,-1.609375 -4.25,-2.078125 -4.25,-2.484375 c 0,-0.4375 0.21875,-0.859375 0.65625,-1.125 0.421875,-0.265625 1,-0.265625 1.375,-0.265625 0.359375,0 0.90625,0 1.34375,0.21875 0.453125,0.234375 0.734375,0.671875 0.734375,1.15625 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-3"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3842"
-           d="m -0.546875,-3.78125 h 0.65625 L 0,-5.25 h -0.3125 c 0,0.6875 -0.0625,0.78125 -0.5625,0.78125 H -6.921875 L -6.8125,-3.046875 H -6.5 c 0,-0.6875 0.0625,-0.765625 0.5625,-0.765625 h 2.15625 c -0.359375,0.28125 -0.625,0.71875 -0.625,1.25 0,1.171875 0.984375,2.21875 2.265625,2.21875 1.265625,0 2.25,-0.96875 2.25,-2.109375 0,-0.640625 -0.34375,-1.078125 -0.65625,-1.328125 z m -2.671875,0 h 2.046875 c 0.171875,0 0.1875,0 0.359375,0.109375 0.484375,0.296875 0.703125,0.734375 0.703125,1.171875 0,0.453125 -0.265625,0.8125 -0.640625,1.046875 -0.40625,0.25 -0.96875,0.28125 -1.390625,0.28125 -0.359375,0 -0.953125,-0.015625 -1.40625,-0.296875 -0.3125,-0.21875 -0.640625,-0.59375 -0.640625,-1.140625 0,-0.34375 0.15625,-0.765625 0.59375,-1.0625 0.171875,-0.109375 0.1875,-0.109375 0.375,-0.109375 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-4"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3845"
-           d="M -2.515625,-1.109375 C -4,-1.171875 -4.25,-2.015625 -4.25,-2.359375 c 0,-1.015625 1.34375,-1.125 1.734375,-1.125 z m 0.21875,0 v -2.78125 c 0,-0.21875 0,-0.25 -0.21875,-0.25 -0.984375,0 -1.953125,0.546875 -1.953125,1.78125 0,1.15625 1.03125,2.078125 2.28125,2.078125 1.328125,0 2.296875,-1.046875 2.296875,-2.1875 0,-1.21875 -1.109375,-1.671875 -1.296875,-1.671875 -0.09375,0 -0.125,0.078125 -0.125,0.140625 0,0.078125 0.0625,0.109375 0.140625,0.125 1.03125,0.34375 1.03125,1.25 1.03125,1.34375 0,0.5 -0.296875,0.890625 -0.671875,1.125 -0.46875,0.296875 -1.125,0.296875 -1.484375,0.296875 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-5"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3848"
-           d="m -6.921875,-1.765625 0.109375,1.4375 H -6.5 c 0,-0.703125 0.0625,-0.78125 0.5625,-0.78125 H -0.75 c 0.4375,0 0.4375,0.109375 0.4375,0.78125 H 0 C -0.015625,-0.65625 -0.03125,-1.1875 -0.03125,-1.4375 c 0,-0.25 0.015625,-0.734375 0.03125,-1.109375 h -0.3125 c 0,0.671875 0,0.78125 -0.4375,0.78125 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-      <symbol
-         id="glyph2-6"
-         overflow="visible"
-         style="overflow:visible">
-        <path
-           id="path3851"
-           d="m -1.9375,-2.078125 c 0.046875,-0.21875 0.203125,-1.03125 0.921875,-1.03125 0.5,0 0.90625,0.34375 0.90625,1.125 0,0.84375 -0.5625,1.203125 -1.421875,1.390625 -0.125,0.03125 -0.15625,0.03125 -0.15625,0.140625 0,0.125 0.0625,0.125 0.234375,0.125 H -0.125 c 0.171875,0 0.234375,0 0.234375,-0.109375 0,-0.046875 -0.015625,-0.0625 -0.203125,-0.25 -0.015625,-0.015625 -0.03125,-0.015625 -0.21875,-0.203125 0.40625,-0.4375 0.421875,-0.890625 0.421875,-1.09375 0,-1.140625 -0.671875,-1.609375 -1.390625,-1.609375 -0.515625,0 -0.828125,0.296875 -0.9375,0.421875 -0.328125,0.328125 -0.40625,0.71875 -0.484375,1.140625 -0.109375,0.5625 -0.234375,1.21875 -0.8125,1.21875 -0.359375,0 -0.765625,-0.25 -0.765625,-1.109375 0,-1.09375 0.90625,-1.15625 1.203125,-1.171875 0.09375,0 0.09375,-0.09375 0.09375,-0.109375 0,-0.140625 -0.046875,-0.140625 -0.234375,-0.140625 h -1.015625 c -0.15625,0 -0.234375,0 -0.234375,0.109375 0,0.046875 0,0.078125 0.125,0.203125 0.03125,0.03125 0.125,0.125 0.15625,0.171875 -0.28125,0.375 -0.28125,0.78125 -0.28125,0.9375 0,1.21875 0.671875,1.59375 1.234375,1.59375 0.34375,0 0.625,-0.15625 0.84375,-0.421875 0.25,-0.328125 0.3125,-0.609375 0.453125,-1.328125 z m 0,0"
-           style="stroke:none"
-           inkscape:connector-curvature="0" />
-      </symbol>
-    </g>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="30.747945"
-     inkscape:cy="186.54203"
-     inkscape:document-units="mm"
-     inkscape:current-layer="g827"
-     showgrid="false"
-     fit-margin-top="10"
-     fit-margin-left="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+   id="svg254"
+   sodipodi:docname="document.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
-     id="metadata5">
+     id="metadata258">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -332,740 +27,792 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-118.24221,-111.12559)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview256"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     units="px"
+     inkscape:zoom="1.2642212"
+     inkscape:cx="103.43686"
+     inkscape:cy="97.578826"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg254" />
+  <defs
+     id="defs79">
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-31.203208,294.00853)"
-       inkscape:label="untitled-1"
-       id="g823">
-      <g
-         transform="translate(168.283,502.707)"
-         id="g825">
-        <g
-           id="g827">
-          <g
-             id="surface567991"
-             transform="matrix(1,0,0,-1,110.8127,135.89662)">
-            <path
-               id="path3858"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 20.239969,-13.449969 v 4.25 m 40.476562,-4.25 v 4.25 m 40.476559,-4.25 v 4.25 m 40.47657,-4.25 v 4.25 M 20.239969,147.94847 v -4.25 m 40.476562,4.25 v -4.25 m 40.476559,4.25 v -4.25 m 40.47657,4.25 v -4.25"
-               style="fill:none;stroke:#7f7f7f;stroke-width:0.19925;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3860"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m -16.193625,15.31175 h 4.253906 m -4.253906,43.066406 h 4.253906 m -4.253906,43.066404 h 4.253906 m -4.253906,43.06641 h 4.253906 M 178.09934,15.31175 h -4.2539 m 4.2539,43.066406 h -4.2539 m 4.2539,43.066404 h -4.2539 m 4.2539,43.06641 h -4.2539"
-               style="fill:none;stroke:#7f7f7f;stroke-width:0.19925;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3862"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M -16.193625,-13.449969 V 147.94847 H 178.09934 V -13.449969 Z m 0,0"
-               style="fill:none;stroke:#000000;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <g
-               id="g3866"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3864"
-                 y="299.233"
-                 x="220.42599"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3870"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3868"
-                 y="299.233"
-                 x="225.407"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3874"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3872"
-                 y="299.233"
-                 x="228.175"
-                 xlink:href="#glyph0-2"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3878"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3876"
-                 y="299.233"
-                 x="260.90201"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3882"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3880"
-                 y="299.233"
-                 x="265.884"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3886"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3884"
-                 y="299.233"
-                 x="268.651"
-                 xlink:href="#glyph0-3"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3890"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3888"
-                 y="299.233"
-                 x="301.37799"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3894"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3892"
-                 y="299.233"
-                 x="306.35999"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3898"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3896"
-                 y="299.233"
-                 x="309.12701"
-                 xlink:href="#glyph0-4"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3902"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3900"
-                 y="299.233"
-                 x="341.85501"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3906"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3904"
-                 y="299.233"
-                 x="346.836"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3910"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3908"
-                 y="299.233"
-                 x="349.603"
-                 xlink:href="#glyph0-5"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3914"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3912"
-                 y="263.74301"
-                 x="174.11099"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3918"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3916"
-                 y="263.74301"
-                 x="179.093"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3922"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3920"
-                 y="263.74301"
-                 x="181.86"
-                 xlink:href="#glyph0-3"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3926"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3924"
-                 y="220.67599"
-                 x="174.11099"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3930"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3928"
-                 y="220.67599"
-                 x="179.093"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3934"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3932"
-                 y="220.67599"
-                 x="181.86"
-                 xlink:href="#glyph0-4"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3938"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3936"
-                 y="177.61"
-                 x="174.11099"
-                 xlink:href="#glyph0-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3942"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3940"
-                 y="177.61"
-                 x="179.093"
-                 xlink:href="#glyph1-1"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3946"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3944"
-                 y="177.61"
-                 x="181.86"
-                 xlink:href="#glyph0-5"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g3950"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use3948"
-                 y="134.543"
-                 x="181.86"
-                 xlink:href="#glyph0-6"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <path
-               id="path3952"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 0.0016875,101.12034 20.239969,85.616437 40.47825,75.862531 60.716531,54.565656 80.954813,27.995344 l 20.238277,20.433593 20.23829,32.730469 20.23828,20.265624 20.23828,7.23438"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3954"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 0.0016875,101.12034 v 25.83985"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3956"
-               transform="matrix(0,-1,-1,0,206.553,148.882)"
-               d="M -8.125e-4,1.994406 V -1.993875"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3958"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 0.0016875,101.12034 V 75.2805"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3960"
-               transform="matrix(0,1,1,0,206.552,200.562)"
-               d="M 5e-4,1.990969 V -1.993406"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3962"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 20.239969,85.616437 V 120.06956"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3964"
-               transform="matrix(0,-1,-1,0,226.791,155.773)"
-               d="M -4.375e-4,1.994125 V -1.994156"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3966"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 20.239969,85.616437 V 51.163312"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3968"
-               transform="matrix(0,1,1,0,226.791,224.68)"
-               d="M -3.125e-4,1.994156 V -1.994125"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3970"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 40.47825,75.862531 V 97.397687"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3972"
-               transform="matrix(0,-1,-1,0,247.029,178.448)"
-               d="M -0.00121875,1.993844 V -1.994438"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3974"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 40.47825,75.862531 V 54.327375"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3976"
-               transform="matrix(0,1,1,0,247.029,221.514)"
-               d="M 0.001625,1.994438 V -1.993844"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3978"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 60.716531,54.565656 V 91.175031"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3980"
-               transform="matrix(0,-1,-1,0,267.267,184.671)"
-               d="M -8.75e-4,1.993562 V -1.990813"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3982"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 60.716531,54.565656 V 17.960187"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3984"
-               transform="matrix(0,1,1,0,267.267,257.884)"
-               d="M -0.0011875,1.990813 V -1.993562"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3986"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 80.954813,27.995344 V 55.987531"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3988"
-               transform="matrix(0,-1,-1,0,287.506,219.856)"
-               d="M 5.3125e-4,1.994281 V -1.994"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3990"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 80.954813,27.995344 V -7.5e-4"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3992"
-               transform="matrix(0,1,1,0,287.506,275.843)"
-               d="M 7.5e-4,1.994 V -1.994281"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3994"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 101.19309,48.428937 V 69.964094"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3996"
-               transform="matrix(0,-1,-1,0,307.744,205.881)"
-               d="M -0.0018125,1.994 V -1.994281"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path3998"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 101.19309,48.428937 V 26.893781"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4000"
-               transform="matrix(0,1,1,0,307.744,248.948)"
-               d="M 0.00121875,1.994281 V -1.994"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4002"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 121.43138,81.159406 V 91.925031"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4004"
-               transform="matrix(0,-1,-1,0,327.982,183.917)"
-               d="M -9.6875e-4,1.993719 V -1.990656"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4006"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 121.43138,81.159406 V 70.393781"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4008"
-               transform="matrix(0,1,1,0,327.981,205.45)"
-               d="M -7.8125e-4,1.991656 V -1.992719"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4010"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 141.66966,101.42503 v 21.53125"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4012"
-               transform="matrix(0,-1,-1,0,348.219,152.888)"
-               d="M 0.00128125,1.992437 V -1.991938"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4014"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 141.66966,101.42503 V 79.889875"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4016"
-               transform="matrix(0,1,1,0,348.219,195.954)"
-               d="M -8.75e-4,1.991938 V -1.992437"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4018"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 161.90794,108.65941 v 25.83984"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4020"
-               transform="matrix(0,-1,-1,0,368.457,141.346)"
-               d="M -0.00165625,1.992156 V -1.992219"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4022"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="M 161.90794,108.65941 V 82.819562"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4024"
-               transform="matrix(0,1,1,0,368.458,193.026)"
-               d="M 0.00134375,1.991219 V -1.993156"
-               style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4026"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 1.993875,101.12034 c 0,1.10157 -0.894531,1.99219 -1.9921875,1.99219 -1.1015625,0 -1.9960935,-0.89062 -1.9960935,-1.99219 0,-1.09765 0.894531,-1.992184 1.9960935,-1.992184 1.0976565,0 1.9921875,0.894534 1.9921875,1.992184 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4028"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 22.232156,85.616437 c 0,1.101563 -0.894531,1.992188 -1.992187,1.992188 -1.101563,0 -1.992188,-0.890625 -1.992188,-1.992188 0,-1.097656 0.890625,-1.992187 1.992188,-1.992187 1.097656,0 1.992187,0.894531 1.992187,1.992187 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4030"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 42.470438,75.862531 c 0,1.101563 -0.894532,1.992188 -1.992188,1.992188 -1.101562,0 -1.992187,-0.890625 -1.992187,-1.992188 0,-1.101562 0.890625,-1.992187 1.992187,-1.992187 1.097656,0 1.992188,0.890625 1.992188,1.992187 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4032"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 62.708719,54.565656 c 0,1.101563 -0.894531,1.992188 -1.992188,1.992188 -1.101562,0 -1.992187,-0.890625 -1.992187,-1.992188 0,-1.101562 0.890625,-1.992187 1.992187,-1.992187 1.097657,0 1.992188,0.890625 1.992188,1.992187 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4034"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 82.947,27.995344 c 0,1.097656 -0.894531,1.992187 -1.992187,1.992187 -1.101563,0 -1.992188,-0.894531 -1.992188,-1.992187 0,-1.101563 0.890625,-1.996094 1.992188,-1.996094 1.097656,0 1.992187,0.894531 1.992187,1.996094 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4036"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 103.18528,48.428937 c 0,1.101563 -0.89453,1.992188 -1.99219,1.992188 -1.10156,0 -1.992184,-0.890625 -1.992184,-1.992188 0,-1.101562 0.890624,-1.992187 1.992184,-1.992187 1.09766,0 1.99219,0.890625 1.99219,1.992187 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4038"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 123.42356,81.159406 c 0,1.101563 -0.89453,1.992188 -1.99218,1.992188 -1.10157,0 -1.99219,-0.890625 -1.99219,-1.992188 0,-1.101562 0.89062,-1.992187 1.99219,-1.992187 1.09765,0 1.99218,0.890625 1.99218,1.992187 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4040"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 143.66184,101.42503 c 0,1.09766 -0.89453,1.99219 -1.99218,1.99219 -1.10157,0 -1.99219,-0.89453 -1.99219,-1.99219 0,-1.10156 0.89062,-1.996093 1.99219,-1.996093 1.09765,0 1.99218,0.894533 1.99218,1.996093 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path4042"
-               transform="matrix(1,0,0,-1,206.553,275.843)"
-               d="m 163.90012,108.65941 c 0,1.10156 -0.89062,1.99218 -1.99218,1.99218 -1.10157,0 -1.99219,-0.89062 -1.99219,-1.99218 0,-1.10157 0.89062,-1.99219 1.99219,-1.99219 1.10156,0 1.99218,0.89062 1.99218,1.99219 z m 0,0"
-               style="fill:#0000ca;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-               inkscape:connector-curvature="0" />
-            <g
-               id="g4052"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4044"
-                 y="314.67599"
-                 x="254.892"
-                 xlink:href="#glyph0-7"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4046"
-                 y="314.67599"
-                 x="262.50244"
-                 xlink:href="#glyph0-8"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4048"
-                 y="314.67599"
-                 x="266.40479"
-                 xlink:href="#glyph0-9"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4050"
-                 y="314.67599"
-                 x="271.38608"
-                 xlink:href="#glyph0-10"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g4060"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4054"
-                 y="314.67599"
-                 x="277.20026"
-                 xlink:href="#glyph0-9"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4056"
-                 y="314.67599"
-                 x="282.18155"
-                 xlink:href="#glyph0-11"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4058"
-                 y="314.67599"
-                 x="287.71677"
-                 xlink:href="#glyph0-12"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g4074"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4062"
-                 y="314.67599"
-                 x="294.90878"
-                 xlink:href="#glyph0-13"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4064"
-                 y="314.67599"
-                 x="297.95334"
-                 xlink:href="#glyph0-14"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4066"
-                 y="314.67599"
-                 x="302.93463"
-                 xlink:href="#glyph0-15"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4068"
-                 y="314.67599"
-                 x="307.36203"
-                 xlink:href="#glyph0-12"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4070"
-                 y="314.67599"
-                 x="311.23648"
-                 xlink:href="#glyph0-9"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4072"
-                 y="314.67599"
-                 x="316.21777"
-                 xlink:href="#glyph0-8"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g4080"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4076"
-                 y="231.619"
-                 x="158.951"
-                 xlink:href="#glyph2-1"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4078"
-                 y="222.48628"
-                 x="158.951"
-                 xlink:href="#glyph2-2"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g4088"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4082"
-                 y="217.22603"
-                 x="158.951"
-                 xlink:href="#glyph2-3"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4084"
-                 y="211.69081"
-                 x="158.951"
-                 xlink:href="#glyph2-4"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4086"
-                 y="207.26343"
-                 x="158.951"
-                 xlink:href="#glyph2-5"
-                 width="100%"
-                 height="100%" />
-            </g>
-            <g
-               id="g4098"
-               style="fill:#000000;fill-opacity:1">
-              <use
-                 id="use4090"
-                 y="201.17827"
-                 x="158.951"
-                 xlink:href="#glyph2-5"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4092"
-                 y="198.41066"
-                 x="158.951"
-                 xlink:href="#glyph2-2"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4094"
-                 y="193.42937"
-                 x="158.951"
-                 xlink:href="#glyph2-6"
-                 width="100%"
-                 height="100%" />
-              <use
-                 id="use4096"
-                 y="189.50012"
-                 x="158.951"
-                 xlink:href="#glyph2-6"
-                 width="100%"
-                 height="100%" />
-            </g>
-          </g>
-        </g>
-      </g>
+       id="g77">
+      <symbol
+         overflow="visible"
+         id="glyph0-0"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d=""
+           id="path2"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-1"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 4.578125,-3.1875 c 0,-0.796875 -0.046875,-1.59375 -0.390625,-2.328125 -0.453125,-0.96875 -1.28125,-1.125 -1.6875,-1.125 -0.609375,0 -1.328125,0.265625 -1.75,1.1875 -0.3125,0.6875 -0.359375,1.46875 -0.359375,2.265625 0,0.75 0.03125,1.640625 0.453125,2.40625 0.421875,0.796875 1.15625,1 1.640625,1 0.53125,0 1.296875,-0.203125 1.734375,-1.15625 0.3125,-0.6875 0.359375,-1.46875 0.359375,-2.25 z M 2.484375,0 C 2.09375,0 1.5,-0.25 1.328125,-1.203125 1.21875,-1.796875 1.21875,-2.71875 1.21875,-3.3125 c 0,-0.640625 0,-1.296875 0.078125,-1.828125 0.1875,-1.1875 0.9375,-1.28125 1.1875,-1.28125 0.328125,0 0.984375,0.1875 1.171875,1.171875 0.109375,0.5625 0.109375,1.3125 0.109375,1.9375 0,0.75 0,1.421875 -0.109375,2.0625 C 3.5,-0.296875 2.9375,0 2.484375,0 Z m 0,0"
+           id="path5"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-2"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
+           id="path8"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-3"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 2.9375,-1.640625 v 0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 H 1.96875 V 0 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 v -0.3125 h -0.21875 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 V -1.640625 H 4.6875 v -0.3125 H 3.703125 v -4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 v 0.3125 z m 0.046875,-0.3125 H 0.5625 l 2.421875,-3.71875 z m 0,0"
+           id="path11"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-4"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.3125,-3.265625 v -0.25 c 0,-2.515625 1.234375,-2.875 1.75,-2.875 0.234375,0 0.65625,0.0625 0.875,0.40625 -0.15625,0 -0.546875,0 -0.546875,0.4375 0,0.3125 0.234375,0.46875 0.453125,0.46875 0.15625,0 0.46875,-0.09375 0.46875,-0.484375 0,-0.59375 -0.4375,-1.078125 -1.265625,-1.078125 -1.28125,0 -2.625,1.28125 -2.625,3.484375 0,2.671875 1.15625,3.375 2.078125,3.375 1.109375,0 2.0625,-0.9375 2.0625,-2.25 0,-1.265625 -0.890625,-2.21875 -2,-2.21875 -0.671875,0 -1.046875,0.5 -1.25,0.984375 z M 2.5,-0.0625 c -0.625,0 -0.921875,-0.59375 -0.984375,-0.75 -0.1875,-0.46875 -0.1875,-1.265625 -0.1875,-1.4375 0,-0.78125 0.328125,-1.78125 1.21875,-1.78125 0.171875,0 0.625,0 0.9375,0.625 0.171875,0.359375 0.171875,0.875 0.171875,1.359375 0,0.484375 0,0.984375 -0.171875,1.34375 C 3.1875,-0.109375 2.734375,-0.0625 2.5,-0.0625 Z m 0,0"
+           id="path14"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-5"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.625,-4.5625 c -0.453125,-0.296875 -0.5,-0.625 -0.5,-0.796875 0,-0.609375 0.65625,-1.03125 1.359375,-1.03125 0.71875,0 1.359375,0.515625 1.359375,1.234375 0,0.578125 -0.390625,1.046875 -0.984375,1.390625 z m 1.453125,0.953125 C 3.796875,-3.984375 4.28125,-4.5 4.28125,-5.15625 c 0,-0.921875 -0.875,-1.484375 -1.78125,-1.484375 -1,0 -1.8125,0.734375 -1.8125,1.671875 0,0.171875 0.015625,0.625 0.4375,1.09375 0.109375,0.109375 0.484375,0.359375 0.734375,0.53125 C 1.28125,-3.046875 0.421875,-2.5 0.421875,-1.5 c 0,1.046875 1.015625,1.71875 2.0625,1.71875 1.125,0 2.078125,-0.828125 2.078125,-1.890625 0,-0.359375 -0.109375,-0.8125 -0.5,-1.234375 C 3.875,-3.109375 3.71875,-3.203125 3.078125,-3.609375 Z m -1,0.421875 1.234375,0.78125 c 0.28125,0.1875 0.75,0.484375 0.75,1.09375 0,0.734375 -0.75,1.25 -1.5625,1.25 -0.859375,0 -1.578125,-0.609375 -1.578125,-1.4375 0,-0.578125 0.3125,-1.21875 1.15625,-1.6875 z m 0,0"
+           id="path17"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-6"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+           id="path20"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-7"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="M 0.34375,-6.8125 V -6.5 h 0.25 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 v 5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 h -0.25 V 0 H 4 C 5.671875,0 7.046875,-1.46875 7.046875,-3.34375 7.046875,-5.25 5.703125,-6.8125 4,-6.8125 Z m 2.375,6.5 C 2.25,-0.3125 2.234375,-0.375 2.234375,-0.703125 V -6.09375 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 h 1 c 0.625,0 1.3125,0.21875 1.8125,0.921875 0.4375,0.59375 0.515625,1.453125 0.515625,2.234375 0,1.09375 -0.1875,1.703125 -0.546875,2.1875 -0.203125,0.265625 -0.765625,0.84375 -1.765625,0.84375 z m 0,0"
+           id="path23"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-8"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="M 1.671875,-3.3125 V -4.40625 L 0.28125,-4.296875 v 0.3125 c 0.703125,0 0.78125,0.0625 0.78125,0.5625 V -0.75 c 0,0.4375 -0.109375,0.4375 -0.78125,0.4375 V 0 c 0.390625,-0.015625 0.859375,-0.03125 1.140625,-0.03125 0.390625,0 0.859375,0 1.265625,0.03125 V -0.3125 H 2.46875 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 V -2.3125 c 0,-0.984375 0.421875,-1.875 1.171875,-1.875 0.0625,0 0.09375,0 0.109375,0.015625 -0.03125,0 -0.234375,0.125 -0.234375,0.390625 0,0.265625 0.21875,0.421875 0.4375,0.421875 0.171875,0 0.421875,-0.125 0.421875,-0.4375 0,-0.3125 -0.3125,-0.609375 -0.734375,-0.609375 -0.734375,0 -1.09375,0.671875 -1.21875,1.09375 z m 0,0"
+           id="path26"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-9"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="M 4.6875,-2.140625 C 4.6875,-3.40625 3.703125,-4.46875 2.5,-4.46875 c -1.25,0 -2.21875,1.09375 -2.21875,2.328125 0,1.296875 1.03125,2.25 2.203125,2.25 1.203125,0 2.203125,-0.984375 2.203125,-2.25 z m -2.1875,2 c -0.4375,0 -0.875,-0.203125 -1.140625,-0.671875 -0.25,-0.4375 -0.25,-1.046875 -0.25,-1.40625 0,-0.390625 0,-0.921875 0.234375,-1.359375 C 1.609375,-4.03125 2.078125,-4.25 2.484375,-4.25 c 0.4375,0 0.859375,0.21875 1.125,0.65625 0.265625,0.421875 0.265625,1 0.265625,1.375 0,0.359375 0,0.90625 -0.21875,1.34375 C 3.421875,-0.421875 2.984375,-0.140625 2.5,-0.140625 Z m 0,0"
+           id="path29"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-10"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.71875,-3.75 v -0.65625 l -1.4375,0.109375 v 0.3125 c 0.703125,0 0.78125,0.0625 0.78125,0.5 v 4.65625 C 1.0625,1.625 0.953125,1.625 0.28125,1.625 V 1.9375 C 0.625,1.921875 1.140625,1.90625 1.390625,1.90625 c 0.28125,0 0.78125,0.015625 1.125,0.03125 V 1.625 C 1.859375,1.625 1.75,1.625 1.75,1.171875 V -0.59375 c 0.046875,0.171875 0.46875,0.703125 1.21875,0.703125 1.1875,0 2.21875,-0.984375 2.21875,-2.265625 0,-1.265625 -0.953125,-2.25 -2.078125,-2.25 -0.78125,0 -1.203125,0.4375 -1.390625,0.65625 z M 1.75,-1.140625 v -2.21875 C 2.03125,-3.875 2.515625,-4.15625 3.03125,-4.15625 c 0.734375,0 1.328125,0.875 1.328125,2 0,1.203125 -0.6875,2.046875 -1.421875,2.046875 -0.40625,0 -0.78125,-0.203125 -1.046875,-0.609375 C 1.75,-0.921875 1.75,-0.9375 1.75,-1.140625 Z m 0,0"
+           id="path32"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-11"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="M 3.890625,-0.78125 V 0.109375 L 5.328125,0 V -0.3125 C 4.640625,-0.3125 4.5625,-0.375 4.5625,-0.875 v -3.53125 l -1.46875,0.109375 v 0.3125 c 0.6875,0 0.78125,0.0625 0.78125,0.5625 v 1.765625 c 0,0.875 -0.484375,1.546875 -1.21875,1.546875 -0.828125,0 -0.875,-0.46875 -0.875,-0.984375 v -3.3125 L 0.3125,-4.296875 v 0.3125 c 0.78125,0 0.78125,0.03125 0.78125,0.90625 v 1.5 c 0,0.78125 0,1.6875 1.515625,1.6875 0.5625,0 1,-0.28125 1.28125,-0.890625 z m 0,0"
+           id="path35"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-12"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.71875,-3.984375 h 1.4375 v -0.3125 H 1.71875 V -6.125 h -0.25 c 0,0.8125 -0.296875,1.875 -1.28125,1.921875 v 0.21875 h 0.84375 v 2.75 c 0,1.21875 0.9375,1.34375 1.296875,1.34375 0.703125,0 0.984375,-0.703125 0.984375,-1.34375 v -0.5625 h -0.25 V -1.25 c 0,0.734375 -0.296875,1.109375 -0.671875,1.109375 -0.671875,0 -0.671875,-0.90625 -0.671875,-1.078125 z m 0,0"
+           id="path38"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-13"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.75,-4.296875 v -1.15625 c 0,-0.875 0.46875,-1.359375 0.90625,-1.359375 0.03125,0 0.1875,0 0.328125,0.078125 C 2.875,-6.703125 2.6875,-6.5625 2.6875,-6.3125 c 0,0.21875 0.15625,0.421875 0.4375,0.421875 0.28125,0 0.4375,-0.203125 0.4375,-0.4375 0,-0.375 -0.375,-0.703125 -0.90625,-0.703125 -0.6875,0 -1.546875,0.53125 -1.546875,1.59375 v 1.140625 h -0.78125 v 0.3125 h 0.78125 V -0.75 C 1.109375,-0.3125 1,-0.3125 0.34375,-0.3125 V 0 c 0.390625,-0.015625 0.859375,-0.03125 1.125,-0.03125 0.40625,0 0.875,0 1.265625,0.03125 V -0.3125 H 2.53125 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 v -3.203125 h 1.125 v -0.3125 z m 0,0"
+           id="path41"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-14"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 3.3125,-0.75 c 0.046875,0.390625 0.3125,0.8125 0.78125,0.8125 0.21875,0 0.828125,-0.140625 0.828125,-0.953125 v -0.5625 h -0.25 v 0.5625 c 0,0.578125 -0.25,0.640625 -0.359375,0.640625 -0.328125,0 -0.375,-0.453125 -0.375,-0.5 v -1.984375 c 0,-0.421875 0,-0.8125 -0.359375,-1.1875 C 3.1875,-4.3125 2.6875,-4.46875 2.21875,-4.46875 c -0.828125,0 -1.515625,0.46875 -1.515625,1.125 0,0.296875 0.203125,0.46875 0.46875,0.46875 0.28125,0 0.453125,-0.203125 0.453125,-0.453125 0,-0.125 -0.046875,-0.453125 -0.515625,-0.453125 C 1.390625,-4.140625 1.875,-4.25 2.1875,-4.25 c 0.5,0 1.0625,0.390625 1.0625,1.28125 v 0.359375 c -0.515625,0.03125 -1.203125,0.0625 -1.828125,0.359375 -0.75,0.34375 -1,0.859375 -1,1.296875 0,0.8125 0.96875,1.0625 1.59375,1.0625 0.65625,0 1.109375,-0.40625 1.296875,-0.859375 z M 3.25,-2.390625 v 1 c 0,0.9375 -0.71875,1.28125 -1.171875,1.28125 -0.484375,0 -0.890625,-0.34375 -0.890625,-0.84375 0,-0.546875 0.421875,-1.375 2.0625,-1.4375 z m 0,0"
+           id="path44"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph0-15"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.171875,-2.171875 c 0,-1.625 0.8125,-2.046875 1.34375,-2.046875 0.09375,0 0.71875,0.015625 1.0625,0.375 -0.40625,0.03125 -0.46875,0.328125 -0.46875,0.453125 0,0.265625 0.1875,0.453125 0.453125,0.453125 0.265625,0 0.46875,-0.15625 0.46875,-0.46875 0,-0.671875 -0.765625,-1.0625 -1.53125,-1.0625 -1.25,0 -2.15625,1.078125 -2.15625,2.3125 0,1.28125 0.984375,2.265625 2.140625,2.265625 1.328125,0 1.65625,-1.203125 1.65625,-1.296875 0,-0.09375 -0.109375,-0.09375 -0.140625,-0.09375 -0.078125,0 -0.109375,0.03125 -0.125,0.09375 -0.28125,0.921875 -0.9375,1.046875 -1.296875,1.046875 -0.53125,0 -1.40625,-0.421875 -1.40625,-2.03125 z m 0,0"
+           id="path47"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph1-0"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d=""
+           id="path50"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph1-1"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m 1.90625,-0.53125 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
+           id="path53"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-0"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d=""
+           id="path56"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-1"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m -6.59375,-2.40625 c -0.21875,0.09375 -0.21875,0.125 -0.21875,0.359375 V -0.375 H -6.5 v -0.234375 c 0,-0.765625 0.109375,-0.78125 0.46875,-0.78125 h 4.984375 c 0.265625,0 0.734375,0 0.734375,1.015625 H 0 c -0.015625,-0.34375 -0.03125,-0.828125 -0.03125,-1.15625 0,-0.328125 0.015625,-0.828125 0.03125,-1.171875 h -0.3125 c 0,1.03125 -0.46875,1.03125 -0.734375,1.03125 h -5.375 V -1.6875 L -0.21875,-4.09375 C -0.09375,-4.140625 0,-4.1875 0,-4.28125 0,-4.390625 -0.078125,-4.421875 -0.1875,-4.46875 L -6.5,-6.921875 h 5.71875 c 0.359375,0 0.46875,0.015625 0.46875,0.78125 V -5.90625 H 0 c -0.03125,-0.359375 -0.03125,-1.046875 -0.03125,-1.4375 0,-0.375 0,-1.046875 0.03125,-1.421875 h -0.3125 v 0.25 c 0,0.765625 -0.109375,0.78125 -0.46875,0.78125 h -5.25 C -6.390625,-7.734375 -6.5,-7.75 -6.5,-8.515625 v -0.25 h -0.3125 v 1.6875 c 0,0.265625 0.015625,0.265625 0.1875,0.328125 L -1,-4.5625 Z m 0,0"
+           id="path59"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-2"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m -2.140625,-4.6875 c -1.265625,0 -2.328125,0.984375 -2.328125,2.1875 0,1.25 1.09375,2.21875 2.328125,2.21875 1.296875,0 2.25,-1.03125 2.25,-2.203125 0,-1.203125 -0.984375,-2.203125 -2.25,-2.203125 z m 2,2.1875 c 0,0.4375 -0.203125,0.875 -0.671875,1.140625 -0.4375,0.25 -1.046875,0.25 -1.40625,0.25 -0.390625,0 -0.921875,0 -1.359375,-0.234375 C -4.03125,-1.609375 -4.25,-2.078125 -4.25,-2.484375 c 0,-0.4375 0.21875,-0.859375 0.65625,-1.125 0.421875,-0.265625 1,-0.265625 1.375,-0.265625 0.359375,0 0.90625,0 1.34375,0.21875 0.453125,0.234375 0.734375,0.671875 0.734375,1.15625 z m 0,0"
+           id="path62"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-3"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m -0.546875,-3.78125 h 0.65625 L 0,-5.25 h -0.3125 c 0,0.6875 -0.0625,0.78125 -0.5625,0.78125 H -6.921875 L -6.8125,-3.046875 H -6.5 c 0,-0.6875 0.0625,-0.765625 0.5625,-0.765625 h 2.15625 c -0.359375,0.28125 -0.625,0.71875 -0.625,1.25 0,1.171875 0.984375,2.21875 2.265625,2.21875 1.265625,0 2.25,-0.96875 2.25,-2.109375 0,-0.640625 -0.34375,-1.078125 -0.65625,-1.328125 z m -2.671875,0 h 2.046875 c 0.171875,0 0.1875,0 0.359375,0.109375 0.484375,0.296875 0.703125,0.734375 0.703125,1.171875 0,0.453125 -0.265625,0.8125 -0.640625,1.046875 -0.40625,0.25 -0.96875,0.28125 -1.390625,0.28125 -0.359375,0 -0.953125,-0.015625 -1.40625,-0.296875 -0.3125,-0.21875 -0.640625,-0.59375 -0.640625,-1.140625 0,-0.34375 0.15625,-0.765625 0.59375,-1.0625 0.171875,-0.109375 0.1875,-0.109375 0.375,-0.109375 z m 0,0"
+           id="path65"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-4"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="M -2.515625,-1.109375 C -4,-1.171875 -4.25,-2.015625 -4.25,-2.359375 c 0,-1.015625 1.34375,-1.125 1.734375,-1.125 z m 0.21875,0 v -2.78125 c 0,-0.21875 0,-0.25 -0.21875,-0.25 -0.984375,0 -1.953125,0.546875 -1.953125,1.78125 0,1.15625 1.03125,2.078125 2.28125,2.078125 1.328125,0 2.296875,-1.046875 2.296875,-2.1875 0,-1.21875 -1.109375,-1.671875 -1.296875,-1.671875 -0.09375,0 -0.125,0.078125 -0.125,0.140625 0,0.078125 0.0625,0.109375 0.140625,0.125 1.03125,0.34375 1.03125,1.25 1.03125,1.34375 0,0.5 -0.296875,0.890625 -0.671875,1.125 -0.46875,0.296875 -1.125,0.296875 -1.484375,0.296875 z m 0,0"
+           id="path68"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-5"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m -6.921875,-1.765625 0.109375,1.4375 H -6.5 c 0,-0.703125 0.0625,-0.78125 0.5625,-0.78125 H -0.75 c 0.4375,0 0.4375,0.109375 0.4375,0.78125 H 0 C -0.015625,-0.65625 -0.03125,-1.1875 -0.03125,-1.4375 c 0,-0.25 0.015625,-0.734375 0.03125,-1.109375 h -0.3125 c 0,0.671875 0,0.78125 -0.4375,0.78125 z m 0,0"
+           id="path71"
+           inkscape:connector-curvature="0" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="glyph2-6"
+         style="overflow:visible">
+        <path
+           style="stroke:none"
+           d="m -1.9375,-2.078125 c 0.046875,-0.21875 0.203125,-1.03125 0.921875,-1.03125 0.5,0 0.90625,0.34375 0.90625,1.125 0,0.84375 -0.5625,1.203125 -1.421875,1.390625 -0.125,0.03125 -0.15625,0.03125 -0.15625,0.140625 0,0.125 0.0625,0.125 0.234375,0.125 H -0.125 c 0.171875,0 0.234375,0 0.234375,-0.109375 0,-0.046875 -0.015625,-0.0625 -0.203125,-0.25 -0.015625,-0.015625 -0.03125,-0.015625 -0.21875,-0.203125 0.40625,-0.4375 0.421875,-0.890625 0.421875,-1.09375 0,-1.140625 -0.671875,-1.609375 -1.390625,-1.609375 -0.515625,0 -0.828125,0.296875 -0.9375,0.421875 -0.328125,0.328125 -0.40625,0.71875 -0.484375,1.140625 -0.109375,0.5625 -0.234375,1.21875 -0.8125,1.21875 -0.359375,0 -0.765625,-0.25 -0.765625,-1.109375 0,-1.09375 0.90625,-1.15625 1.203125,-1.171875 0.09375,0 0.09375,-0.09375 0.09375,-0.109375 0,-0.140625 -0.046875,-0.140625 -0.234375,-0.140625 h -1.015625 c -0.15625,0 -0.234375,0 -0.234375,0.109375 0,0.046875 0,0.078125 0.125,0.203125 0.03125,0.03125 0.125,0.125 0.15625,0.171875 -0.28125,0.375 -0.28125,0.78125 -0.28125,0.9375 0,1.21875 0.671875,1.59375 1.234375,1.59375 0.34375,0 0.625,-0.15625 0.84375,-0.421875 0.25,-0.328125 0.3125,-0.609375 0.453125,-1.328125 z m 0,0"
+           id="path74"
+           inkscape:connector-curvature="0" />
+      </symbol>
+    </g>
+  </defs>
+  <g
+     id="surface1"
+     transform="translate(-144.52913,-120.19528)">
+    <path
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.19925;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="M 36.431969,3.125e-5 V 4.250031 M 76.908531,3.125e-5 V 4.250031 M 117.38509,3.125e-5 V 4.250031 M 157.86166,3.125e-5 V 4.250031 M 36.431969,161.39847 v -4.25 m 40.476562,4.25 v -4.25 m 40.476559,4.25 v -4.25 m 40.47657,4.25 v -4.25"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path81"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.19925;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m -0.001625,28.76175 h 4.253906 m -4.253906,43.066406 h 4.253906 m -4.253906,43.066404 h 4.253906 m -4.253906,43.06641 H 4.252281 M 194.29134,28.76175 h -4.2539 m 4.2539,43.066406 h -4.2539 m 4.2539,43.066404 h -4.2539 m 4.2539,43.06641 h -4.2539"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path83"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="M -0.001625,3.125e-5 V 161.39847 H 194.29134 V 3.125e-5 Z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path85"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#e3e3ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 206.55078,148.87891 20.24219,6.89062 20.23828,22.67578 20.23828,6.22266 20.23828,35.1875 20.23828,-13.97656 20.23828,-21.96485 20.23829,-31.02734 20.23828,-11.54297 v 51.67969 l -20.23828,2.92968 -20.23829,9.4961 -20.23828,43.49609 -20.23828,26.89844 -20.23828,-17.96094 -20.23828,-36.37109 -20.23828,3.16797 -20.24219,-24.11719 z m 0,0"
+       id="path87"
+       inkscape:connector-curvature="0" />
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g91">
+      <use
+         xlink:href="#glyph0-1"
+         x="220.42599"
+         y="299.233"
+         id="use89"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g95">
+      <use
+         xlink:href="#glyph1-1"
+         x="225.407"
+         y="299.233"
+         id="use93"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g99">
+      <use
+         xlink:href="#glyph0-2"
+         x="228.175"
+         y="299.233"
+         id="use97"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g103">
+      <use
+         xlink:href="#glyph0-1"
+         x="260.90201"
+         y="299.233"
+         id="use101"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g107">
+      <use
+         xlink:href="#glyph1-1"
+         x="265.884"
+         y="299.233"
+         id="use105"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g111">
+      <use
+         xlink:href="#glyph0-3"
+         x="268.651"
+         y="299.233"
+         id="use109"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g115">
+      <use
+         xlink:href="#glyph0-1"
+         x="301.37799"
+         y="299.233"
+         id="use113"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g119">
+      <use
+         xlink:href="#glyph1-1"
+         x="306.35999"
+         y="299.233"
+         id="use117"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g123">
+      <use
+         xlink:href="#glyph0-4"
+         x="309.12701"
+         y="299.233"
+         id="use121"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g127">
+      <use
+         xlink:href="#glyph0-1"
+         x="341.85501"
+         y="299.233"
+         id="use125"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g131">
+      <use
+         xlink:href="#glyph1-1"
+         x="346.836"
+         y="299.233"
+         id="use129"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g135">
+      <use
+         xlink:href="#glyph0-5"
+         x="349.603"
+         y="299.233"
+         id="use133"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g139">
+      <use
+         xlink:href="#glyph0-1"
+         x="174.11099"
+         y="263.74301"
+         id="use137"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g143">
+      <use
+         xlink:href="#glyph1-1"
+         x="179.093"
+         y="263.74301"
+         id="use141"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g147">
+      <use
+         xlink:href="#glyph0-3"
+         x="181.86"
+         y="263.74301"
+         id="use145"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g151">
+      <use
+         xlink:href="#glyph0-1"
+         x="174.11099"
+         y="220.67599"
+         id="use149"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g155">
+      <use
+         xlink:href="#glyph1-1"
+         x="179.093"
+         y="220.67599"
+         id="use153"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g159">
+      <use
+         xlink:href="#glyph0-4"
+         x="181.86"
+         y="220.67599"
+         id="use157"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g163">
+      <use
+         xlink:href="#glyph0-1"
+         x="174.11099"
+         y="177.60899"
+         id="use161"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g167">
+      <use
+         xlink:href="#glyph1-1"
+         x="179.093"
+         y="177.60899"
+         id="use165"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g171">
+      <use
+         xlink:href="#glyph0-5"
+         x="181.86"
+         y="177.60899"
+         id="use169"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g175">
+      <use
+         xlink:href="#glyph0-6"
+         x="181.86"
+         y="134.543"
+         id="use173"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="M 16.189781,114.57425 36.431969,99.066438 56.67025,89.312531 76.908531,68.015656 97.146812,41.445344 l 20.238278,20.433594 20.23828,32.730468 20.23829,20.265624 20.23828,7.23438"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path177"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 18.185875,114.57425 c 0,1.09766 -0.894531,1.99219 -1.996094,1.99219 -1.097656,0 -1.992187,-0.89453 -1.992187,-1.99219 0,-1.10156 0.894531,-1.99609 1.992187,-1.99609 1.101563,0 1.996094,0.89453 1.996094,1.99609 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path179"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 38.424156,99.066438 c 0,1.101562 -0.894531,1.996092 -1.992187,1.996092 -1.101563,0 -1.996094,-0.89453 -1.996094,-1.996092 0,-1.097657 0.894531,-1.992188 1.996094,-1.992188 1.097656,0 1.992187,0.894531 1.992187,1.992188 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path181"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 58.662437,89.312531 c 0,1.101563 -0.894531,1.992188 -1.992187,1.992188 -1.101563,0 -1.996094,-0.890625 -1.996094,-1.992188 0,-1.097656 0.894531,-1.992187 1.996094,-1.992187 1.097656,0 1.992187,0.894531 1.992187,1.992187 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path183"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 78.900719,68.015656 c 0,1.101563 -0.894532,1.992188 -1.992188,1.992188 -1.101562,0 -1.996094,-0.890625 -1.996094,-1.992188 0,-1.097656 0.894532,-1.992187 1.996094,-1.992187 1.097656,0 1.992188,0.894531 1.992188,1.992187 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path185"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 99.139,41.445344 c 0,1.097656 -0.894531,1.992187 -1.992188,1.992187 -1.101562,0 -1.992187,-0.894531 -1.992187,-1.992187 0,-1.101563 0.890625,-1.992188 1.992187,-1.992188 1.097657,0 1.992188,0.890625 1.992188,1.992188 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path187"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 119.37728,61.878938 c 0,1.101562 -0.89453,1.992187 -1.99219,1.992187 -1.10156,0 -1.99218,-0.890625 -1.99218,-1.992187 0,-1.101563 0.89062,-1.992188 1.99218,-1.992188 1.09766,0 1.99219,0.890625 1.99219,1.992188 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path189"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 139.61556,94.609406 c 0,1.101563 -0.89453,1.992188 -1.99219,1.992188 -1.10156,0 -1.99218,-0.890625 -1.99218,-1.992188 0,-1.097656 0.89062,-1.992187 1.99218,-1.992187 1.09766,0 1.99219,0.894531 1.99219,1.992187 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path191"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 159.85384,114.87503 c 0,1.09766 -0.89453,1.99219 -1.99218,1.99219 -1.10157,0 -1.99219,-0.89453 -1.99219,-1.99219 0,-1.10156 0.89062,-1.99219 1.99219,-1.99219 1.09765,0 1.99218,0.89063 1.99218,1.99219 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path193"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 180.09212,122.10941 c 0,1.10156 -0.89453,1.99218 -1.99218,1.99218 -1.10157,0 -1.99219,-0.89062 -1.99219,-1.99218 0,-1.10157 0.89062,-1.99219 1.99219,-1.99219 1.09765,0 1.99218,0.89062 1.99218,1.99219 z m 0,0"
+       transform="matrix(1,0,0,-1,190.361,289.293)"
+       id="path195"
+       inkscape:connector-curvature="0" />
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g205">
+      <use
+         xlink:href="#glyph0-7"
+         x="254.89101"
+         y="314.67599"
+         id="use197"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-8"
+         x="262.50143"
+         y="314.67599"
+         id="use199"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-9"
+         x="266.40378"
+         y="314.67599"
+         id="use201"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-10"
+         x="271.38507"
+         y="314.67599"
+         id="use203"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g213">
+      <use
+         xlink:href="#glyph0-9"
+         x="277.19925"
+         y="314.67599"
+         id="use207"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-11"
+         x="282.18054"
+         y="314.67599"
+         id="use209"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-12"
+         x="287.71576"
+         y="314.67599"
+         id="use211"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g227">
+      <use
+         xlink:href="#glyph0-13"
+         x="294.90778"
+         y="314.67599"
+         id="use215"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-14"
+         x="297.95233"
+         y="314.67599"
+         id="use217"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-15"
+         x="302.93365"
+         y="314.67599"
+         id="use219"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-12"
+         x="307.36102"
+         y="314.67599"
+         id="use221"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-9"
+         x="311.23547"
+         y="314.67599"
+         id="use223"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph0-8"
+         x="316.21677"
+         y="314.67599"
+         id="use225"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g233">
+      <use
+         xlink:href="#glyph2-1"
+         x="158.951"
+         y="231.619"
+         id="use229"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-2"
+         x="158.951"
+         y="222.48628"
+         id="use231"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g241">
+      <use
+         xlink:href="#glyph2-3"
+         x="158.951"
+         y="217.22603"
+         id="use235"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-4"
+         x="158.951"
+         y="211.69081"
+         id="use237"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-5"
+         x="158.951"
+         y="207.26343"
+         id="use239"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g251">
+      <use
+         xlink:href="#glyph2-5"
+         x="158.951"
+         y="201.17827"
+         id="use243"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-2"
+         x="158.951"
+         y="198.41066"
+         id="use245"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-6"
+         x="158.951"
+         y="193.42937"
+         id="use247"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#glyph2-6"
+         x="158.951"
+         y="189.50012"
+         id="use249"
+         width="100%"
+         height="100%" />
     </g>
   </g>
 </svg>

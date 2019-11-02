@@ -80,26 +80,52 @@ LaTeX chart:
 
 \documentclass{article}
 \usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
 \begin{document}
-\thispagestyle{empty}
-\begin{tikzpicture}
-\begin{axis}[
-xlabel=Dropout factor,
-ylabel=Model loss]
-\addplot+[error bars/.cd,y dir=both,y explicit] 
-coordinates {
-	(0.1, 0.7985)   +- (0, 0.12)
-	(0.2, 0.7265)	+- (0, 0.16)
-	(0.3, 0.6812)	+- (0, 0.1)
-	(0.4, 0.5823)	+- (0, 0.17)
-	(0.5, 0.4589)	+- (0, 0.13)
-	(0.6, 0.5538)	+- (0, 0.1)
-	(0.7, 0.7058)	+- (0, 0.05)
-	(0.8, 0.7999)	+- (0, 0.1)
-	(0.9, 0.8335)	+- (0, 0.12)
-};
-\end{axis}
-\end{tikzpicture}
+	\thispagestyle{empty}
+	\begin{tikzpicture}
+	\begin{axis}[
+	xlabel=Dropout factor,
+	ylabel=Model loss]
+	\addplot [name path=upper, draw=none]
+	coordinates {
+		(0.1, 0.9185)
+		(0.2, 0.8865)
+		(0.3, 0.7812)
+		(0.4, 0.7523)
+		(0.5, 0.5889)
+		(0.6, 0.6538)
+		(0.7, 0.7558)
+		(0.8, 0.8999)
+		(0.9, 0.9535)
+	};
+	\addplot [name path=lower, draw=none]
+	coordinates {
+		(0.1, 0.6785)
+		(0.2, 0.5665)
+		(0.3, 0.5812)
+		(0.4, 0.4123)
+		(0.5, 0.3289)
+		(0.6, 0.4538)
+		(0.7, 0.6558)
+		(0.8, 0.6999)
+		(0.9, 0.7135)
+	};
+	\addplot [fill=blue!10] fill between[of=upper and lower];
+	\addplot [color=blue, mark=*]
+	coordinates {
+		(0.1, 0.7985)
+		(0.2, 0.7265)
+		(0.3, 0.6812)
+		(0.4, 0.5823)
+		(0.5, 0.4589)
+		(0.6, 0.5538)
+		(0.7, 0.7058)
+		(0.8, 0.7999)
+		(0.9, 0.8335)
+	};
+	\end{axis}
+	\end{tikzpicture}
 \end{document}
 -->
 
@@ -108,7 +134,7 @@ coordinates {
 Protopipe is a web platform accessible from any web browser, operating system and device.
 
 <p style="text-align: center">
-    <img class="hardcoded" src="assets/img/operating_systems.svg" alt="Windows, Linux, macOS, iOS, Android" style="margin: 1rem 0" />
+    <img class="hardcoded" src="assets/img/README/operating_systems.svg" alt="Windows, Linux, macOS, iOS, Android" style="margin: 1rem 0" />
 </p>
 
 ## Getting started
