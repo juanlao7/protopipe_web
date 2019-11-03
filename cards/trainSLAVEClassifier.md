@@ -54,6 +54,10 @@ Trains a classifier based on [SLAVE: a genetic learning system based on an itera
 ### Outputs
 
 
+* **Rules** --- [String](types/String.html)
+
+  Textual representation of the generated rules.
+
 * **Model** --- [DynamicObject](types/DynamicObject.html)
 
   Trained SLAVE classifier.
