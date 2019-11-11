@@ -8,7 +8,7 @@
 
 This page explains everything you need to know to start using Protopipe.
 
-If you prefer to learn by doing, you can follow [this quick introductory tutorial](tutorials/introductory).
+If you prefer to learn by doing, you can follow [this quick introductory tutorial](tutorials/introductory/SLAVE).
 
 ### Pipeline design
 

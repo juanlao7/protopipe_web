@@ -11,7 +11,8 @@
     * [Work screen](work_screen.html)
     * [Reports screen](reports_screen.html)
 * Tutorials
-    * [Quick introductory tutorial](tutorials/introductory/)
+    * Introductory
+        * [Wine classification with SLAVE, a genetic fuzzy system](tutorials/introductory/SLAVE)
 * [Index of cards](cards/)
 * [Index of data types](types/)
 * [System requirements](requirements.html)

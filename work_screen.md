@@ -12,7 +12,7 @@ In this screen you can design and test machine learning pipelines.
 
 This is page explains how to use the main graphical interface of Protopipe. If you are more interested in learning the basics of Protopipe, see [this page](basics.html).
 
-However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory).
+However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory/SLAVE).
 
 ### Create a card
 
