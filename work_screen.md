@@ -34,7 +34,7 @@ The **Modules** tab contains a catalog of all the cards available in the system,
 
 ### Select cards
 
-Select cards by pressing them (press `Ctrl` while clicking to select multiple cards) or by enclosing them in a selection rectangle.
+Select cards by pressing them (press `Ctrl` while pressing to select multiple cards) or by enclosing them in a selection rectangle.
 
 ### Delete cards
 
@@ -99,7 +99,7 @@ A new panel will appear at the side of the screen. It contains real-time informa
 
 !["Processing" panel](assets/img/work_screen/process_2.png)
 
-You can stop the process at any moment by clicking the *Stop processing* button.
+You can stop the process at any moment by pressing the *Stop processing* button.
 
 !["Stop processing" button](assets/img/work_screen/process_3.png)
 
@@ -125,7 +125,7 @@ Connect the output of the parameter card to the input you want to optimize. For 
 
 ![Integer parameter card connected to a Train SLAVE classifier card](assets/img/work_screen/tune_6.png)
 
-When the pipeline contains optimizable parameters, the *Fine tune settings* button appears in the top bar.
+When the pipeline contains optimizable parameters, the *Fine tune settings* button appears on the top bar.
 
 !["Fine tune settings" button](assets/img/work_screen/tune_4.png)
 
@@ -141,8 +141,8 @@ Moreover, if we had another optimizable integer parameter with a domain size of 
 
 ### Analyze the results
 
-The result of [processing a project](#process-the-project) is a report. The *Reports* button will appear in the top bar after the first time you process the project.
+The result of [processing a project](#process-the-project) is a report. The *Reports* button will appear on the top bar after the first time you process the project.
 
 !["Reports" button](assets/img/work_screen/analyze_1.png)
 
-Click on it to open the reports screen. Please, continue reading [here](reports_screen.html).
+Press the *Reports* button to open [the reports screen](reports_screen.html).

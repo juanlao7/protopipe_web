@@ -9,7 +9,7 @@
 
 {{ help }}
 
-![{{ title }}](assets/img/cards/{{ id }}.png)
+!["{{ title }}" card](assets/img/cards/{{ id }}.png)
 
 {% if inputs %}
 ### Inputs
