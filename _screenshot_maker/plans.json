@@ -302,5 +302,227 @@
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],
         "width": 750,
         "height": 500
+    },
+    "SLAVE/upload_1": {
+        "project": "projects/SLAVE!upload_1.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_protopipeFAB"],
+        "elementWithMargin": ".ppui_protopipeFAB"
+    },
+    "SLAVE/upload_2": {
+        "project": "projects/SLAVE!upload_1.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_openFile"
+    },
+    "SLAVE/prepare_1": {
+        "project": "projects/SLAVE!upload_1.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules", "t:Files and formats"],
+        "hover": ["t:Read as CSV"],
+        "elementWithMargin": ".ppui_protopipeFAB"
+    },
+    "SLAVE/prepare_2": {
+        "project": "projects/SLAVE!prepare_2.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/prepare_3": {
+        "project": "projects/SLAVE!prepare_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["#blueprintCard_openFile", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 2000
+    },
+    "SLAVE/prepare_4": {
+        "project": "projects/SLAVE!prepare_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["#blueprintCard_readAsCSV", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 2000
+    },
+    "SLAVE/prepare_5": {
+        "project": "projects/SLAVE!prepare_5.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/prepare_6": {
+        "project": "projects/SLAVE!prepare_5.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["#blueprintCard_shuffleRows", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 2000
+    },
+    "SLAVE/prepare_7": {
+        "project": "projects/SLAVE!prepare_7.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/training_1": {
+        "project": "projects/SLAVE!training_1.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/training_2": {
+        "project": "projects/SLAVE!training_2.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_splitIntoXAndYByColumns"
+    },
+    "SLAVE/training_3": {
+        "project": "projects/SLAVE!training_3.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/training_4": {
+        "card": ["Parameters", "Integer parameter"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+    "SLAVE/training_5": {
+        "project": "projects/SLAVE!training_5.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/training_6": {
+        "project": "projects/SLAVE!training_6.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_parameterInteger"
+    },
+    "SLAVE/training_7": {
+        "project": "projects/SLAVE!training_7.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/training_8": {
+        "project": "projects/SLAVE!training_8.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_parameterFloat"
+    },
+    "SLAVE/testing_1": {
+        "project": "projects/SLAVE!testing_1.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/testing_2": {
+        "project": "projects/SLAVE!testing_2.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_splitIntoXAndYByColumns2"
+    },
+    "SLAVE/testing_3": {
+        "project": "projects/SLAVE!testing_3.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+    "SLAVE/testing_4": {
+        "project": "projects/SLAVE!testing_4.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_5": {
+        "project": "projects/SLAVE!testing_5.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_6": {
+        "project": "projects/SLAVE!testing_6.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_7": {
+        "project": "projects/SLAVE!testing_7.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_8": {
+        "project": "projects/SLAVE!testing_8.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_9": {
+        "project": "projects/SLAVE!testing_9.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/testing_10": {
+        "card": ["Returns", "Return float"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+    "SLAVE/testing_11": {
+        "project": "projects/SLAVE!testing_11.zip",
+        "projectName": "Wine classification",
+        "frameCards": true,
+        "width": 3000
+    },
+    "SLAVE/experimenting_1": {
+        "project": "projects/SLAVE!testing_11.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "height": 600,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 100,
+        "marginBottom": -230
+    },
+    "SLAVE/experimenting_2": {
+        "project": "projects/SLAVE!experimenting_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "height": 600,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 100,
+        "marginBottom": -230
+    },
+    "SLAVE/experimenting_3": {
+        "card": ["Returns", "Return float"],
+        "cardImplicit": "Mean accuracy",
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "clickElementWhenReady": ["t:play_arrow"]
+    },
+    "SLAVE/experimenting_4": {
+        "project": "projects/SLAVE!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Experiments"],
+        "width": 1280,
+        "height": 800
+    },
+    "SLAVE/experimenting_5": {
+        "project": "projects/SLAVE!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Experiments", "th:last-child", "th:last-child"],
+        "elementWithMargin": ".ppui_table",
+        "width": 1280,
+        "height": 800
+    },
+    "SLAVE/analysis_1": {
+        "project": "projects/SLAVE!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Cross-sectional analysis"],
+        "width": 1280,
+        "height": 800
+    },
+    "SLAVE/analysis_2": {
+        "project": "projects/SLAVE!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Cross-sectional analysis", ".ppui_radioGroup > *:last-child"],
+        "elementWithMargin": "#reportsAndDrawerContainer > *:last-child",
+        "width": 1280,
+        "height": 800,
+        "margin": -115,
+        "marginLeft": -175,
+        "marginRight": -175,
+        "marginBottom": 0
     }
 }

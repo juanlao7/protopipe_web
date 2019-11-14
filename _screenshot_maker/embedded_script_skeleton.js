@@ -17,8 +17,9 @@
     }
 
     async function takeScreenshot() {
-        console.log('3.. 2.. 1...');
+        console.log('3... 2... 1...');
         await clickElementWhenReady();
+        await hoverElements();
         await timeout(plan.delay);
 
         if ('elementWithMargin' in plan) {
@@ -114,6 +115,42 @@
         }
 
         await timeout(GENERAL_ANIMATION_DELAY);
+    }
+
+    async function hoverElements() {
+        if (!('hover' in plan)) {
+            return;
+        }
+
+        let rules = '';
+
+        for (let i = 0; i < document.styleSheets.length; ++i) {
+            const stylesheet = document.styleSheets[i];
+
+            for (let j = 0; j < stylesheet.cssRules.length; ++j) {
+                const rule = stylesheet.cssRules[j];
+
+                 if (rule.cssText.includes(':hover')) {
+                     console.log(`Replacing :hover by .hover in rule "${rule.cssText}"`);
+                     rules += rule.cssText.split(':hover').join('.hover');
+                 }
+            }
+        }
+
+        const style = document.createElement('style');
+        style.appendChild(document.createTextNode(rules));
+        document.getElementsByTagName('head')[0].appendChild(style);
+
+        while (plan.hover.length > 0) {
+            const selector = plan.hover.shift();
+            await waitForSelector(selector);
+            let element = findSelector(selector);
+
+            while (element != null) {
+                element.classList.add('hover');
+                element = element.parentElement;
+            }
+        }
     }
 
     async function removeElements() {

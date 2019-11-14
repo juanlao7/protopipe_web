@@ -40,11 +40,11 @@ Now we need to upload the file to the project. Press the *Create card* button.
 
 Press **Upload file** and select the file you just downloaded. A new entry, **wine.data**, will appear in the menu.
 
-[foto de tab Data con wine.data]
+![Data tab](assets/img/SLAVE/upload_1.png)
 
 Press the **wine.data** entry to create an [Open file](cards/openFile.html) card.
 
-[foto openFile("wine.data")]
+!["Open file" card](assets/img/SLAVE/upload_2.png)
 
 ### 3. Prepare the data
 
@@ -75,7 +75,7 @@ Press the *Create card* button.
 
 In the **Modules** tab, navigate to **Files and formats** and press **Read as CSV**.
 
-[foto menu modules con Files and formats abierto y Read as CSV seleccionado]
+!["Create card" menu](assets/img/SLAVE/prepare_1.png)
 
 A new [Read as CSV](cards/readAsCSV.html) card will appear in the blueprint.
 
@@ -83,7 +83,7 @@ A new [Read as CSV](cards/readAsCSV.html) card will appear in the blueprint.
 
 Connect the **Stream** output from [Open file](cards/openFile.html) to the **Stream** input of [Read as CSV](cards/readAsCSV.html).
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/prepare_2.png)
 
 Now we just have to configure the parameters of the CSV reader---delimiter and header row(s)---. Getting a glimpse of the file contents can help us in this task.
 
@@ -93,13 +93,13 @@ Select the [Open file](cards/openFile.html) card by pressing on it and press the
 
 A dialog will appear showing a preview of the contents of `wine.data`.
 
-[foto preview]
+!["Preview output" dialog](assets/img/SLAVE/prepare_3.png)
 
 As we can see, this file has no headers and the values are delimited by commas (,). This is the current configuration of our CVS reader, so it is ready to process the file.
 
 Select the [Read as CSV](cards/readAsCSV.html) card and press the *Preview output* button on the top bar. The preview dialog will show a table this time.
 
-[foto preview csv reader]
+!["Preview output" dialog](assets/img/SLAVE/prepare_4.png)
 
 If we scroll down we will see that the dataset is sorted by the first column (the class). Performing a k-fold cross-validation in this state will lead to very poor results, since the training dataset will not contain the same classes as the test dataset in most cases.
 
@@ -109,11 +109,11 @@ We need to shuffle the dataset. Press the *Create card* button, navigate to **Ta
 
 Connect the **Table** output from [Read as CSV](cards/readAsCSV.html) to the **Data** input of [Shuffle rows](cards/shuffleRows.html).
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/prepare_5.png)
 
 If we get a preview of the **Shuffled** output, we can see that the table has been correctly shuffled.
 
-[foto shuffled]
+!["Preview output" dialog](assets/img/SLAVE/prepare_6.png)
 
 Now we are finally ready to perform the K-fold cross-validation.
 
@@ -123,7 +123,7 @@ Press the *Create card* button, navigate to **Validation** and press **K-fold cr
 
 Connect the **Shuffled** output from [Shuffle rows](cards/shuffleRows.html) to the **Data** input of [K-fold cross-validation](cards/kFoldCrossValidation.html).
 
-[foto cartas conectadas]
+![Current pipeline](assets/img/SLAVE/prepare_7.png)
 
 As we can see, the [K-fold cross-validation](cards/kFoldCrossValidation.html) card already has a default value of 5 for K, which exactly what we need.
 
@@ -139,11 +139,11 @@ First of all we need to split the input and output of the training table. Press 
 
 Connect the **Training** output from [K-fold cross-validation](cards/kFoldCrossValidation.html) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
 
-[foto cards conectadas]
+![Current pipeline](assets/img/SLAVE/training_1.png)
 
 We want to predict the value of the 1st column of the table (index 0) using columns 2 to 14 (indexes 1 to 13) as input for our model. Set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
 
-[foto split con los valores puestos]
+!["Split into X and Y by columns" card configured](assets/img/SLAVE/training_2.png)
 
 Now we are ready to train our model. Press the *Create card* button, navigate to **Models** &#x226B; **Fuzzy logic** and press **Train SLAVE classifier**. A new [Train SLAVE classifier](cards/trainSLAVEClassifier.html) card will appear in the blueprint.
 
@@ -151,7 +151,7 @@ Now we are ready to train our model. Press the *Create card* button, navigate to
 
 Connect the **X** and **Y** outputs from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **Training X** and **Training Y** inputs of [Train SLAVE classifier](cards/trainSLAVEClassifier.html) respectively.
 
-[foto conexiones]
+![Current pipeline](assets/img/SLAVE/training_3.png)
 
 As we can see, the training process of SLAVE depends on several parameters that can be tuned (e.g., *number of labels*, *population size*, *mutation probability*). We do not know what combination of values lead to the best accuracy, or what effect each parameter has on the overall performance, but that is not a problem. Protopipe has a way of answering this kind of questions.
 
@@ -159,31 +159,27 @@ In this tutorial we will analyze the effect of the *population size* and the *mu
 
 Press the *Create card* button, navigate to **Parameters** and press **Integer parameter**. A new dialog will appear asking for the name of this parameter.
 
-[foto dialog]
+![Dialog asking for the name of the parameter](assets/img/SLAVE/training_4.png)
 
 Write "Population size" and press **Set**. A new [Integer parameter](cards/parameterInteger.html) card will appear in the blueprint.
 
-[foto integer parameter card con "Population size"]
-
 Connect the **Value** output from [Integer parameter](cards/parameterInteger.html) to the **Population size** input of [Train SLAVE classifier](cards/trainSLAVEClassifier.html).
 
-[foto integer parameter conectado]
+![Current pipeline](assets/img/SLAVE/training_5.png)
 
 Now we must specify a domain of possible values for this parameter. In this tutorial we will try 10, 50 and 100.
 
-[foto integer parameter con 10,50,100]
+!["Integer parameter" card configured](assets/img/SLAVE/training_6.png)
 
 Now we will do the same for *mutation probability*. Press the *Create card* button, navigate to **Parameters** and press **Float parameter**. Name this parameter "Mutation probability".
 
-[foto float parameter card con "Mutation probability"]
-
 Connect the **Value** output from [Float parameter](cards/parameterFloat.html) to the **Mutation probability** input of [Train SLAVE classifier](cards/trainSLAVEClassifier.html).
 
-[foto float parameter conectado]
+![Current pipeline](assets/img/SLAVE/training_7.png)
 
 The domain of possible values for this parameter will be between 0.1 and 0.9.
 
-[foto float parameter con 0.1:0.9]
+!["Float parameter" card configured](assets/img/SLAVE/training_8.png)
 
 This finishes the training part of the pipeline. We are ready to measure the performance of the model.
 
@@ -193,13 +189,13 @@ First of all we need to split the input and output of the testing table, as we p
 
 !["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 
-Analogously as we did before, set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
-
-[foto split con los valores puestos]
-
 Connect the **Testing** output from [K-fold cross-validation](cards/kFoldCrossValidation.html) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
 
-[foto cards conectadas]
+![Current pipeline](assets/img/SLAVE/testing_1.png)
+
+Analogously as we did before, set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
+
+!["Split into X and Y by columns" card configured](assets/img/SLAVE/testing_2.png)
 
 At this point we are ready to ask the model for a prediction. Press the *Create card* button, navigate to **Models** and press **Predict**. A new [Predict](cards/predict.html) card will appear in the blueprint.
 
@@ -207,7 +203,7 @@ At this point we are ready to ask the model for a prediction. Press the *Create 
 
 Connect the **Model** output from [Train SLAVE classifier](cards/trainSLAVEClassifier.html) to the **Model** input of [Predict](cards/predict.html), then connect the **X** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **X** input of [Predict](cards/predict.html).
 
-[foto predict conectada]
+![Current pipeline](assets/img/SLAVE/testing_3.png)
 
 The performance of the model will be determined by averaging the accuracy obtained in each fold. Press the *Create card* button, navigate to **Loss functions** and press **Accuracy**. A new [Accuracy](cards/accuracy.html) card will appear in the blueprint.
 
@@ -215,7 +211,7 @@ The performance of the model will be determined by averaging the accuracy obtain
 
 Connect the **Y'** output from [Predict](cards/predict.html) to the **Predictions** input of [Accuracy](cards/accuracy.html), then connect the **Y** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **Target** input of [Accuracy](cards/accuracy.html).
 
-[foto conectada]
+![Current pipeline](assets/img/SLAVE/testing_4.png)
 
 Our goal is to calculate the mean accuracy of all folds, so we need to store each obtained accuracy value somewhere. On each fold we will load a **variable** list of float, add the accuracy value and store it again.
 
@@ -229,7 +225,7 @@ Make [Get list of float](cards/getFloat_n.html) an explicit listener of the *On 
 
 We need to load and store the variable on each fold in order to always access to its last version, otherwise the system would load it only once and it would always be empty.
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/testing_5.png)
 
 Press the *Create card* button, navigate to **Lists** and press **Add float to list**. A new [Add float to list](cards/addFloatToList.html) card will appear in the blueprint.
 
@@ -237,7 +233,7 @@ Press the *Create card* button, navigate to **Lists** and press **Add float to l
 
 Connect the **Value** output from [Get list of float](cards/getFloat_n.html) to the **List** input of [Add float to list](cards/addFloatToList.html), then connect the **Accuracy** output from [Accuracy](cards/accuracy.html) to the **Value** input of [Add float to list](cards/addFloatToList.html).
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/testing_6.png)
 
 Press the *Create card* button, navigate to **Variables** &#x226B; **Setters** and press **Set list of float**. A new [Set list of float](cards/setFloat_n.html) card will appear in the blueprint.
 
@@ -247,7 +243,7 @@ Set the **Name** input as "accuracies".
 
 Connect the **Result** output from [Add float to list](cards/addFloatToList.html) to the **Value** input of [Set list of float](cards/setFloat_n.html).
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/testing_7.png)
 
 At this point our pipeline is the accuracy obtained by each trained model on each fold. We are ready to compute their mean value.
 
@@ -259,7 +255,7 @@ Set the **Name** input as "accuracies".
 
 Make this [Get list of float](cards/getFloat_n.html) card an explicit listener of the *On finish* event of [K-fold cross-validation](cards/kFoldCrossValidation.html) by dragging & dropping the square socket next to **Call** into the [Get list of float](cards/getFloat_n.html) card.
 
-[foto conectadas]
+![Current pipeline](assets/img/SLAVE/testing_8.png)
 
 Press the *Create card* button, navigate to **Statistics** and press **Mean**. A new [Mean](cards/mean.html) card will appear in the blueprint.
 
@@ -267,15 +263,17 @@ Press the *Create card* button, navigate to **Statistics** and press **Mean**. A
 
 Connect the **Value** output of [Get list of float](cards/getFloat_n.html) to the **Values** input of [Mean](cards/mean.html).
 
+![Current pipeline](assets/img/SLAVE/testing_9.png)
+
 We are almost done. Now we just need to return the obtained value, so Protopipe can generate the final report. Press the *Create card* button, navigate to **Returns** and press **Return float**. A new dialog will appear asking for the name of this return value.
 
-[foto dialog]
+![Dialog asking for the name of the return value](assets/img/SLAVE/testing_10.png)
 
 Write "Mean accuracy" and press **Set**. A new [Return float](cards/returnFloat.html) card will appear in the blueprint.
 
-[foto return float card con "Mean accuracy"]
-
 Connect the **Mean** output from [Mean](cards/mean.html) to the **Value** input of [Return float](cards/returnFloat.html).
+
+![Current pipeline](assets/img/SLAVE/testing_11.png)
 
 That's it! Our pipeline is ready!
 
@@ -287,11 +285,11 @@ Press the *Fine tune settings* button on the top bar.
 
 A new panel will appear at the right side of the screen.
 
-[foto panel]
+!["Fine tune settings" panel](assets/img/SLAVE/experimenting_1.png)
 
 In **Assignation of the values** choose "Brute-force" and then set "3 samples" for the **Mutation probability** float parameter.
 
-[foto panel]
+!["Fine tune settings" panel](assets/img/SLAVE/experimenting_2.png)
 
 Press the *Start processing* button to run all the experiments.
 
@@ -303,32 +301,30 @@ A new panel will appear at the right side of the screen, showing real-time infor
 
 When the processing successfully finishes a new dialog will appear.
 
-[foto dialog finished]
+!["Processing finished" dialog](assets/img/SLAVE/experimenting_3.png)
 
 Press **See report** to open the *Reports screen*, that will contain a table that summarizes all the experiments performed.
 
-[foto experiments]
+![Table of performed experiments](assets/img/SLAVE/experimenting_4.png)
 
 Sort the table by "Mean accuracy" in descending order to check what model performed better.
 
-[foto error]
+![Table of performed experiments sorted by mean accuracy](assets/img/SLAVE/experimenting_5.png)
 
 ### 7. Analysis
 
 On the left side panel, under the most recent report node, click on **Cross-sectional analysis**.
 
-[foto cross-sectional]
+![Cross-sectional analysis screen](assets/img/SLAVE/analysis_1.png)
 
 In this screen you can compare the effect of a parameter (X axis) on a return value (Y axis).
 
-For example, here we can see how the *Mutation probability* affects *Mean accuracy*:
+For example, here we can see how the *Population size* affects *Mean accuracy*:
 
-[foto chart]
+![Population size vs. Mean accuracy](assets/img/SLAVE/analysis_2.png)
 
-### 8. Conclusions
+### 8. Conclusion
 
-In this tutorial we designed our own pipeline for training and testing a model for classifying wine.
+In this tutorial we designed a pipeline for training and testing a classifier and analyzed the obtained results after performing multiple experiments with different combinations of parameter values.
 
-Our best model, with a population size of TODO and a mutation probability of TODO, got a mean accuracy of TODO on a 5-fold cross-validation.
-
-TODO: explicar los resultados obtenidos en análisis
+This tutorial can be extended by fine tuning other parameters (e.g., *number of labels*, *use rule weights*) or generating reports with the accuracy obtained for each class separately.
