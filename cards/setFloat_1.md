@@ -9,7 +9,7 @@
 
 Sets and stores a variable.
 
-![Set float](assets/img/cards/setFloat_1.png)
+!["Set float" card](assets/img/cards/setFloat_1.png)
 
 
 ### Inputs

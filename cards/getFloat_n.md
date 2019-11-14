@@ -9,7 +9,7 @@
 
 Returns the value of a stored variable.
 
-![Get list of float](assets/img/cards/getFloat_n.png)
+!["Get list of float" card](assets/img/cards/getFloat_n.png)
 
 
 ### Inputs

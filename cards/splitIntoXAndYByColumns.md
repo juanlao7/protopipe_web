@@ -9,7 +9,7 @@
 
 Splits a table into two tables (X and Y).
 
-![Split into X and Y by columns](assets/img/cards/splitIntoXAndYByColumns.png)
+!["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 
 
 ### Inputs
@@ -19,13 +19,13 @@ Splits a table into two tables (X and Y).
 
   2D tensor (a table) to split.
 
-* **X columns** --- List of [Integer](types/Integer.html)
+* **X column(s)** --- List of [Integer](types/Integer.html)
 
-  Columns to include in the resulting X table.
+  Index(es) of the column(s) to include in the resulting X table.
 
-* **Y columns** --- List of [Integer](types/Integer.html)
+* **Y column(s)** --- List of [Integer](types/Integer.html)
 
-  Columns to include in the resulting Y table.
+  Index(es) of the column(s) to include in the resulting Y table.
 
 
 

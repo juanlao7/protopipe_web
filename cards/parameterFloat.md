@@ -9,7 +9,7 @@
 
 Provides a [Float](types/Float.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
-![Float parameter](assets/img/cards/parameterFloat.png)
+!["Float parameter" card](assets/img/cards/parameterFloat.png)
 
 
 ### Inputs

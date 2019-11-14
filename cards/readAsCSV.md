@@ -9,7 +9,7 @@
 
 Reads a comma-separated values stream and returns a labeled table.
 
-![Read as CSV](assets/img/cards/readAsCSV.png)
+!["Read as CSV" card](assets/img/cards/readAsCSV.png)
 
 
 ### Inputs
@@ -23,9 +23,9 @@ Reads a comma-separated values stream and returns a labeled table.
 
   Delimiter or separator of the values.
 
-* **Header line(s)** --- List of [Integer](types/Integer.html)
+* **Header row(s)** --- List of [Integer](types/Integer.html)
 
-  Lines that define the headers of the data. Leave empty if the data has no headers. Set it to "0" if the headers are at the first line of the data.
+  Row number(s) to use as the column names, and the start of the data. Leave empty if the data has no headers. Set it to "0" if the headers are at the first row.
 
 
 

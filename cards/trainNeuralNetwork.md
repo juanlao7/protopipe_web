@@ -9,7 +9,7 @@
 
 
 
-![Train neural network](assets/img/cards/trainNeuralNetwork.png)
+!["Train neural network" card](assets/img/cards/trainNeuralNetwork.png)
 
 
 ### Inputs

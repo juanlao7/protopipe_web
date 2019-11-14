@@ -21,6 +21,8 @@ The data types available in Protopipe are:
 
 * [FloatIntervals](types/FloatIntervals.html)
 
+* [Image](types/Image.html)
+
 * [Integer](types/Integer.html)
 
 * [IntegerIntervals](types/IntegerIntervals.html)

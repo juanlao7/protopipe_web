@@ -9,7 +9,7 @@
 
 Copies a list of [Float](types/Float.html) and adds an element.
 
-![Add float to list](assets/img/cards/addFloatToList.png)
+!["Add float to list" card](assets/img/cards/addFloatToList.png)
 
 
 ### Inputs

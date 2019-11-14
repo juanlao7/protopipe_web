@@ -9,7 +9,7 @@
 
 For two given tensors, returns the mean of the absolute value of the difference of each cell.
 
-![Mean absolute error](assets/img/cards/meanAbsoluteError.png)
+!["Mean absolute error" card](assets/img/cards/meanAbsoluteError.png)
 
 
 ### Inputs
@@ -17,7 +17,7 @@ For two given tensors, returns the mean of the absolute value of the difference 
 
 * **Predictions** --- [Tensor](types/Tensor.html)
 
-  Output predictions given by a model.
+  2D tensor (a table) where each row is a prediction of one or multiple fields.
 
 * **Target** --- [Tensor](types/Tensor.html)
 

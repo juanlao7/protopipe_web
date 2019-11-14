@@ -12,6 +12,9 @@ Cards are like functions of any common programming language: they receive some i
 
 Cards in Protopipe are organized in groups:
 
+* Charts
+    * [Create vertical bar chart](cards/createVerticalBarChart.html)
+    * [Plot chart](cards/plotChart.html)
 * Files and formats
     * [Open file](cards/openFile.html)
     * [Read as CSV](cards/readAsCSV.html)
@@ -26,6 +29,9 @@ Cards in Protopipe are organized in groups:
     * Neural networks
         * [Train neural network](cards/trainNeuralNetwork.html)
     * [Predict](cards/predict.html)
+* Normalization
+    * [Columns to proportions](cards/columnsToProportions.html)
+    * [Scale columns to a range](cards/scaleColumnsToARange.html)
 * Parameters
     * [Boolean parameter](cards/parameterBoolean.html)
     * [Float parameter](cards/parameterFloat.html)
@@ -35,6 +41,7 @@ Cards in Protopipe are organized in groups:
 * Statistics
     * [Mean](cards/mean.html)
 * Tables
+    * [Group and count](cards/groupAndCount.html)
     * [Shuffle rows](cards/shuffleRows.html)
     * [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html)
 * Validation

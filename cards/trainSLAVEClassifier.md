@@ -9,7 +9,7 @@
 
 Trains a classifier based on [SLAVE: a genetic learning system based on an iterative approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.379.2735&rep=rep1&type=pdf).
 
-![Train SLAVE classifier](assets/img/cards/trainSLAVEClassifier.png)
+!["Train SLAVE classifier" card](assets/img/cards/trainSLAVEClassifier.png)
 
 
 ### Inputs

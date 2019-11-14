@@ -9,7 +9,7 @@
 
 Provides a [Integer](types/Integer.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
-![Integer parameter](assets/img/cards/parameterInteger.png)
+!["Integer parameter" card](assets/img/cards/parameterInteger.png)
 
 
 ### Inputs

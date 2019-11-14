@@ -9,7 +9,7 @@
 
 Calculates the proportion of predictions that are equal to a ground truth.
 
-![Accuracy](assets/img/cards/accuracy.png)
+!["Accuracy" card](assets/img/cards/accuracy.png)
 
 
 ### Inputs
@@ -17,7 +17,7 @@ Calculates the proportion of predictions that are equal to a ground truth.
 
 * **Predictions** --- [Tensor](types/Tensor.html)
 
-  Output predictions given by a model.
+  2D tensor (a table) where each row is a prediction of one or multiple fields.
 
 * **Target** --- [Tensor](types/Tensor.html)
 
@@ -30,9 +30,13 @@ Calculates the proportion of predictions that are equal to a ground truth.
 ### Outputs
 
 
-* **Result** --- [Float](types/Float.html)
+* **Accuracy by class** --- [Tensor](types/Tensor.html)
 
-  Proportion of predictions that are equal to the ground truth.
+  Proportion of predictions that are equal to the ground truth in all their columns, grouped by class.
+
+* **Accuracy** --- [Float](types/Float.html)
+
+  Proportion of predictions that are equal to the ground truth in all their columns.
 
 
 

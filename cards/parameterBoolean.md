@@ -9,7 +9,7 @@
 
 Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
 
-![Boolean parameter](assets/img/cards/parameterBoolean.png)
+!["Boolean parameter" card](assets/img/cards/parameterBoolean.png)
 
 
 

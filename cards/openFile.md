@@ -9,7 +9,7 @@
 
 Opens a file and returns its stream.
 
-![Open file](assets/img/cards/openFile.png)
+!["Open file" card](assets/img/cards/openFile.png)
 
 
 ### Inputs

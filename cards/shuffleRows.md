@@ -9,7 +9,7 @@
 
 Randomly shuffles the rows of a table.
 
-![Shuffle rows](assets/img/cards/shuffleRows.png)
+!["Shuffle rows" card](assets/img/cards/shuffleRows.png)
 
 
 ### Inputs

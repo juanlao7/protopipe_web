@@ -9,7 +9,7 @@
 
 Stores a [Float](types/Float.html) value in [the final report](reports_screen.html).
 
-![Return float](assets/img/cards/returnFloat.png)
+!["Return float" card](assets/img/cards/returnFloat.png)
 
 
 ### Inputs
