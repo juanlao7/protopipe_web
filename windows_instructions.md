@@ -12,8 +12,8 @@ To run Protopipe, follow these steps:
 
 Click on "More info".
 
-![Click on "More info"](assets/img/windows_instructions/1.png){:.hardcoded}
+![Click on "More info"](assets/img/windows_instructions/1.png){:.originalSize.noShadow}
 
 Click on "Run anyway".
 
-![Click on "Run anyway"](assets/img/windows_instructions/2.png){:.hardcoded}
+![Click on "Run anyway"](assets/img/windows_instructions/2.png){:.originalSize.noShadow}
