@@ -24,9 +24,7 @@ Write a name for the project.
 
 !["Create new project" dialog](assets/img/projects_screen/create_2.png)
 
-And press **Start**.
-
-Now the [work screen](work_screen) will appear.
+And press **Start**. The [work screen](work_screen) will appear.
 
 ![Empty work screen](assets/img/work_screen/introduction_1.png)
 
@@ -115,7 +113,7 @@ If we get a preview of the **Shuffled** output, we can see that the table has be
 
 !["Preview output" dialog](assets/img/SLAVE/prepare_6.png)
 
-Now we are finally ready to perform the K-fold cross-validation.
+We are finally ready to perform the K-fold cross-validation.
 
 Press the *Create card* button, navigate to **Validation** and press **K-fold cross-validation**. A new [K-fold cross-validation](cards/kFoldCrossValidation) card will appear in the blueprint.
 
@@ -145,7 +143,7 @@ We want to predict the value of the 1st column of the table (index 0) using colu
 
 !["Split into X and Y by columns" card configured](assets/img/SLAVE/training_2.png)
 
-Now we are ready to train our model. Press the *Create card* button, navigate to **Models** &#x226B; **Fuzzy logic** and press **Train SLAVE classifier**. A new [Train SLAVE classifier](cards/trainSLAVEClassifier) card will appear in the blueprint.
+We are ready to train our model. Press the *Create card* button, navigate to **Models** &#x226B; **Fuzzy logic** and press **Train SLAVE classifier**. A new [Train SLAVE classifier](cards/trainSLAVEClassifier) card will appear in the blueprint.
 
 !["Train SLAVE classifier" card](assets/img/cards/trainSLAVEClassifier.png)
 
@@ -167,7 +165,7 @@ Connect the **Value** output from [Integer parameter](cards/parameterInteger) to
 
 ![Current pipeline](assets/img/SLAVE/training_5.png)
 
-Now we must specify a domain of possible values for this parameter. In this tutorial we will try 10, 50 and 100.
+We must specify a domain of possible values for this parameter. In this tutorial we will try 10, 50 and 100.
 
 !["Integer parameter" card configured](assets/img/SLAVE/training_6.png)
 

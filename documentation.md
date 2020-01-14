@@ -1,14 +1,18 @@
 <style type="text/css">
     @media screen and (min-width: 42em) {
-        #content > ul > li > ul {
+        #index {
+            margin-top: 2em;
+        }
+
+        #index > li > ul {
             margin-left: 2em;
         }
 
-        #content > ul > li {
+        #index > li {
             margin-bottom: 1.5em;
         }
 
-        #content > ul > li > i {
+        #index > li > i {
             margin-right: 0.25em;
         }
     }
@@ -21,7 +25,7 @@
 
 ## Documentation index
 
-<ul>
+<ul id="index">
     <li style="list-style-type: none">
         <i class="icon-lifebuoy"></i> How to use Protopipe
         <ul>

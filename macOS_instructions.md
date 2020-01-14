@@ -4,7 +4,7 @@
     <li>macOS installation instructions</li>
 </ul>
 
-## Before you continue
+## Careful
 
 You are downloading a **beta version**, still under development, still not signed, so macOS will prevent you from running it.
 
