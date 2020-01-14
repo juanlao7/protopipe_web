@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help">Help index</a></li>
+    <li><a href="documentation">Documentation index</a></li>
     <li>Index of data types</li>
 </ul>
 

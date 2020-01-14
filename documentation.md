@@ -1,9 +1,9 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li>Help index</li>
+    <li>Documentation index</li>
 </ul>
 
-## Help index
+## Documentation index
 
 * How to use Protopipe
     * [The basics](basics)
