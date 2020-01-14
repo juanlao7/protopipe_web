@@ -2,6 +2,7 @@
     @media screen and (min-width: 42em) {
         #index {
             margin-top: 2em;
+            padding-left: 1em;
         }
 
         #index > li > ul {
