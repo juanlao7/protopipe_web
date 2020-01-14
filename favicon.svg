@@ -51,6 +51,38 @@
          result="composite2"
          id="feComposite5020" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter902">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood892" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite894" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.1"
+         result="blur"
+         id="feGaussianBlur896" />
+      <feOffset
+         dx="0"
+         dy="0.1"
+         result="offset"
+         id="feOffset898" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite900" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -59,9 +91,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="32"
-     inkscape:cx="10.50452"
-     inkscape:cy="7.0286097"
+     inkscape:zoom="45.254834"
+     inkscape:cx="5.1793686"
+     inkscape:cy="7.8479414"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -97,7 +129,7 @@
      id="layer1"
      transform="translate(0,-292.76665)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.13229166;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.13229166;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5149"
        width="4.2333331"
        height="4.2333331"
@@ -161,32 +193,46 @@
       </g>
     </g>
     <rect
-       y="294.61874"
-       x="0.26458326"
+       style="opacity:1;fill:#eaeaea;fill-opacity:1;stroke:none;stroke-width:0.06614579;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5149-1-5"
+       width="4.2333336"
+       height="1.058332"
+       x="6.8079075e-008"
+       y="295.94165" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09499466;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter902)"
+       id="rect5149-1"
+       width="3.175"
+       height="2.9104128"
+       x="0.5291667"
+       y="293.82498" />
+    <rect
+       y="294.35416"
+       x="0.79375005"
+       height="0.26458478"
+       width="1.5875"
+       id="rect931-7"
+       style="opacity:1;fill:#537abd;fill-opacity:1;stroke:none;stroke-width:0.040506" />
+    <rect
+       y="294.8833"
+       x="0.79374987"
+       height="0.26458478"
+       width="2.3812504"
+       id="rect931-7-5"
+       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.04960952" />
+    <rect
+       y="295.41248"
+       x="0.79375011"
        height="0.26458478"
        width="2.1166668"
-       id="rect931-7"
-       style="opacity:1;fill:#537abd;fill-opacity:1;stroke:none;stroke-width:0.0467723" />
-    <rect
-       y="295.14789"
-       x="0.26458305"
-       height="0.26458478"
-       width="3.7041669"
-       id="rect931-7-5"
-       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.06187394" />
-    <rect
-       y="295.67706"
-       x="0.26458341"
-       height="0.26458478"
-       width="3.7041667"
        id="rect931-7-5-9"
-       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.06187394" />
+       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.0467723" />
     <rect
-       y="296.20624"
-       x="0.26458353"
+       y="295.94165"
+       x="0.79375023"
        height="0.26458478"
-       width="3.7041667"
+       width="1.8520832"
        id="rect931-7-5-9-1"
-       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.06187394" />
+       style="opacity:1;fill:#3c4043;fill-opacity:1;stroke:none;stroke-width:0.04375148" />
   </g>
 </svg>

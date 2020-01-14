@@ -6,6 +6,7 @@ html {
 
 body {
     color: #3c4043;
+    background: #fafafa;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     line-height: 1.5;
@@ -223,7 +224,6 @@ li > ol {
     left: 0;
     right: 0;
     background: url('../img/background.svg') -50px -50px;
-    z-index: -1;
 }
 
 #content {
