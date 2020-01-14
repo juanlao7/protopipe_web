@@ -3,6 +3,7 @@
   <head>
     <base href="/protopipe_web/" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?nocache=true">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?nocache=true">
@@ -26,71 +27,89 @@
     {% endif %}
 
     {% seo title=false %}
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" />
+    <link rel="stylesheet" href="{{ 'assets/fontello/css/fontello.css?v=' | append: site.github.build_revision | relative_url }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/protopipe_style.css?v=' | append: site.github.build_revision | relative_url }}" />
   </head>
 
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="">{{ site.title }}</a></h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <div id="backgroundImage"></div>
+
+      <div class="adjusted">
+        <h1 class="project-name">{{ site.title }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+
+        <nav>
+          <a href=""><i class="icon-home"></i> Home</a>
+          <a href="documentation"><i class="icon-book"></i> Documentation</a>
+          <a href="contact"><i class="icon-mail"></i> Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="adjusted" role="main">
       {% assign baseURL = '.' | append: page.url %}
       <div id="toc">{% include toc.html html=content h_min=3 baseurl=baseURL %}</div>
 
       {{ content }}
-
-      <footer class="site-footer">
-        <a href="documentation" class="btn">Documentation</a>
-        <a href="cards/" class="btn">Index of cards</a>
-        <a href="contact" class="btn">Contact</a>
-      </footer>
     </main>
 
+    <footer>
+      <div class="adjusted">
+        <a id="companyLink" href="">A product by <strong>TODO Company Name</strong></a>
+
+        <div id="copyright">By using this site, you agree to the <a href="terms_of_use">Terms of Use</a> and <a href="privacy">Privacy Policy</a>. Protopipe is a registered trademark of TODO Company Name.</div>
+
+        <div id="legalLinks">
+          <a href="terms_of_use">Terms of Use</a>
+          <a href="privacy">Privacy Policy</a>
+          <a href="cookies">Cookie Statement</a>
+        </div>
+      </div>
+    </footer>
+
     <script type="text/javascript">
-        var toc = document.getElementById('toc');
-        
-        if (window.location.pathname.indexOf('/cards/') >= 0) {
-          toc.parentNode.removeChild(toc);
+      var toc = document.getElementById('toc');
+      
+      if (window.location.pathname.indexOf('/cards/') >= 0) {
+        toc.parentNode.removeChild(toc);
+      }
+      else {
+        toc.parentNode.insertBefore(toc, document.getElementsByTagName('h3')[0]);
+      }
+
+      var imgs = document.getElementsByTagName('img');
+
+      for (var i = 0; i < imgs.length; ++i) {
+        var img = imgs[i];
+
+        if (img.classList.contains('hardcoded')) {
+          continue;
         }
-        else {
-          toc.parentNode.insertBefore(toc, document.getElementsByTagName('h3')[0]);
+
+        var container = document.createElement('div');
+        container.className = 'img';
+        var link = document.createElement('a');
+        link.setAttribute('href', img.src);
+        link.setAttribute('target', '_blank');
+        var style = img.getAttribute('style');
+
+        if (style != null) {
+          container.setAttribute('style', style);
         }
 
-        var imgs = document.getElementsByTagName('img');
-
-        for (var i = 0; i < imgs.length; ++i) {
-          var img = imgs[i];
-
-          if (img.classList.contains('hardcoded')) {
-            continue;
-          }
-
-          var container = document.createElement('div');
-          container.className = 'img';
-          var link = document.createElement('a');
-          link.setAttribute('href', img.src);
-          link.setAttribute('target', '_blank');
-          var style = img.getAttribute('style');
-
-          if (style != null) {
-            container.setAttribute('style', style);
-          }
-
-          if (!img.classList.contains('originalSize')) {
-            img.setAttribute('srcset', img.src + ' 2x');
-            img.removeAttribute('src');
-          }
-
-          img.removeAttribute('style');
-          img.parentNode.replaceChild(container, img);
-          link.appendChild(img);
-          container.appendChild(link);
+        if (!img.classList.contains('originalSize')) {
+          img.setAttribute('srcset', img.src + ' 2x');
+          img.removeAttribute('src');
         }
+
+        img.removeAttribute('style');
+        img.parentNode.replaceChild(container, img);
+        link.appendChild(img);
+        container.appendChild(link);
+      }
 
       var links = document.getElementsByTagName('a');
       var myPath = window.location.href.split('#')[0];

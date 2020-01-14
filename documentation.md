@@ -1,3 +1,19 @@
+<style type="text/css">
+    @media screen and (min-width: 42em) {
+        #content > ul > li > ul {
+            margin-left: 2em;
+        }
+
+        #content > ul > li {
+            margin-bottom: 1.5em;
+        }
+
+        #content > ul > li > i {
+            margin-right: 0.25em;
+        }
+    }
+</style>
+
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
     <li>Documentation index</li>
@@ -5,14 +21,34 @@
 
 ## Documentation index
 
-* How to use Protopipe
-    * [The basics](basics)
-    * [Projects screen](projects_screen)
-    * [Work screen](work_screen)
-    * [Reports screen](reports_screen)
-* Tutorials
-    * Introductory
-        * [Wine classification with SLAVE, a genetic fuzzy system](tutorials/introductory/SLAVE)
-* [Index of cards](cards/)
-* [Index of data types](types/)
-* [System requirements](requirements)
+<ul>
+    <li style="list-style-type: none">
+        <i class="icon-lifebuoy"></i> How to use Protopipe
+        <ul>
+            <li><a href="basics">The basics</a></li>
+            <li><a href="projects_screen">Projects screen</a></li>
+            <li><a href="work_screen">Work screen</a></li>
+            <li><a href="reports_screen">Reports screen</a></li>
+        </ul>
+    </li>
+    <li style="list-style-type: none">
+        <i class="icon-guidedog"></i> Tutorials
+        <ul>
+            <li>
+                Introductory
+                <ul>
+                    <li><a href="tutorials/introductory/SLAVE">Wine classification with SLAVE, a genetic fuzzy system</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li style="list-style-type: none">
+        <i class="icon-popup"></i> <a href="cards/">Index of cards</a>
+    </li>
+    <li style="list-style-type: none">
+        <i class="icon-cubes"></i> <a href="types/">Index of data types</a>
+    </li>
+    <li style="list-style-type: none">
+        <i class="icon-check"></i> <a href="requirements">System requirements</a>
+    </li>
+</ul>

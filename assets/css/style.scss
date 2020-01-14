@@ -140,6 +140,34 @@ body {
     color: #3c4043;
 }
 
+header {
+    padding-bottom: 0 !important;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff !important;
+    display: inline-block;
+    padding: 1em;
+    flex-grow: 1;
+    text-align: center;
+    text-shadow: #000 0 0 5px;
+    border-radius: 16px 16px 0 0;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+nav i {
+    display: block;
+    margin: 0.25em auto;
+    font-size: 36px;
+}
+
 @media screen and (max-width: 64em) and (min-width: 42em) {
     .btn {
         display: inline-block;

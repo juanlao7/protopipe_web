@@ -4,18 +4,18 @@ no_title: true
 
 <style type="text/css">
     #bigTitle {
-        font-size: 1.5em;
-        margin-bottom: 2em;
+        font-size: 1.25em;
+        margin: 2em 0;
         text-align: center;
     }
 
     @media screen and (min-width: 42em) {
-        .main-content p,
-        .main-content h2 {
+        #content p,
+        #content h2 {
             text-align: center;
         }
 
-        .main-content h2 {
+        #content h2 {
             margin-top: 96px !important;
         }
     }
@@ -29,7 +29,7 @@ Read [the basics](basics) to learn how to use Protopipe.
 
 However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory/SLAVE).
 
-<a class="btn" href="download">Download</a>
+<a class="button" href="download"><i class="icon-download"></i> Download</a>
 
 ## No programming involved
 
@@ -59,9 +59,10 @@ Study the effect of each parameter on the final result.
 
 Export experimental data to <img class="hardcoded" alt="LaTeX" src="assets/img/index/LaTeX_logo.svg" style="width: 65px; vertical-align: middle;" /> with a single click.
 
-<img class="hardcoded" alt="LaTeX table" src="assets/img/index/LaTeX_table.svg" style="float: left; width: 45%; vertical-align: top; margin-top: 12px;" />
-<img class="hardcoded" alt="LaTeX chart" src="assets/img/index/LaTeX_chart.svg" style="float: right; width: 45%; vertical-align: top;" />
-<div style="clear: both;"></div>
+<div style="display: flex; justify-content: space-evenly; align-items: flex-start">
+	<img class="hardcoded" alt="LaTeX table" src="assets/img/index/LaTeX_table.svg" style="float: left; width: 45%; vertical-align: top; margin-top: 12px;" />
+	<img class="hardcoded" alt="LaTeX chart" src="assets/img/index/LaTeX_chart.svg" style="float: right; width: 45%; vertical-align: top;" />
+</div>
 
 <!--
 LaTeX table:

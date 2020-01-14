@@ -6,7 +6,7 @@
         align-items: center;
     }
 
-    .downloadButtons .btn {
+    .downloadButtons .button {
         margin: 8px;
         flex-basis: 300px;
         display: flex !important;
@@ -14,23 +14,23 @@
         padding: 0.75rem 0;
     }
 
-    .downloadButtons .btn img {
+    .downloadButtons .button img {
         height: 48px;
         margin: 0 1rem;
         margin-right: 0;
         vertical-align: middle;
     }
 
-    .downloadButtons .btn span {
+    .downloadButtons .button span {
         margin: 0.75rem 1rem;
         white-space: normal;
         text-align: left;
     }
 
     @media screen and (min-width: 42em) {
-        .main-content p,
-        .main-content h1,
-        .main-content h2 {
+        #content p,
+        #content h1,
+        #content h2 {
             text-align: center;
         }
     }
@@ -46,11 +46,11 @@
 The desktop application, **beta version**.
 
 <div class="downloadButtons">
-    <a class="btn" href="windows_instructions">
+    <a class="button" href="windows_instructions">
         <img class="hardcoded" src="assets/img/index/windows.svg" alt="Windows" />
         <span>Download for Windows</span>
     </a>
-    <a class="btn" href="macOS_instructions">
+    <a class="button" href="macOS_instructions">
         <img class="hardcoded" src="assets/img/index/macOS.svg" alt="macOS" />
         <span>Download for macOS</span>
     </a>
