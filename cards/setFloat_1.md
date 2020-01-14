@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Set float</li>
 </ul>
@@ -15,11 +15,11 @@ Sets and stores a variable.
 ### Inputs
 
 
-* **Name** --- [String](types/String.html)
+* **Name** --- [String](types/String)
 
   Name of the variable to set.
 
-* **Value** --- [Float](types/Float.html)
+* **Value** --- [Float](types/Float)
 
   New value for the variable.
 

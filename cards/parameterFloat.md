@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Float parameter</li>
 </ul>
 
 ## Float parameter
 
-Provides a [Float](types/Float.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+Provides a [Float](types/Float) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 !["Float parameter" card](assets/img/cards/parameterFloat.png)
 
@@ -15,7 +15,7 @@ Provides a [Float](types/Float.html) value set by [the global optimizer](work_sc
 ### Inputs
 
 
-* **Domain** --- [FloatIntervals](types/FloatIntervals.html)
+* **Domain** --- [FloatIntervals](types/FloatIntervals)
 
   Domain of possible values this parameter can take.
 
@@ -26,9 +26,9 @@ Provides a [Float](types/Float.html) value set by [the global optimizer](work_sc
 ### Outputs
 
 
-* **Value** --- [Float](types/Float.html)
+* **Value** --- [Float](types/Float)
 
-  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 
 

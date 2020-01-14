@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Columns to proportions</li>
 </ul>
 
 ## Columns to proportions
 
-Converts values into the proportion they represented in their original column.
+
 
 !["Columns to proportions" card](assets/img/cards/columnsToProportions.png)
 
@@ -15,11 +15,11 @@ Converts values into the proportion they represented in their original column.
 ### Inputs
 
 
-* **Data** --- [Tensor](types/Tensor.html)
+* **Data** --- [Tensor](types/Tensor)
 
   2D tensor (a table) to transform.
 
-* **Column(s)** --- List of [Integer](types/Integer.html)
+* **Column(s)** --- List of [Integer](types/Integer)
 
   Index(es) of the column(s) to transform.
 
@@ -30,7 +30,7 @@ Converts values into the proportion they represented in their original column.
 ### Outputs
 
 
-* **Scaled data** --- [Tensor](types/Tensor.html)
+* **Scaled data** --- [Tensor](types/Tensor)
 
   Resulting transformed table.
 

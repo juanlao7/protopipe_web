@@ -57,7 +57,7 @@
     background: url('../img/background.svg') -50px -50px;
 }
 
-#content .site-footer .btn {
+#content .btn {
     border-color: #888;
     color: #888;
     text-decoration: none;
@@ -65,10 +65,10 @@
     &:hover {
         background-color: rgba(0, 0, 0, 0.1)
     }
+}
 
-    & + .btn {
-        margin-left: 1em;
-    }
+#content .site-footer .btn + .btn {
+    margin-left: 1em;
 }
 
 .main-content h1,
@@ -157,12 +157,12 @@ body {
 }
 
 @media screen and (max-width: 25em) {
-    #content .site-footer .btn {
+    #content .btn {
         display: block;
         text-align: center;
+    }
 
-        & + .btn {
-            margin-left: 0;
-        }
+    #content .site-footer .btn + .btn {
+        margin-left: 0;
     }
 }

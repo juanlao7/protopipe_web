@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Boolean parameter</li>
 </ul>
 
 ## Boolean parameter
 
-Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+Provides a [Boolean](types/Boolean) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 !["Boolean parameter" card](assets/img/cards/parameterBoolean.png)
 
@@ -17,9 +17,9 @@ Provides a [Boolean](types/Boolean.html) value set by [the global optimizer](wor
 ### Outputs
 
 
-* **Value** --- [Boolean](types/Boolean.html)
+* **Value** --- [Boolean](types/Boolean)
 
-  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 
 

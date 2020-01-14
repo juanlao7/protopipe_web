@@ -42,7 +42,7 @@ def treeToBullets(tree, indent=0):
 
     if 'leaves' in tree:
         for leafId in sorted(tree['leaves']):
-            buffer += (4 * indent) * ' ' + '* [%s](cards/%s.html)\n' % (tree['leaves'][leafId], leafId)
+            buffer += (4 * indent) * ' ' + '* [%s](cards/%s)\n' % (tree['leaves'][leafId], leafId)
     
     return buffer
 
@@ -50,7 +50,7 @@ parser = argparse.ArgumentParser(prog='Protopipe API generator')
 parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots', help='Do not remove & create screenshots.')
 args = parser.parse_args()
 
-modules = json.loads(subprocess.check_output('protopipe-engine modules', shell=True))
+modules = json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ modules', shell=True))
 
 # Emptying ../cards and ../assets/img/cards
 directoriesToEmpty = ['../cards']

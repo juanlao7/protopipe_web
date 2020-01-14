@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li>Index of cards</li>
 </ul>
 
@@ -13,43 +13,43 @@ Cards are like functions of any common programming language: they receive some i
 Cards in Protopipe are organized in groups:
 
 * Charts
-    * [Create vertical bar chart](cards/createVerticalBarChart.html)
-    * [Plot chart](cards/plotChart.html)
+    * [Create vertical bar chart](cards/createVerticalBarChart)
+    * [Plot chart](cards/plotChart)
 * Files and formats
-    * [Open file](cards/openFile.html)
-    * [Read as CSV](cards/readAsCSV.html)
+    * [Open file](cards/openFile)
+    * [Read as CSV](cards/readAsCSV)
 * Lists
-    * [Add float to list](cards/addFloatToList.html)
+    * [Add float to list](cards/addFloatToList)
 * Loss functions
-    * [Accuracy](cards/accuracy.html)
-    * [Mean absolute error](cards/meanAbsoluteError.html)
+    * [Accuracy](cards/accuracy)
+    * [Mean absolute error](cards/meanAbsoluteError)
 * Models
     * Fuzzy logic
-        * [Train SLAVE classifier](cards/trainSLAVEClassifier.html)
+        * [Train SLAVE classifier](cards/trainSLAVEClassifier)
     * Neural networks
-        * [Train neural network](cards/trainNeuralNetwork.html)
-    * [Predict](cards/predict.html)
+        * [Train neural network](cards/trainNeuralNetwork)
+    * [Predict](cards/predict)
 * Normalization
-    * [Columns to proportions](cards/columnsToProportions.html)
-    * [Scale columns to a range](cards/scaleColumnsToARange.html)
+    * [Columns to proportions](cards/columnsToProportions)
+    * [Scale columns to a range](cards/scaleColumnsToARange)
 * Parameters
-    * [Boolean parameter](cards/parameterBoolean.html)
-    * [Float parameter](cards/parameterFloat.html)
-    * [Integer parameter](cards/parameterInteger.html)
+    * [Boolean parameter](cards/parameterBoolean)
+    * [Float parameter](cards/parameterFloat)
+    * [Integer parameter](cards/parameterInteger)
 * Returns
-    * [Return float](cards/returnFloat.html)
+    * [Return float](cards/returnFloat)
 * Statistics
-    * [Mean](cards/mean.html)
+    * [Mean](cards/mean)
 * Tables
-    * [Group and count](cards/groupAndCount.html)
-    * [Shuffle rows](cards/shuffleRows.html)
-    * [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html)
+    * [Group and count](cards/groupAndCount)
+    * [Shuffle rows](cards/shuffleRows)
+    * [Split into X and Y by columns](cards/splitIntoXAndYByColumns)
 * Validation
-    * [K-fold cross-validation](cards/kFoldCrossValidation.html)
+    * [K-fold cross-validation](cards/kFoldCrossValidation)
 * Variables
     * Getters
-        * [Get float](cards/getFloat_1.html)
-        * [Get list of float](cards/getFloat_n.html)
+        * [Get float](cards/getFloat_1)
+        * [Get list of float](cards/getFloat_n)
     * Setters
-        * [Set float](cards/setFloat_1.html)
-        * [Set list of float](cards/setFloat_n.html)
+        * [Set float](cards/setFloat_1)
+        * [Set list of float](cards/setFloat_n)

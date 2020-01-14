@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Plot chart</li>
 </ul>
 
 ## Plot chart
 
-Plots a chart.
+
 
 !["Plot chart" card](assets/img/cards/plotChart.png)
 
@@ -15,19 +15,19 @@ Plots a chart.
 ### Inputs
 
 
-* **Chart** --- [DynamicObject](types/DynamicObject.html)
+* **Chart** --- [DynamicObject](types/DynamicObject)
 
   Chart to plot.
 
-* **Title** --- [String](types/String.html)
+* **Title** --- [String](types/String)
 
   Title of the plot.
 
-* **X label** --- [String](types/String.html)
+* **X label** --- [String](types/String)
 
   Label text for the X-axis.
 
-* **Y label** --- [String](types/String.html)
+* **Y label** --- [String](types/String)
 
   Label text for the Y-axis.
 
@@ -38,7 +38,7 @@ Plots a chart.
 ### Outputs
 
 
-* **Image** --- [Image](types/Image.html)
+* **Image** --- [Image](types/Image)
 
   Rendered image of the chart.
 

@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Add float to list</li>
 </ul>
 
 ## Add float to list
 
-Copies a list of [Float](types/Float.html) and adds an element.
+
 
 !["Add float to list" card](assets/img/cards/addFloatToList.png)
 
@@ -15,11 +15,11 @@ Copies a list of [Float](types/Float.html) and adds an element.
 ### Inputs
 
 
-* **List** --- List of [Float](types/Float.html)
+* **List** --- List of [Float](types/Float)
 
   Original list.
 
-* **Value** --- [Float](types/Float.html)
+* **Value** --- [Float](types/Float)
 
   Element to append.
 
@@ -30,7 +30,7 @@ Copies a list of [Float](types/Float.html) and adds an element.
 ### Outputs
 
 
-* **Result** --- List of [Float](types/Float.html)
+* **Result** --- List of [Float](types/Float)
 
   Copy of **List** with **Value** appended.
 

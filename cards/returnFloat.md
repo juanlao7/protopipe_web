@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Return float</li>
 </ul>
 
 ## Return float
 
-Stores a [Float](types/Float.html) value in [the final report](reports_screen.html).
+Stores a [Float](types/Float) value in [the final report](reports_screen).
 
 !["Return float" card](assets/img/cards/returnFloat.png)
 
@@ -15,9 +15,9 @@ Stores a [Float](types/Float.html) value in [the final report](reports_screen.ht
 ### Inputs
 
 
-* **Value** --- [Float](types/Float.html)
+* **Value** --- [Float](types/Float)
 
-  Value to store in [the final report](reports_screen.html).
+  Value to store in [the final report](reports_screen).
 
 
 

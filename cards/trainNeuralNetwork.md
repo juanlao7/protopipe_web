@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Train neural network</li>
 </ul>
@@ -15,11 +15,11 @@
 ### Inputs
 
 
-* **Training X** --- [Tensor](types/Tensor.html)
+* **Training X** --- [Tensor](types/Tensor)
 
   
 
-* **Training Y** --- [Tensor](types/Tensor.html)
+* **Training Y** --- [Tensor](types/Tensor)
 
   
 
@@ -30,7 +30,7 @@
 ### Outputs
 
 
-* **Model** --- [DynamicObject](types/DynamicObject.html)
+* **Model** --- [DynamicObject](types/DynamicObject)
 
   
 

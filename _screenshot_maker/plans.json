@@ -285,7 +285,7 @@
         "width": 1280,
         "height": 800
     },
-    "README/find_1": {
+    "index/find_1": {
         "project": "projects/basics!result_1.zip",
         "projectName": "Untitled project",
         "clickElementWhenReady": ["t:tune"],
@@ -296,7 +296,7 @@
         "marginLeft": 100,
         "marginBottom": -230
     },
-    "README/all-results_1": {
+    "index/all-results_1": {
         "project": "projects/basics!result_1.zip",
         "projectName": "Untitled project",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Sat, 14 Sep 2019 19:24:31 GMT", "t:Experiments"],

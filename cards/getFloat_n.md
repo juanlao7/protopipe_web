@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Get list of float</li>
 </ul>
@@ -15,7 +15,7 @@ Returns the value of a stored variable.
 ### Inputs
 
 
-* **Name** --- [String](types/String.html)
+* **Name** --- [String](types/String)
 
   Name of the variable to get.
 
@@ -26,7 +26,7 @@ Returns the value of a stored variable.
 ### Outputs
 
 
-* **Value** --- List of [Float](types/Float.html)
+* **Value** --- List of [Float](types/Float)
 
   Value of the stored variable, or an empty list if it does not exist.
 

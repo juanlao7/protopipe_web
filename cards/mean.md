@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Mean</li>
 </ul>
 
 ## Mean
 
-Returns the mean value of a list of [Floats](types/Float.html).
+
 
 !["Mean" card](assets/img/cards/mean.png)
 
@@ -15,7 +15,7 @@ Returns the mean value of a list of [Floats](types/Float.html).
 ### Inputs
 
 
-* **Values** --- List of [Float](types/Float.html)
+* **Values** --- List of [Float](types/Float)
 
   List of values.
 
@@ -26,7 +26,7 @@ Returns the mean value of a list of [Floats](types/Float.html).
 ### Outputs
 
 
-* **Mean** --- [Float](types/Float.html)
+* **Mean** --- [Float](types/Float)
 
   Mean value of **Values**.
 

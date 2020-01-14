@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>{{ title }}</li>
 </ul>
@@ -15,7 +15,7 @@
 ### Inputs
 
 {% for argument in inputs %}
-* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
+* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }})
 
   {{ argument['help'] }}
 {% endfor %}
@@ -26,7 +26,7 @@
 ### Outputs
 
 {% for argument in outputs %}
-* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
+* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }})
 
   {{ argument['help'] }}
 {% endfor %}
@@ -45,7 +45,7 @@
 Event outputs:
 
 {% for argument in event['outputs'] %}
-* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }}.html)
+* **{{ argument['text'] }}** --- {% if argument.get('multiplicity') == 'n' %}List of {% endif %}[{{ argument['type'] }}](types/{{ argument['type'] }})
 
   {{ argument['help'] }}
 {% endfor %}

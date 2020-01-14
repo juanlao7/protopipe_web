@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li>Wine classification with SLAVE, a genetic fuzzy system</li>
 </ul>
 
@@ -16,7 +16,7 @@ The performance of the model will be determined by averaging all the accuracy me
 
 ![Empty projects screen](assets/img/projects_screen/introduction_1.png)
 
-In the [projects screen](projects_screen.html), press the *Create new project* button.
+In the [projects screen](projects_screen), press the *Create new project* button.
 
 !["Create new project" button](assets/img/projects_screen/create_1.png)
 
@@ -26,7 +26,7 @@ Write a name for the project.
 
 And press **Start**.
 
-Now the [work screen](work_screen.html) will appear.
+Now the [work screen](work_screen) will appear.
 
 ![Empty work screen](assets/img/work_screen/introduction_1.png)
 
@@ -42,7 +42,7 @@ Press **Upload file** and select the file you just downloaded. A new entry, **wi
 
 ![Data tab](assets/img/SLAVE/upload_1.png)
 
-Press the **wine.data** entry to create an [Open file](cards/openFile.html) card.
+Press the **wine.data** entry to create an [Open file](cards/openFile) card.
 
 !["Open file" card](assets/img/SLAVE/upload_2.png)
 
@@ -77,17 +77,17 @@ In the **Modules** tab, navigate to **Files and formats** and press **Read as CS
 
 !["Create card" menu](assets/img/SLAVE/prepare_1.png)
 
-A new [Read as CSV](cards/readAsCSV.html) card will appear in the blueprint.
+A new [Read as CSV](cards/readAsCSV) card will appear in the blueprint.
 
 !["Read as CSV" card](assets/img/cards/readAsCSV.png)
 
-Connect the **Stream** output from [Open file](cards/openFile.html) to the **Stream** input of [Read as CSV](cards/readAsCSV.html).
+Connect the **Stream** output from [Open file](cards/openFile) to the **Stream** input of [Read as CSV](cards/readAsCSV).
 
 ![Current pipeline](assets/img/SLAVE/prepare_2.png)
 
 Now we just have to configure the parameters of the CSV reader---delimiter and header row(s)---. Getting a glimpse of the file contents can help us in this task.
 
-Select the [Open file](cards/openFile.html) card by pressing on it and press the *Preview output* button on the top bar:
+Select the [Open file](cards/openFile) card by pressing on it and press the *Preview output* button on the top bar:
 
 !["Preview output" button](assets/img/work_screen/preview_1.png)
 
@@ -97,17 +97,17 @@ A dialog will appear showing a preview of the contents of `wine.data`.
 
 As we can see, this file has no headers and the values are delimited by commas (,). This is the current configuration of our CVS reader, so it is ready to process the file.
 
-Select the [Read as CSV](cards/readAsCSV.html) card and press the *Preview output* button on the top bar. The preview dialog will show a table this time.
+Select the [Read as CSV](cards/readAsCSV) card and press the *Preview output* button on the top bar. The preview dialog will show a table this time.
 
 !["Preview output" dialog](assets/img/SLAVE/prepare_4.png)
 
 If we scroll down we will see that the dataset is sorted by the first column (the class). Performing a k-fold cross-validation in this state will lead to very poor results, since the training dataset will not contain the same classes as the test dataset in most cases.
 
-We need to shuffle the dataset. Press the *Create card* button, navigate to **Tables** and press **Shuffle rows**. A new [Shuffle rows](cards/shuffleRows.html) card will appear in the blueprint.
+We need to shuffle the dataset. Press the *Create card* button, navigate to **Tables** and press **Shuffle rows**. A new [Shuffle rows](cards/shuffleRows) card will appear in the blueprint.
 
 !["Shuffle rows" card](assets/img/cards/shuffleRows.png)
 
-Connect the **Table** output from [Read as CSV](cards/readAsCSV.html) to the **Data** input of [Shuffle rows](cards/shuffleRows.html).
+Connect the **Table** output from [Read as CSV](cards/readAsCSV) to the **Data** input of [Shuffle rows](cards/shuffleRows).
 
 ![Current pipeline](assets/img/SLAVE/prepare_5.png)
 
@@ -117,39 +117,39 @@ If we get a preview of the **Shuffled** output, we can see that the table has be
 
 Now we are finally ready to perform the K-fold cross-validation.
 
-Press the *Create card* button, navigate to **Validation** and press **K-fold cross-validation**. A new [K-fold cross-validation](cards/kFoldCrossValidation.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Validation** and press **K-fold cross-validation**. A new [K-fold cross-validation](cards/kFoldCrossValidation) card will appear in the blueprint.
 
 !["K-fold cross-validation" card](assets/img/cards/kFoldCrossValidation.png)
 
-Connect the **Shuffled** output from [Shuffle rows](cards/shuffleRows.html) to the **Data** input of [K-fold cross-validation](cards/kFoldCrossValidation.html).
+Connect the **Shuffled** output from [Shuffle rows](cards/shuffleRows) to the **Data** input of [K-fold cross-validation](cards/kFoldCrossValidation).
 
 ![Current pipeline](assets/img/SLAVE/prepare_7.png)
 
-As we can see, the [K-fold cross-validation](cards/kFoldCrossValidation.html) card already has a default value of 5 for K, which exactly what we need.
+As we can see, the [K-fold cross-validation](cards/kFoldCrossValidation) card already has a default value of 5 for K, which exactly what we need.
 
-This card also triggers two different [events](basics.html#events): *On each fold*, that provides the training and testing [Tensors](types/Tensor.html) and *On finish*, that has no associated data.
+This card also triggers two different [events](basics#events): *On each fold*, that provides the training and testing [Tensors](types/Tensor) and *On finish*, that has no associated data.
 
 At this point our data is ready. We can start working on the training part of the pipeline.
 
 ### 4. Training the model
 
-First of all we need to split the input and output of the training table. Press the *Create card* button, navigate to **Tables** and press **Split into X and Y by columns**. A new [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) card will appear in the blueprint.
+First of all we need to split the input and output of the training table. Press the *Create card* button, navigate to **Tables** and press **Split into X and Y by columns**. A new [Split into X and Y by columns](cards/splitIntoXAndYByColumns) card will appear in the blueprint.
 
 !["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 
-Connect the **Training** output from [K-fold cross-validation](cards/kFoldCrossValidation.html) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
+Connect the **Training** output from [K-fold cross-validation](cards/kFoldCrossValidation) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns).
 
 ![Current pipeline](assets/img/SLAVE/training_1.png)
 
-We want to predict the value of the 1st column of the table (index 0) using columns 2 to 14 (indexes 1 to 13) as input for our model. Set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
+We want to predict the value of the 1st column of the table (index 0) using columns 2 to 14 (indexes 1 to 13) as input for our model. Set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns).
 
 !["Split into X and Y by columns" card configured](assets/img/SLAVE/training_2.png)
 
-Now we are ready to train our model. Press the *Create card* button, navigate to **Models** &#x226B; **Fuzzy logic** and press **Train SLAVE classifier**. A new [Train SLAVE classifier](cards/trainSLAVEClassifier.html) card will appear in the blueprint.
+Now we are ready to train our model. Press the *Create card* button, navigate to **Models** &#x226B; **Fuzzy logic** and press **Train SLAVE classifier**. A new [Train SLAVE classifier](cards/trainSLAVEClassifier) card will appear in the blueprint.
 
 !["Train SLAVE classifier" card](assets/img/cards/trainSLAVEClassifier.png)
 
-Connect the **X** and **Y** outputs from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **Training X** and **Training Y** inputs of [Train SLAVE classifier](cards/trainSLAVEClassifier.html) respectively.
+Connect the **X** and **Y** outputs from [Split into X and Y by columns](cards/splitIntoXAndYByColumns) to the **Training X** and **Training Y** inputs of [Train SLAVE classifier](cards/trainSLAVEClassifier) respectively.
 
 ![Current pipeline](assets/img/SLAVE/training_3.png)
 
@@ -161,9 +161,9 @@ Press the *Create card* button, navigate to **Parameters** and press **Integer p
 
 ![Dialog asking for the name of the parameter](assets/img/SLAVE/training_4.png)
 
-Write "Population size" and press **Set**. A new [Integer parameter](cards/parameterInteger.html) card will appear in the blueprint.
+Write "Population size" and press **Set**. A new [Integer parameter](cards/parameterInteger) card will appear in the blueprint.
 
-Connect the **Value** output from [Integer parameter](cards/parameterInteger.html) to the **Population size** input of [Train SLAVE classifier](cards/trainSLAVEClassifier.html).
+Connect the **Value** output from [Integer parameter](cards/parameterInteger) to the **Population size** input of [Train SLAVE classifier](cards/trainSLAVEClassifier).
 
 ![Current pipeline](assets/img/SLAVE/training_5.png)
 
@@ -173,7 +173,7 @@ Now we must specify a domain of possible values for this parameter. In this tuto
 
 Now we will do the same for *mutation probability*. Press the *Create card* button, navigate to **Parameters** and press **Float parameter**. Name this parameter "Mutation probability".
 
-Connect the **Value** output from [Float parameter](cards/parameterFloat.html) to the **Mutation probability** input of [Train SLAVE classifier](cards/trainSLAVEClassifier.html).
+Connect the **Value** output from [Float parameter](cards/parameterFloat) to the **Mutation probability** input of [Train SLAVE classifier](cards/trainSLAVEClassifier).
 
 ![Current pipeline](assets/img/SLAVE/training_7.png)
 
@@ -185,83 +185,83 @@ This finishes the training part of the pipeline. We are ready to measure the per
 
 ### 5. Testing the model
 
-First of all we need to split the input and output of the testing table, as we previously did with the training table. Press the *Create card* button, navigate to **Tables** and press **Split into X and Y by columns**. A new [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) card will appear in the blueprint.
+First of all we need to split the input and output of the testing table, as we previously did with the training table. Press the *Create card* button, navigate to **Tables** and press **Split into X and Y by columns**. A new [Split into X and Y by columns](cards/splitIntoXAndYByColumns) card will appear in the blueprint.
 
 !["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 
-Connect the **Testing** output from [K-fold cross-validation](cards/kFoldCrossValidation.html) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
+Connect the **Testing** output from [K-fold cross-validation](cards/kFoldCrossValidation) to the **Data** input of [Split into X and Y by columns](cards/splitIntoXAndYByColumns).
 
 ![Current pipeline](assets/img/SLAVE/testing_1.png)
 
-Analogously as we did before, set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html).
+Analogously as we did before, set **X column(s)** to "1:13" and **Y column(s)** to "0" in [Split into X and Y by columns](cards/splitIntoXAndYByColumns).
 
 !["Split into X and Y by columns" card configured](assets/img/SLAVE/testing_2.png)
 
-At this point we are ready to ask the model for a prediction. Press the *Create card* button, navigate to **Models** and press **Predict**. A new [Predict](cards/predict.html) card will appear in the blueprint.
+At this point we are ready to ask the model for a prediction. Press the *Create card* button, navigate to **Models** and press **Predict**. A new [Predict](cards/predict) card will appear in the blueprint.
 
 !["Predict" card](assets/img/cards/predict.png)
 
-Connect the **Model** output from [Train SLAVE classifier](cards/trainSLAVEClassifier.html) to the **Model** input of [Predict](cards/predict.html), then connect the **X** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **X** input of [Predict](cards/predict.html).
+Connect the **Model** output from [Train SLAVE classifier](cards/trainSLAVEClassifier) to the **Model** input of [Predict](cards/predict), then connect the **X** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns) to the **X** input of [Predict](cards/predict).
 
 ![Current pipeline](assets/img/SLAVE/testing_3.png)
 
-The performance of the model will be determined by averaging the accuracy obtained in each fold. Press the *Create card* button, navigate to **Loss functions** and press **Accuracy**. A new [Accuracy](cards/accuracy.html) card will appear in the blueprint.
+The performance of the model will be determined by averaging the accuracy obtained in each fold. Press the *Create card* button, navigate to **Loss functions** and press **Accuracy**. A new [Accuracy](cards/accuracy) card will appear in the blueprint.
 
 !["Accuracy" card](assets/img/cards/accuracy.png)
 
-Connect the **Y'** output from [Predict](cards/predict.html) to the **Predictions** input of [Accuracy](cards/accuracy.html), then connect the **Y** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns.html) to the **Target** input of [Accuracy](cards/accuracy.html).
+Connect the **Y'** output from [Predict](cards/predict) to the **Predictions** input of [Accuracy](cards/accuracy), then connect the **Y** output from [Split into X and Y by columns](cards/splitIntoXAndYByColumns) to the **Target** input of [Accuracy](cards/accuracy).
 
 ![Current pipeline](assets/img/SLAVE/testing_4.png)
 
 Our goal is to calculate the mean accuracy of all folds, so we need to store each obtained accuracy value somewhere. On each fold we will load a **variable** list of float, add the accuracy value and store it again.
 
-Press the *Create card* button, navigate to **Variables** &#x226B; **Getters** and press **Get list of float**. A new [Get list of float](cards/getFloat_n.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Variables** &#x226B; **Getters** and press **Get list of float**. A new [Get list of float](cards/getFloat_n) card will appear in the blueprint.
 
 !["Get list of float" card](assets/img/cards/getFloat_n.png)
 
 Set the **Name** input as "accuracies".
 
-Make [Get list of float](cards/getFloat_n.html) an explicit listener of the *On each fold* event of [K-fold cross-validation](cards/kFoldCrossValidation.html) by dragging & dropping the square socket next to **Call** into the [Get list of float](cards/getFloat_n.html) card.
+Make [Get list of float](cards/getFloat_n) an explicit listener of the *On each fold* event of [K-fold cross-validation](cards/kFoldCrossValidation) by dragging & dropping the square socket next to **Call** into the [Get list of float](cards/getFloat_n) card.
 
 We need to load and store the variable on each fold in order to always access to its last version, otherwise the system would load it only once and it would always be empty.
 
 ![Current pipeline](assets/img/SLAVE/testing_5.png)
 
-Press the *Create card* button, navigate to **Lists** and press **Add float to list**. A new [Add float to list](cards/addFloatToList.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Lists** and press **Add float to list**. A new [Add float to list](cards/addFloatToList) card will appear in the blueprint.
 
 !["Add float to list" card](assets/img/cards/addFloatToList.png)
 
-Connect the **Value** output from [Get list of float](cards/getFloat_n.html) to the **List** input of [Add float to list](cards/addFloatToList.html), then connect the **Accuracy** output from [Accuracy](cards/accuracy.html) to the **Value** input of [Add float to list](cards/addFloatToList.html).
+Connect the **Value** output from [Get list of float](cards/getFloat_n) to the **List** input of [Add float to list](cards/addFloatToList), then connect the **Accuracy** output from [Accuracy](cards/accuracy) to the **Value** input of [Add float to list](cards/addFloatToList).
 
 ![Current pipeline](assets/img/SLAVE/testing_6.png)
 
-Press the *Create card* button, navigate to **Variables** &#x226B; **Setters** and press **Set list of float**. A new [Set list of float](cards/setFloat_n.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Variables** &#x226B; **Setters** and press **Set list of float**. A new [Set list of float](cards/setFloat_n) card will appear in the blueprint.
 
 !["Set list of float" card](assets/img/cards/setFloat_n.png)
 
 Set the **Name** input as "accuracies".
 
-Connect the **Result** output from [Add float to list](cards/addFloatToList.html) to the **Value** input of [Set list of float](cards/setFloat_n.html).
+Connect the **Result** output from [Add float to list](cards/addFloatToList) to the **Value** input of [Set list of float](cards/setFloat_n).
 
 ![Current pipeline](assets/img/SLAVE/testing_7.png)
 
 At this point our pipeline is the accuracy obtained by each trained model on each fold. We are ready to compute their mean value.
 
-Press the *Create card* button, navigate to **Variables** &#x226B; **Getters** and press **Get list of float**. A new [Get list of float](cards/getFloat_n.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Variables** &#x226B; **Getters** and press **Get list of float**. A new [Get list of float](cards/getFloat_n) card will appear in the blueprint.
 
 !["Get list of float" card](assets/img/cards/getFloat_n.png)
 
 Set the **Name** input as "accuracies".
 
-Make this [Get list of float](cards/getFloat_n.html) card an explicit listener of the *On finish* event of [K-fold cross-validation](cards/kFoldCrossValidation.html) by dragging & dropping the square socket next to **Call** into the [Get list of float](cards/getFloat_n.html) card.
+Make this [Get list of float](cards/getFloat_n) card an explicit listener of the *On finish* event of [K-fold cross-validation](cards/kFoldCrossValidation) by dragging & dropping the square socket next to **Call** into the [Get list of float](cards/getFloat_n) card.
 
 ![Current pipeline](assets/img/SLAVE/testing_8.png)
 
-Press the *Create card* button, navigate to **Statistics** and press **Mean**. A new [Mean](cards/mean.html) card will appear in the blueprint.
+Press the *Create card* button, navigate to **Statistics** and press **Mean**. A new [Mean](cards/mean) card will appear in the blueprint.
 
 !["Mean" card](assets/img/cards/mean.png)
 
-Connect the **Value** output of [Get list of float](cards/getFloat_n.html) to the **Values** input of [Mean](cards/mean.html).
+Connect the **Value** output of [Get list of float](cards/getFloat_n) to the **Values** input of [Mean](cards/mean).
 
 ![Current pipeline](assets/img/SLAVE/testing_9.png)
 
@@ -269,9 +269,9 @@ We are almost done. Now we just need to return the obtained value, so Protopipe 
 
 ![Dialog asking for the name of the return value](assets/img/SLAVE/testing_10.png)
 
-Write "Mean accuracy" and press **Set**. A new [Return float](cards/returnFloat.html) card will appear in the blueprint.
+Write "Mean accuracy" and press **Set**. A new [Return float](cards/returnFloat) card will appear in the blueprint.
 
-Connect the **Mean** output from [Mean](cards/mean.html) to the **Value** input of [Return float](cards/returnFloat.html).
+Connect the **Mean** output from [Mean](cards/mean) to the **Value** input of [Return float](cards/returnFloat).
 
 ![Current pipeline](assets/img/SLAVE/testing_11.png)
 

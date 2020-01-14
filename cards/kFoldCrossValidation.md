@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>K-fold cross-validation</li>
 </ul>
 
 ## K-fold cross-validation
 
-Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation).
+
 
 !["K-fold cross-validation" card](assets/img/cards/kFoldCrossValidation.png)
 
@@ -15,11 +15,11 @@ Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validat
 ### Inputs
 
 
-* **K** --- [Integer](types/Integer.html)
+* **K** --- [Integer](types/Integer)
 
   Number of subsamples to partition the data.
 
-* **Data** --- [Tensor](types/Tensor.html)
+* **Data** --- [Tensor](types/Tensor)
 
   Data to partition.
 
@@ -40,11 +40,11 @@ Triggered `K` times, one for each fold.
 Event outputs:
 
 
-* **Training** --- [Tensor](types/Tensor.html)
+* **Training** --- [Tensor](types/Tensor)
 
   Training data, of size `Data.size * (k - 1) / k`.
 
-* **Testing** --- [Tensor](types/Tensor.html)
+* **Testing** --- [Tensor](types/Tensor)
 
   Testing data, of size `Data.size * 1 / k`.
 

@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Split into X and Y by columns</li>
 </ul>
 
 ## Split into X and Y by columns
 
-Splits a table into two tables (X and Y).
+
 
 !["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 
@@ -15,15 +15,15 @@ Splits a table into two tables (X and Y).
 ### Inputs
 
 
-* **Data** --- [Tensor](types/Tensor.html)
+* **Data** --- [Tensor](types/Tensor)
 
   2D tensor (a table) to split.
 
-* **X column(s)** --- List of [Integer](types/Integer.html)
+* **X column(s)** --- List of [Integer](types/Integer)
 
   Index(es) of the column(s) to include in the resulting X table.
 
-* **Y column(s)** --- List of [Integer](types/Integer.html)
+* **Y column(s)** --- List of [Integer](types/Integer)
 
   Index(es) of the column(s) to include in the resulting Y table.
 
@@ -34,11 +34,11 @@ Splits a table into two tables (X and Y).
 ### Outputs
 
 
-* **X** --- [Tensor](types/Tensor.html)
+* **X** --- [Tensor](types/Tensor)
 
   Resulting table containing only columns **X columns** of **Data**.
 
-* **Y** --- [Tensor](types/Tensor.html)
+* **Y** --- [Tensor](types/Tensor)
 
   Resulting table containing only columns **Y columns** of **Data**.
 

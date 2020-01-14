@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li><a href="help.html">Help index</a></li>
+    <li><a href="help">Help index</a></li>
     <li><a href="cards/">Index of cards</a></li>
     <li>Integer parameter</li>
 </ul>
 
 ## Integer parameter
 
-Provides a [Integer](types/Integer.html) value set by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+Provides a [Integer](types/Integer) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 !["Integer parameter" card](assets/img/cards/parameterInteger.png)
 
@@ -15,7 +15,7 @@ Provides a [Integer](types/Integer.html) value set by [the global optimizer](wor
 ### Inputs
 
 
-* **Domain** --- [IntegerIntervals](types/IntegerIntervals.html)
+* **Domain** --- [IntegerIntervals](types/IntegerIntervals)
 
   Domain of possible values this parameter can take.
 
@@ -26,9 +26,9 @@ Provides a [Integer](types/Integer.html) value set by [the global optimizer](wor
 ### Outputs
 
 
-* **Value** --- [Integer](types/Integer.html)
+* **Value** --- [Integer](types/Integer)
 
-  Value provided by [the global optimizer](work_screen.html#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
 
 
 
