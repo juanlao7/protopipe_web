@@ -14,6 +14,6 @@
 
 ## Contact us
 
-<i class="icon-mail"></i> Please, for any kind of question or request, reach us at nitzing`.and.more`{:.antispam}@gmail.com
+<i class="icon-mail"></i> Please, for any kind of question or request, reach us at {{ site.company.email }}
 
-Protopipe is a product offered by **[TODO Company Name]()**.
+Protopipe is a product offered by **[{{ site.company.name }}]({{ site.company.url }})**.

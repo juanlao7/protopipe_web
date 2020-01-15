@@ -1,21 +1,19 @@
 <style type="text/css">
-    @media screen and (min-width: 42em) {
-        #index {
-            margin-top: 2em;
-            padding-left: 1em;
-        }
+    #index {
+        margin-top: 2em;
+        padding-left: 1em;
+    }
 
-        #index > li > ul {
-            margin-left: 2em;
-        }
+    #index > li > ul {
+        margin-left: 2em;
+    }
 
-        #index > li {
-            margin-bottom: 1.5em;
-        }
+    #index > li {
+        margin-bottom: 1.5em;
+    }
 
-        #index > li > i {
-            margin-right: 0.25em;
-        }
+    #index > li > i {
+        margin-right: 0.25em;
     }
 </style>
 

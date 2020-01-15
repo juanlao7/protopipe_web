@@ -4,6 +4,11 @@ description: Speed up your machine learning workflows
 baseurl: /protopipe_web
 permalink: /404.html
 
+company:
+  name: A Company With No Name
+  email: nitzing`.and.more`{:.antispam}@gmail.com
+  url: http://twitter.com
+
 github:
   is_project_page: false
 
