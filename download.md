@@ -26,7 +26,7 @@
     <li>Download</li>
 </ul>
 
-# Downloading Protopipe
+# Download Protopipe
 
 Desktop application, **beta version**.
 
