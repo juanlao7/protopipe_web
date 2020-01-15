@@ -16,16 +16,6 @@
 
     {% include autotitle.html html=content %}
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-
     {% seo title=false %}
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" />
@@ -123,5 +113,31 @@
         }
       }
     </script>
+
+    {% if site.google_analytics %}
+    <script type="text/javascript" src="assets/js/fp.js"></script>
+
+    <script type="text/javascript">
+      function insertAnalytics() {
+        Fingerprint2.get({}, function (components) {
+          var values = components.map(function (component) {
+            return component.value;
+          });
+
+          var murmur = Fingerprint2.x64hash128(values.join(''), 31);
+          // TODO: insert google analytics code.
+        });
+      }
+
+      window.addEventListener('load', function () {
+        if (window.requestIdleCallback) {
+          requestIdleCallback(insertAnalytics);
+        }
+        else {
+          setTimeout(insertAnalytics, 500);
+        }
+      });
+    </script>
+    {% endif %}
   </body>
 </html>

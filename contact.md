@@ -9,7 +9,7 @@
 
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li>Contact</li>
+    <li>Contact us</li>
 </ul>
 
 ## Contact us
