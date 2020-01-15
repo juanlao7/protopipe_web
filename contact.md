@@ -1,11 +1,11 @@
 <style type="text/css">
-    h2 {
-        margin: 3em 0 1em;
+    h1 {
+        margin-top: 3em;
     }
     
     @media screen and (min-width: 42em) {
         #content p,
-        #content h2 {
+        #content h1 {
             text-align: center;
         }
     }
@@ -16,7 +16,7 @@
     <li>Contact us</li>
 </ul>
 
-## Contact us
+# Contact us
 
 <i class="icon-mail"></i> Please, for any kind of question or request, reach us at {{ site.company.email }}
 

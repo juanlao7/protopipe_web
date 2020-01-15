@@ -1,6 +1,11 @@
 <style type="text/css">
+    #content h1 {
+        margin-top: 2em;
+    }
+
     #content .button {
         margin: 8px;
+        margin-bottom: 3em;
     }
 
     @media screen and (min-width: 42em) {
@@ -17,7 +22,7 @@
     <li>Download</li>
 </ul>
 
-# Download Protopipe
+# Downloading Protopipe
 
 Desktop application, **beta version**.
 

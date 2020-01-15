@@ -4,8 +4,8 @@ no_title: true
 
 <style type="text/css">
     #bigTitle {
-        font-size: 1.25em;
-        margin: 2em 0;
+        font-size: 1.5em;
+        margin: 1em 0;
         text-align: center;
     }
 
@@ -16,7 +16,7 @@ no_title: true
         }
 
         #content h2 {
-            margin-top: 96px !important;
+            margin-top: 80px !important;
         }
     }
 </style>
