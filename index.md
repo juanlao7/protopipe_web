@@ -6,8 +6,12 @@ no_title: true
     #bigTitle {
         font-size: 1.5em;
         margin: 1em 0;
-        text-align: center;
-    }
+		text-align: center;
+	}
+	
+	#bigTitle::before {
+		display: none !important;
+	}
 
     @media screen and (min-width: 42em) {
         #content p,

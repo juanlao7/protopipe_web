@@ -5,13 +5,17 @@
 
     #content .button {
         margin: 8px;
+    }
+
+    #downloadButtons {
         margin-bottom: 3em;
     }
 
     @media screen and (min-width: 42em) {
         #content p,
         #content h1,
-        #content h2 {
+        #content h2,
+        #downloadButtons {
             text-align: center;
         }
     }
@@ -26,8 +30,10 @@
 
 Desktop application, **beta version**.
 
-<a class="button" href="windows_instructions"><i class="icon-windows"></i> Download for Windows</a>
-<a class="button" href="macOS_instructions"><i class="icon-apple"></i> Download for macOS</a>
+<div id="downloadButtons">
+    <a class="button" href="windows_instructions"><i class="icon-windows"></i> Download for Windows</a>
+    <a class="button" href="macOS_instructions"><i class="icon-apple"></i> Download for macOS</a>
+</div>
 
 ## Protopipe requires a product key
 
