@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 title: Protopipe
 description: Speed up your machine learning workflows
 baseurl: /protopipe_web
+permalink: /404.html
 
 github:
   is_project_page: false
