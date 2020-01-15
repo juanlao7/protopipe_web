@@ -246,6 +246,10 @@ li > ol {
     white-space: normal;
 }
 
+#companyLink strong {
+    white-space: nowrap;
+}
+
 #copyright {
     font-size: 14px;
     margin: 1em auto;
