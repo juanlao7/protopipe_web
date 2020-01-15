@@ -1,4 +1,8 @@
 <style type="text/css">
+    h2 {
+        margin-top: 3em 0 1em;
+    }
+    
     @media screen and (min-width: 42em) {
         #content p,
         #content h2 {
