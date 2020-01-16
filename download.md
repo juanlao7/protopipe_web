@@ -10,6 +10,7 @@
     #downloadButtons .button > span {
         display: inline-block;
         vertical-align: top;
+        text-align: left;
     }
 
     #downloadButtons .button > span > span {
