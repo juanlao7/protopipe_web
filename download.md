@@ -3,8 +3,22 @@
         margin-top: 2em;
     }
 
-    #content .button {
+    #downloadButtons .button {
         margin: 8px;
+    }
+
+    #downloadButtons .button > span {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #downloadButtons .button > span > span {
+        display: block;
+    }
+
+    #downloadButtons .button > span > span:last-child {
+        font-size: 0.8em;
+        margin-top: 4px;
     }
 
     #downloadButtons {
@@ -31,7 +45,9 @@
 Desktop application, **beta version**.
 
 <div id="downloadButtons">
-    <a class="button" href="windows_instructions"><i class="icon-windows"></i> Download for Windows</a>
+    <a class="button" href="windows_instructions"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>64 bits</span></span></a>
+    <a class="button" href="windows_instructions"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>32 bits</span></span></a>
+    <br/>
     <a class="button" href="macOS_instructions"><i class="icon-apple"></i> Download for macOS</a>
 </div>
 
