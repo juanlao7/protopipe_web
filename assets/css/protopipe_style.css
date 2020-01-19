@@ -50,6 +50,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     border-radius: 16px 16px 0 0;
+    white-space: nowrap;
 }
 
 nav a:hover {
