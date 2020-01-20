@@ -56,4 +56,4 @@ Desktop application, **beta version**.
 
 Protopipe is currently in **early access**, only available to a restricted audience, and no product key is yet publicly distributed.
 
-If you are interested in trying Protopipe, please, contact us at nitzing`.and.more`{:.antispam}@gmail.com
+If you are interested in trying Protopipe, please, contact us at {{ site.company.email }}

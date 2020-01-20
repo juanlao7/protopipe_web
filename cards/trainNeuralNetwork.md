@@ -1,3 +1,7 @@
+---
+no_toc: true
+---
+
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
     <li><a href="documentation">Documentation index</a></li>
