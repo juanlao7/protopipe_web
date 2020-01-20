@@ -47,9 +47,7 @@ Desktop application, **beta version**.
 
 <div id="downloadButtons">
     <a class="button" href="windows_instructions"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>64 bits</span></span></a>
-    <a class="button" href="windows_instructions"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>32 bits, considerably slower</span></span></a>
-    <br/>
-    <a class="button" href="macOS_instructions"><i class="icon-apple"></i> Download for macOS</a>
+    <a class="button" href="macOS_instructions"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>
 </div>
 
 ## Protopipe requires a product key
