@@ -7,7 +7,7 @@
 
 ## Read as CSV
 
-
+Reads a comma-separated values stream and returns a labeled table.
 
 !["Read as CSV" card](assets/img/cards/readAsCSV.png)
 

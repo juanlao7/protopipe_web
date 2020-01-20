@@ -7,7 +7,7 @@
 
 ## Predict
 
-
+Generates output predictions for a given set of input samples and a given model.
 
 !["Predict" card](assets/img/cards/predict.png)
 

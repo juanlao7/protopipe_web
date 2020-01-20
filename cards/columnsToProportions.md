@@ -7,7 +7,7 @@
 
 ## Columns to proportions
 
-
+Converts values into the proportion they represented in their original column.
 
 !["Columns to proportions" card](assets/img/cards/columnsToProportions.png)
 

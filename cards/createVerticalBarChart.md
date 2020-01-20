@@ -7,7 +7,7 @@
 
 ## Create vertical bar chart
 
-
+Creates a vertical bar chart.
 
 !["Create vertical bar chart" card](assets/img/cards/createVerticalBarChart.png)
 

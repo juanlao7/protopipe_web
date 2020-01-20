@@ -7,7 +7,7 @@
 
 ## Scale columns to a range
 
-
+Scales and translates columns individually such that their values are in a given range.
 
 !["Scale columns to a range" card](assets/img/cards/scaleColumnsToARange.png)
 

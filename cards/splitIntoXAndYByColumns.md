@@ -7,7 +7,7 @@
 
 ## Split into X and Y by columns
 
-
+Splits a table into two tables (X and Y).
 
 !["Split into X and Y by columns" card](assets/img/cards/splitIntoXAndYByColumns.png)
 

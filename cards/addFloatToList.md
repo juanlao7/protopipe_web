@@ -7,7 +7,7 @@
 
 ## Add float to list
 
-
+Copies a list of [Float](types/Float) and adds an element.
 
 !["Add float to list" card](assets/img/cards/addFloatToList.png)
 

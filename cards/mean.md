@@ -7,7 +7,7 @@
 
 ## Mean
 
-
+Returns the mean value of a list of [Floats](types/Float).
 
 !["Mean" card](assets/img/cards/mean.png)
 

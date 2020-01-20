@@ -7,7 +7,7 @@
 
 ## Open file
 
-
+Opens a file and returns its stream.
 
 !["Open file" card](assets/img/cards/openFile.png)
 

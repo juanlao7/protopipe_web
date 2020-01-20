@@ -8,7 +8,7 @@
 
 ### Desktop application
 
-The *desktop application* of Protopipe sets up an HTTP server that serves the *web application*, from the local computer or any other device in the network. This application is compatible with the latest version of <i class="icon-windows"></i>Windows and <i class="icon-apple"></i>macOS.
+The *desktop application* of Protopipe sets up an HTTP server that makes the *web application* accessible from the local computer or any other device in the network. This application is compatible with the latest version of <i class="icon-windows"></i>Windows and <i class="icon-apple"></i>macOS.
 
 ### Web application
 

@@ -7,7 +7,7 @@
 
 ## Group and count
 
-
+Groups rows with the same values into summary rows that contain the grouping fields and the number of grouped rows.
 
 !["Group and count" card](assets/img/cards/groupAndCount.png)
 

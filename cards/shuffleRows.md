@@ -7,7 +7,7 @@
 
 ## Shuffle rows
 
-
+Randomly shuffles the rows of a table.
 
 !["Shuffle rows" card](assets/img/cards/shuffleRows.png)
 

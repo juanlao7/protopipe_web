@@ -7,7 +7,7 @@
 
 ## Mean absolute error
 
-
+For two given tensors, returns the mean of the absolute value of the difference of each cell.
 
 !["Mean absolute error" card](assets/img/cards/meanAbsoluteError.png)
 

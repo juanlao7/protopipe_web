@@ -7,7 +7,7 @@
 
 ## K-fold cross-validation
 
-
+Performs a [k-fold cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation).
 
 !["K-fold cross-validation" card](assets/img/cards/kFoldCrossValidation.png)
 

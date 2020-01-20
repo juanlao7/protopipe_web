@@ -7,7 +7,7 @@
 
 ## Plot chart
 
-
+Plots a chart.
 
 !["Plot chart" card](assets/img/cards/plotChart.png)
 

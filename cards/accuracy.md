@@ -7,7 +7,7 @@
 
 ## Accuracy
 
-
+Calculates the proportion of predictions that are equal to a ground truth.
 
 !["Accuracy" card](assets/img/cards/accuracy.png)
 
