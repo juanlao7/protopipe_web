@@ -5,12 +5,14 @@
 
     #downloadButtons .button {
         margin: 8px;
+        white-space: nowrap;
     }
 
     #downloadButtons .button > span {
         display: inline-block;
         vertical-align: top;
         text-align: left;
+        white-space: normal;
     }
 
     #downloadButtons .button > span > span {
