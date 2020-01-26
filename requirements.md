@@ -12,13 +12,13 @@ no_toc: true
 
 ### Desktop application
 
-The *desktop application* of Protopipe is compatible with the latest version of <i class="icon-windows"></i>Windows and <i class="icon-apple"></i>macOS.
+The Protopipe *desktop application* serves the Protopipe *web platform* to the local computer or any other device on the same network.
 
-It sets up an HTTP server that makes the *web application* accessible from the local computer or any other device in the network
+This application is compatible with the latest version of <i class="icon-windows"></i>Windows and <i class="icon-apple"></i>macOS
 
-### Web application
+### Web platform
 
-The *web application* of Protopipe is compatible with the latest version of the most popular web browsers, on any operating system, on any device:
+The Protopipe *web platform* is compatible with the latest version of the most popular web browsers, on any operating system, on any device:
 
 * <i class="icon-chrome"></i> Google Chrome
 * <i class="icon-safari"></i> Safari
