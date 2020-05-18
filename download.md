@@ -48,12 +48,10 @@
 Desktop application, **beta version**.
 
 <div id="downloadButtons">
-    <a class="button" href="windows_instructions"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>64 bits</span></span></a>
-    <a class="button" href="macOS_instructions"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>
+    <a class="button" href="windows_instructions" target="_blank"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>64 bits</span></span></a>
+    <a class="button" href="macOS_instructions" target="_blank"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>
 </div>
 
-## Protopipe requires a product key
+## Get free early access
 
-Protopipe is currently in **early access**, only available to a restricted audience, and no product key is yet publicly distributed.
-
-If you are interested in trying Protopipe, please, contact us at {{ site.company.email }}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUEhsOG0DQXggmcE1wfwlFZtndTHXWpfW7QjvGpl__gt75Ow/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
