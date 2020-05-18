@@ -3,6 +3,11 @@
         margin-top: 2em;
     }
 
+    #content h2 {
+        margin-top: 2em;
+        font-size: 1.8em;
+    }
+
     #downloadButtons .button {
         margin: 8px;
         white-space: nowrap;
@@ -25,7 +30,7 @@
     }
 
     #downloadButtons {
-        margin-bottom: 3em;
+        margin-bottom: 1em;
     }
 
     @media screen and (min-width: 42em) {
@@ -52,6 +57,8 @@ Desktop application, **beta version**.
     <a class="button" href="macOS_instructions" target="_blank"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>
 </div>
 
-## Get free early access
+[End-User License Agreement (EULA)](eula)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUEhsOG0DQXggmcE1wfwlFZtndTHXWpfW7QjvGpl__gt75Ow/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+## Try Protopipe for free
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUEhsOG0DQXggmcE1wfwlFZtndTHXWpfW7QjvGpl__gt75Ow/viewform?embedded=true" width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

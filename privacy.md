@@ -1,5 +1,6 @@
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
+    <li><a href="legal">Legal resources</a></li>
     <li>Privacy Policy</li>
 </ul>
 
