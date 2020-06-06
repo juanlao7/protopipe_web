@@ -29,7 +29,7 @@ Creates a vertical bar chart.
 
 * **Height column index** --- [Integer](types/Integer)
 
-  The heights of the bars.
+  Index of the column that contains the heights of the bars.
 
 
 

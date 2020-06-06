@@ -6,24 +6,24 @@ no_toc: true
     <li><a href="">Home</a></li>
     <li><a href="documentation">Documentation index</a></li>
     <li><a href="cards/">Index of cards</a></li>
-    <li>Add float to list</li>
+    <li>Add Image to list</li>
 </ul>
 
-## Add float to list
+## Add Image to list
 
-Copies a list of [Float](types/Float) and adds an element.
+Creates a copy of a list of [Image](types/Image) and adds a new element to the copy.
 
-!["Add float to list" card](assets/img/cards/addFloatToList.png)
+!["Add Image to list" card](assets/img/cards/addToList(Image).png)
 
 
 ### Inputs
 
 
-* **List** --- List of [Float](types/Float)
+* **List** --- List of [Image](types/Image)
 
   Original list.
 
-* **Value** --- [Float](types/Float)
+* **Value** --- [Image](types/Image)
 
   Element to append.
 
@@ -34,7 +34,7 @@ Copies a list of [Float](types/Float) and adds an element.
 ### Outputs
 
 
-* **Result** --- List of [Float](types/Float)
+* **Result** --- List of [Image](types/Image)
 
   Copy of **List** with **Value** appended.
 

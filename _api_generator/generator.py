@@ -46,73 +46,96 @@ def treeToBullets(tree, indent=0):
     
     return buffer
 
+def ensureArgumentsHelp(moduleId, argumentType, arguments):
+    for argument in arguments:
+        if 'help' not in argument:
+            print('WARNING: %s type argument "%s" in module "%s" does not have "help".' % (argumentType, argument['id'], moduleId))
+
+def ensureHelp(moduleId, module):
+    if 'help' not in module:
+        print('WARNING: module "%s" does not have "help".' % moduleId)
+    
+    ensureArgumentsHelp(moduleId, 'input', module.get('inputs', []))
+    ensureArgumentsHelp(moduleId, 'output', module.get('outputs', []))
+
+def generateCoreAPI(args):
+    modules = json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ modules', shell=True))
+
+    # Emptying ../cards and ../assets/img/cards
+    directoriesToEmpty = ['../cards']
+
+    if not args.noScreenshots:
+        directoriesToEmpty.append('../assets/img/cards')
+
+    for directoryToEmpty in directoriesToEmpty:
+        for relativeFilePath in os.listdir(directoryToEmpty):
+            filePath = os.path.join(directoryToEmpty, relativeFilePath)
+
+            try:
+                if os.path.isfile(filePath):
+                    os.unlink(filePath)
+            except Exception as e:
+                print(e)
+
+    # Generating cards index.
+    tree = {}
+
+    for moduleId, module in modules.items():
+        insertInTree(tree, module['path'] + [module['title']], moduleId)
+
+    renderTemplate('cards_index_skeleton.md', '../cards/index.md', tree=treeToBullets(tree))
+
+    # Generating reference page for each card.
+    screenshotPlans = {}
+    types = set()
+
+    for moduleId, module in modules.items():
+        ensureHelp(moduleId, module)
+        outputs = [x for x in module.get('outputs', []) if x['type'] != 'Event']
+        events = [x for x in module.get('outputs', []) if x['type'] == 'Event']
+
+        renderTemplate('card_reference_skeleton.md', '../cards/%s.md' % moduleId, id=moduleId, title=module['title'], help=module.get('help', ''), inputs=module.get('inputs', []), outputs=outputs, events=events)
+
+        if not args.noScreenshots:
+            plan = {
+                'card': module['path'] + [module['title']],
+                'frameCards': True
+            }
+
+            if moduleId.startswith('parameter') or moduleId.startswith('return'):
+                plan['clickElementWhenReady'] = ['t:Set']
+            
+            screenshotPlans['cards/%s' % moduleId] = plan
+        
+        for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
+            if argumentDefinition['type'] != 'Event':
+                types.add(argumentDefinition['type'])
+
+    # Generating types index.
+    renderTemplate('types_index_skeleton.md', '../types/index.md', types=sorted(types))
+
+    for dataType in types:
+        if not os.path.isfile('../types/%s.md' % dataType):
+            print('WARNING: reference for data type "%s" does not exist.' % dataType)
+
+    # Generating card images.
+
+    if not args.noScreenshots:
+        os.chdir('../_screenshot_maker')
+
+        with open('cards.json', 'w') as handler:
+            json.dump(screenshotPlans, handler)
+
+        subprocess.check_call(['node', 'index.js', 'cards.json'])
+
 parser = argparse.ArgumentParser(prog='Protopipe API generator')
+parser.add_argument('targets', nargs='+', choices=['core', 'nn'], help='Possible values: core, nn.')
 parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots', help='Do not remove & create screenshots.')
 args = parser.parse_args()
 
-modules = json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ modules', shell=True))
+handlers = {
+    'core': generateCoreAPI
+}
 
-# Emptying ../cards and ../assets/img/cards
-directoriesToEmpty = ['../cards']
-
-if not args.noScreenshots:
-    directoriesToEmpty.append('../assets/img/cards')
-
-for directoryToEmpty in directoriesToEmpty:
-    for relativeFilePath in os.listdir(directoryToEmpty):
-        filePath = os.path.join(directoryToEmpty, relativeFilePath)
-
-        try:
-            if os.path.isfile(filePath):
-                os.unlink(filePath)
-        except Exception as e:
-            print(e)
-
-# Generating cards index.
-tree = {}
-
-for moduleId, module in modules.items():
-    insertInTree(tree, module['path'] + [module['title']], moduleId)
-
-renderTemplate('cards_index_skeleton.md', '../cards/index.md', tree=treeToBullets(tree))
-
-# Generating reference page for each card.
-screenshotPlans = {}
-types = set()
-
-for moduleId, module in modules.items():
-    outputs = [x for x in module.get('outputs', []) if x['type'] != 'Event']
-    events = [x for x in module.get('outputs', []) if x['type'] == 'Event']
-    renderTemplate('card_reference_skeleton.md', '../cards/%s.md' % moduleId, id=moduleId, title=module['title'], help=module.get('help', ''), inputs=module.get('inputs', []), outputs=outputs, events=events)
-
-    if not args.noScreenshots:
-        plan = {
-            'card': module['path'] + [module['title']],
-            'frameCards': True
-        }
-
-        if moduleId.startswith('parameter') or moduleId.startswith('return'):
-            plan['clickElementWhenReady'] = ['t:Set']
-        
-        screenshotPlans['cards/%s' % moduleId] = plan
-    
-    for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
-        if argumentDefinition['type'] != 'Event':
-            types.add(argumentDefinition['type'])
-
-# Generating types index.
-renderTemplate('types_index_skeleton.md', '../types/index.md', types=sorted(types))
-
-for dataType in types:
-    if not os.path.isfile('../types/%s.md' % dataType):
-        print('WARNING: reference for data type "%s" does not exist.' % dataType)
-
-# Generating card images.
-
-if not args.noScreenshots:
-    os.chdir('../_screenshot_maker')
-
-    with open('cards.json', 'w') as handler:
-        json.dump(screenshotPlans, handler)
-
-    subprocess.check_call(['node', 'index.js', 'cards.json'])
+for target in args.targets:
+    handlers[target](args)

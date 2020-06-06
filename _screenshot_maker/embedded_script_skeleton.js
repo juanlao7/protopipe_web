@@ -1,4 +1,6 @@
 (async () => {
+    const LOGIN = false;
+
     const plan = %plan%;
     const USERNAME = %username%;
     const PASSWORD = %password%;
@@ -182,9 +184,13 @@
     }
 
     await timeout(DIALOG_INIT_DELAY);
-    findOrFail('Username').value = USERNAME;
-    findOrFail('Password').value = PASSWORD;
-    findOrFail('Log in', 1).click();
+
+    if (LOGIN) {
+        findOrFail('Username').value = USERNAME;
+        findOrFail('Password').value = PASSWORD;
+        findOrFail('Log in', 1).click();
+    }
+
     await waitForNoProgressBar();
 
     async function afterProjectOpening() {
