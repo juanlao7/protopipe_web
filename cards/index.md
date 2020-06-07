@@ -6,11 +6,7 @@
 
 ## Index of cards
 
-Cards are the main pillar of Protopipe.
-
-Cards are like functions of any common programming language: they receive some inputs, do something and return some outputs.
-
-Cards in Protopipe are organized in groups:
+Cards in Protopipe are like functions in any common programming language: they receive some inputs, do something and then return some outputs.
 
 * Charts
     * [Create line chart](cards/createLineChart)
@@ -113,3 +109,6 @@ Cards in Protopipe are organized in groups:
     * Setters
         * [Set float](cards/setFloat_1)
         * [Set list of float](cards/setFloat_n)
+
+
+**Note:** the neural network editor has its own set of cards, available [here](neural-network-cards/).

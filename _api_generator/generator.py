@@ -32,17 +32,17 @@ def insertInTree(tree, path, id):
     
     insertInTree(tree['branches'][branchText], path, id)
 
-def treeToBullets(tree, indent=0):
+def treeToBullets(apiName, tree, indent=0):
     buffer = ''
     
     if 'branches' in tree:
         for branchName in sorted(tree['branches']):
             buffer += (4 * indent) * ' ' + '* %s\n' % branchName
-            buffer += treeToBullets(tree['branches'][branchName], indent + 1)
+            buffer += treeToBullets(apiName, tree['branches'][branchName], indent + 1)
 
     if 'leaves' in tree:
         for leafId in sorted(tree['leaves']):
-            buffer += (4 * indent) * ' ' + '* [%s](cards/%s)\n' % (tree['leaves'][leafId], leafId)
+            buffer += (4 * indent) * ' ' + '* [%s](%s/%s)\n' % (tree['leaves'][leafId], apiName, leafId)
     
     return buffer
 
@@ -58,7 +58,7 @@ def ensureHelp(moduleId, module):
     ensureArgumentsHelp(moduleId, 'input', module.get('inputs', []))
     ensureArgumentsHelp(moduleId, 'output', module.get('outputs', []))
 
-def generateAPI(args, apiName, getModulesCommand):
+def generateAPI(args, apiName, getModulesCommand, createScreenshotPlan):
     modules = json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ %s' % getModulesCommand, shell=True))
 
     # Emptying ../cards and ../assets/img/cards
@@ -83,7 +83,7 @@ def generateAPI(args, apiName, getModulesCommand):
     for moduleId, module in modules.items():
         insertInTree(tree, module['path'] + [module['title']], moduleId)
 
-    renderTemplate('%s_index_skeleton.md' % apiName, '../%s/index.md' % apiName, tree=treeToBullets(tree))
+    renderTemplate('%s_index_skeleton.md' % apiName, '../%s/index.md' % apiName, tree=treeToBullets(apiName, tree))
 
     # Generating reference page for each card.
     screenshotPlans = {}
@@ -97,15 +97,7 @@ def generateAPI(args, apiName, getModulesCommand):
         renderTemplate('%s_card_reference_skeleton.md' % apiName, '../%s/%s.md' % (apiName, moduleId), id=moduleId, title=module['title'], help=module.get('help', ''), inputs=module.get('inputs', []), outputs=outputs, events=events)
 
         if not args.noScreenshots:
-            plan = {
-                'card': module['path'] + [module['title']],
-                'frameCards': True
-            }
-
-            if moduleId.startswith('parameter') or moduleId.startswith('return'):
-                plan['clickElementWhenReady'] = ['t:Set']
-            
-            screenshotPlans['%s/%s' % (apiName, moduleId)] = plan
+            screenshotPlans['%s/%s' % (apiName, moduleId)] = createScreenshotPlan(moduleId, module)
         
         for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
             if argumentDefinition['type'] != 'Event':
@@ -129,8 +121,27 @@ def generateAPI(args, apiName, getModulesCommand):
 
         subprocess.check_call(['node', 'index.js', 'cards.json'])
 
+def createCoreScreenshotPlan(moduleId, module):
+    plan = {
+        'card': module['path'] + [module['title']],
+        'frameCards': True
+    }
+
+    if moduleId.startswith('parameter') or moduleId.startswith('return'):
+        plan['clickElementWhenReady'] = ['t:Set']
+    
+    return plan
+
+def createNeuralNetworkScreenshotPlan(moduleId, module):
+    plan = createCoreScreenshotPlan(moduleId, module)
+    plan['openNeuralNetworkEditor'] = True
+    return plan
+
 def generateCoreAPI(args):
-    generateAPI(args, 'cards', 'modules')
+    generateAPI(args, 'cards', 'modules', createCoreScreenshotPlan)
+
+def generateNeuralNetworkAPI(args):
+    generateAPI(args, 'neural-network-cards', 'neuralNetworkModules', createNeuralNetworkScreenshotPlan)
 
 parser = argparse.ArgumentParser(prog='Protopipe API generator')
 parser.add_argument('targets', nargs='+', choices=['core', 'nn'], help='Possible values: core, nn.')
@@ -138,7 +149,8 @@ parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots
 args = parser.parse_args()
 
 handlers = {
-    'core': generateCoreAPI
+    'core': generateCoreAPI,
+    'nn': generateNeuralNetworkAPI
 }
 
 for target in args.targets:

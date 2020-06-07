@@ -13,6 +13,8 @@ no_toc: true
 
 Creates a neural network from a given structure template and a dictionary of custom parameters.
 
+**Note:** the current version of Protopipe does not support the parameterization of neural networks yet, but this feature will be available in the future.
+
 !["Create neural network" card](assets/img/cards/createNeuralNetwork.png)
 
 

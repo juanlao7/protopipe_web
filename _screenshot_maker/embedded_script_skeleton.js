@@ -169,6 +169,11 @@
         }
     }
 
+    function mouseDown(element) {
+        var event = new MouseEvent('mousedown');
+        element.dispatchEvent(event);
+    }
+
     const screenshotArea = document.createElement('div');
     screenshotArea.id = 'screenshotArea';
     screenshotArea.style.position = 'fixed';
@@ -195,10 +200,33 @@
 
     async function afterProjectOpening() {
         await waitForNoProgressBar();
-        
-        if ('card' in plan) {
+
+        if ('openNeuralNetworkEditor' in plan) {
             findOrFail('add').click();
             findOrFail('Modules').click();
+
+            for (let modulePart of ['Models', 'Neural networks', 'Create neural network']) {
+                findOrFail(modulePart).click();
+            }
+
+            findOrFail('Edit').click();
+            await waitForSelector('.ppui_dialog .ppui_blueprintCardsContainer');
+
+            // Deleting preexisting Input and Output cards.
+
+            for (let i = 0; i < 2; ++i) {
+                mouseDown(findSelector('.ppui_dialog .ppui_blueprintCard'));
+                findOrFail('delete', 1).click();
+            }
+        }
+        
+        if ('card' in plan) {
+            const index = ('openNeuralNetworkEditor' in plan) ? 1 : 0;
+            findOrFail('add', index).click();
+
+            if (!('openNeuralNetworkEditor' in plan)) {
+                findOrFail('Modules').click();
+            }
 
             for (let modulePart of plan.card) {
                 findOrFail(modulePart).click();
@@ -210,16 +238,25 @@
                 find('Set').click();
             }
 
-            findOrFail('zoom_in').click();
+            findOrFail('zoom_in', index).click();
             findOrFail('Zoom to fit').click();
         }
 
         await timeout(CARD_INIT_DELAY);
 
         if (plan.frameCards) {
-            findOrFail('zoom_in').click();
+            let cards;
+
+            if ('openNeuralNetworkEditor' in plan) {
+                findOrFail('zoom_in', 1).click();
+                cards = findSelector('.ppui_dialog .ppui_blueprintCardsContainer').getElementsByClassName('ppui_blueprintCard');
+            }
+            else {
+                findOrFail('zoom_in').click();
+                cards = document.getElementsByClassName('ppui_blueprintCard');
+            }
+
             findOrFail('100%').click();
-            const cards = document.getElementsByClassName('ppui_blueprintCard');
             let bounds = cards[0].getBoundingClientRect();
             let minX = bounds.x;
             let maxX = bounds.x + bounds.width;
