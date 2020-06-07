@@ -97,7 +97,10 @@ def generateAPI(args, apiName, getModulesCommand, createScreenshotPlan):
         renderTemplate('%s_card_reference_skeleton.md' % apiName, '../%s/%s.md' % (apiName, moduleId), id=moduleId, title=module['title'], help=module.get('help', ''), inputs=module.get('inputs', []), outputs=outputs, events=events)
 
         if not args.noScreenshots:
-            screenshotPlans['%s/%s' % (apiName, moduleId)] = createScreenshotPlan(moduleId, module)
+            plan = createScreenshotPlan(moduleId, module)
+
+            if plan is not None:
+                screenshotPlans['%s/%s' % (apiName, moduleId)] = plan
         
         for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
             if argumentDefinition['type'] != 'Event':
@@ -127,8 +130,10 @@ def createCoreScreenshotPlan(moduleId, module):
         'frameCards': True
     }
 
-    if moduleId.startswith('parameter') or moduleId.startswith('return'):
-        plan['clickElementWhenReady'] = ['t:Set']
+    if moduleId.startswith('parameter'):
+        plan['cardImplicit'] = '<Parameter name>'
+    elif moduleId.startswith('return'):
+        plan['cardImplicit'] = '<Return value name>'
     
     return plan
 

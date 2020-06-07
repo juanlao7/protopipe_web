@@ -19,7 +19,7 @@
 
 <ul class="breadcrumb">
     <li><a href="">Home</a></li>
-    <li>Get license</li>
+    <li>Get a license</li>
 </ul>
 
 ## Try Protopipe for free

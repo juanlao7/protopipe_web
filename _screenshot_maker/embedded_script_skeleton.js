@@ -234,8 +234,10 @@
 
             if ('cardImplicit' in plan) {
                 await timeout(DIALOG_INIT_DELAY);
-                findSelector('.ppui_dialogModal .ppui_textField').value = plan.cardImplicit;
-                find('Set').click();
+                findSelector('.ppui_dialogModal .ppui_textField input').value = plan.cardImplicit;
+                const setButton = find('Set');
+                setButton.disabled = false;
+                setButton.click();
             }
 
             findOrFail('zoom_in', index).click();
