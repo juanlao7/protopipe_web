@@ -10,4 +10,4 @@ Cards in Protopipe are like functions in any common programming language: they r
 
 {{ tree }}
 
-**Note:** the neural network editor has its own set of cards, available [here](neural-network-cards/).
+**Note:** the neural network editor has its own set of cards, available [here](neural_network_cards/).

@@ -49,7 +49,7 @@
         <i class="icon-popup"></i> <a href="cards/">Index of cards</a>
     </li>
     <li style="list-style-type: none">
-        <i class="icon-popup"></i> <a href="neural-network-cards/">Index of cards for building neural networks</a>
+        <i class="icon-popup"></i> <a href="neural_network_cards/">Index of cards for building neural networks</a>
     </li>
     <li style="list-style-type: none">
         <i class="icon-cubes"></i> <a href="types/">Index of data types</a>

@@ -141,7 +141,7 @@ def generateCoreAPI(args):
     generateAPI(args, 'cards', 'modules', createCoreScreenshotPlan)
 
 def generateNeuralNetworkAPI(args):
-    generateAPI(args, 'neural-network-cards', 'neuralNetworkModules', createNeuralNetworkScreenshotPlan)
+    generateAPI(args, 'neural_network_cards', 'neuralNetworkModules', createNeuralNetworkScreenshotPlan)
 
 parser = argparse.ArgumentParser(prog='Protopipe API generator')
 parser.add_argument('targets', nargs='+', choices=['core', 'nn'], help='Possible values: core, nn.')

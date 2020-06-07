@@ -1,0 +1,58 @@
+---
+no_toc: true
+---
+
+<ul class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="documentation">Documentation index</a></li>
+    <li><a href="neural_network_cards/">Index of cards for building neural networks</a></li>
+    <li>Up sampling 2D layer</li>
+</ul>
+
+## Up sampling 2D layer
+
+
+
+!["Up sampling 2D layer" card](assets/img/neural_network_cards/layer_UpSampling2D.png)
+
+
+### Inputs
+
+
+* **Size** --- List of [Integer](types/Integer)
+
+  List of 2 integers. The upsampling factors for rows and columns.
+
+* **Data format** --- [String](types/String)
+
+  The ordering of the dimensions in the inputs.
+
+* **Interpolation** --- [String](types/String)
+
+  Interpolation algorithm.
+
+* **Input** --- [NeuralNetworkTensor](types/NeuralNetworkTensor)
+
+  Input of this layer.
+
+
+
+
+
+### Outputs
+
+
+* **Layer instance** --- [NeuralNetworkLayer](types/NeuralNetworkLayer)
+
+  Instance of this layer. It can be wrapped using a Bidirectional or a TimeDistributed wrapper.
+
+* **Output** --- [NeuralNetworkTensor](types/NeuralNetworkTensor)
+
+  Output of this layer.
+
+
+
+
+
+
+**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
