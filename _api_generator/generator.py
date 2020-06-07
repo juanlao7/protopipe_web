@@ -58,8 +58,11 @@ def ensureHelp(moduleId, module):
     ensureArgumentsHelp(moduleId, 'input', module.get('inputs', []))
     ensureArgumentsHelp(moduleId, 'output', module.get('outputs', []))
 
+def getModules(getModulesCommand):
+    return json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ %s' % getModulesCommand, shell=True))
+
 def generateAPI(args, apiName, getModulesCommand, createScreenshotPlan):
-    modules = json.loads(subprocess.check_output('protopipe-engine NSDFXU-H4WMDM-6BINKG-YLZFRQ %s' % getModulesCommand, shell=True))
+    modules = getModules(getModulesCommand)
 
     # Emptying ../cards and ../assets/img/cards
     directoriesToEmpty = ['../%s' % apiName]
@@ -87,7 +90,6 @@ def generateAPI(args, apiName, getModulesCommand, createScreenshotPlan):
 
     # Generating reference page for each card.
     screenshotPlans = {}
-    types = set()
 
     for moduleId, module in modules.items():
         ensureHelp(moduleId, module)
@@ -101,18 +103,6 @@ def generateAPI(args, apiName, getModulesCommand, createScreenshotPlan):
 
             if plan is not None:
                 screenshotPlans['%s/%s' % (apiName, moduleId)] = plan
-        
-        for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
-            if argumentDefinition['type'] != 'Event':
-                types.add(argumentDefinition['type'])
-
-    if apiName == 'cards':
-        # Generating types index.
-        renderTemplate('types_index_skeleton.md', '../types/index.md', types=sorted(types))
-
-        for dataType in types:
-            if not os.path.isfile('../types/%s.md' % dataType):
-                print('WARNING: reference for data type "%s" does not exist.' % dataType)
 
     # Generating card images.
 
@@ -148,15 +138,34 @@ def generateCoreAPI(args):
 def generateNeuralNetworkAPI(args):
     generateAPI(args, 'neural_network_cards', 'neuralNetworkModules', createNeuralNetworkScreenshotPlan)
 
-parser = argparse.ArgumentParser(prog='Protopipe API generator')
-parser.add_argument('targets', nargs='+', choices=['core', 'nn'], help='Possible values: core, nn.')
-parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots', help='Do not remove & create screenshots.')
-args = parser.parse_args()
+def generateTypesAPI(args):
+    types = set()
+
+    for getModulesCommand in ['modules', 'neuralNetworkModules']:
+        modules = getModules(getModulesCommand)
+
+        for moduleId, module in modules.items():
+            for argumentDefinition in module.get('inputs', []) + module.get('outputs', []):
+                if argumentDefinition['type'] != 'Event':
+                    types.add(argumentDefinition['type'])
+
+    # Generating types index.
+    renderTemplate('types_index_skeleton.md', '../types/index.md', types=sorted(types))
+
+    for dataType in types:
+        if not os.path.isfile('../types/%s.md' % dataType):
+            print('WARNING: reference for data type "%s" does not exist.' % dataType)
 
 handlers = {
     'core': generateCoreAPI,
-    'nn': generateNeuralNetworkAPI
+    'nn': generateNeuralNetworkAPI,
+    'types': generateTypesAPI
 }
+
+parser = argparse.ArgumentParser(prog='Protopipe API generator')
+parser.add_argument('targets', nargs='+', choices=handlers.keys(), help='API to generate.')
+parser.add_argument('--no-screenshots', action='store_true', dest='noScreenshots', help='Do not remove & create screenshots.')
+args = parser.parse_args()
 
 for target in args.targets:
     handlers[target](args)
