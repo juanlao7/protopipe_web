@@ -11,7 +11,7 @@ no_toc: true
 
 ## Repeat vector layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/repeat_vector/) Keras class.
 
 !["Repeat vector layer" card](assets/img/neural_network_cards/layer_RepeatVector.png)
 

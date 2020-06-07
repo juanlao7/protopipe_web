@@ -11,7 +11,7 @@ no_toc: true
 
 ## Gaussian dropout layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/gaussian_dropout/) Keras class.
 
 !["Gaussian dropout layer" card](assets/img/neural_network_cards/layer_GaussianDropout.png)
 

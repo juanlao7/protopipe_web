@@ -11,7 +11,7 @@ no_toc: true
 
 ## Dense layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/core_layers/dense/) Keras class.
 
 !["Dense layer" card](assets/img/neural_network_cards/layer_Dense.png)
 

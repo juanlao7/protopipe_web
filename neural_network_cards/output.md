@@ -11,7 +11,7 @@ no_toc: true
 
 ## Output
 
-
+An output of the neural network.
 
 !["Output" card](assets/img/neural_network_cards/output.png)
 

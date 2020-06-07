@@ -11,7 +11,7 @@ no_toc: true
 
 ## Random normal initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#randomnormal-class) Keras class.
 
 !["Random normal initializer" card](assets/img/neural_network_cards/initializer_RandomNormal.png)
 
@@ -40,7 +40,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Zero padding 1D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/zero_padding1d/) Keras class.
 
 !["Zero padding 1D layer" card](assets/img/neural_network_cards/layer_ZeroPadding1D.png)
 

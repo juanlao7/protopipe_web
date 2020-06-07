@@ -10,6 +10,6 @@ The [Create neural network](cards/createNeuralNetwork) card offers the possibili
 
 The backend for building and training neural networks is based on [Keras](https://keras.io/), and almost every layer, constraint, initializer and regularizer has its corresponding card.
 
-**Note:** the current version of Protopipe does not support the parameterization of neural networks yet, but this feature will be available in the future.
+**Note:** the current version of Protopipe does not yet support the parameterization of neural networks, but this feature will be available in the future.
 
 {{ tree }}

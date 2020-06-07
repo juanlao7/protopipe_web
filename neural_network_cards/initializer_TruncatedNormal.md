@@ -11,7 +11,7 @@ no_toc: true
 
 ## Truncated normal initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#truncatednormal-class) Keras class.
 
 !["Truncated normal initializer" card](assets/img/neural_network_cards/initializer_TruncatedNormal.png)
 
@@ -40,7 +40,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

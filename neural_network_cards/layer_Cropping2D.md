@@ -11,7 +11,7 @@ no_toc: true
 
 ## Cropping 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/cropping2d/) Keras class.
 
 !["Cropping 2D layer" card](assets/img/neural_network_cards/layer_Cropping2D.png)
 

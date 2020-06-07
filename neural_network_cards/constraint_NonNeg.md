@@ -11,7 +11,7 @@ no_toc: true
 
 ## Non neg constraint
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/constraints/#nonneg-class) Keras class.
 
 !["Non neg constraint" card](assets/img/neural_network_cards/constraint_NonNeg.png)
 
@@ -23,7 +23,7 @@ no_toc: true
 
 * **Constraint instance** --- [NeuralNetworkConstraint](types/NeuralNetworkConstraint)
 
-  Instance of a constraint.
+  Instance of the constraint.
 
 
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Average pooling 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/pooling_layers/average_pooling2d/) Keras class.
 
 !["Average pooling 2D layer" card](assets/img/neural_network_cards/layer_AveragePooling2D.png)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Reshape layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/reshape/) Keras class.
 
 !["Reshape layer" card](assets/img/neural_network_cards/layer_Reshape.png)
 

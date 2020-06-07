@@ -11,7 +11,7 @@ no_toc: true
 
 ## Flatten layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/flatten/) Keras class.
 
 !["Flatten layer" card](assets/img/neural_network_cards/layer_Flatten.png)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Alpha dropout layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/alpha_dropout/) Keras class.
 
 !["Alpha dropout layer" card](assets/img/neural_network_cards/layer_AlphaDropout.png)
 

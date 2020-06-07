@@ -11,7 +11,7 @@ no_toc: true
 
 ## Variance scaling initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#variancescaling-class) Keras class.
 
 !["Variance scaling initializer" card](assets/img/neural_network_cards/initializer_VarianceScaling.png)
 
@@ -44,7 +44,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

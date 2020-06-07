@@ -11,7 +11,7 @@ no_toc: true
 
 ## Time distributed layer wrapper
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/recurrent_layers/time_distributed/) Keras class.
 
 !["Time distributed layer wrapper" card](assets/img/neural_network_cards/layer_TimeDistributed.png)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Orthogonal initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#orthogonal-class) Keras class.
 
 !["Orthogonal initializer" card](assets/img/neural_network_cards/initializer_Orthogonal.png)
 
@@ -36,7 +36,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

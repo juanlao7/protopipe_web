@@ -11,7 +11,7 @@ no_toc: true
 
 ## Leaky ReLU layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/leaky_relu/) Keras class.
 
 !["Leaky ReLU layer" card](assets/img/neural_network_cards/layer_LeakyReLU.png)
 

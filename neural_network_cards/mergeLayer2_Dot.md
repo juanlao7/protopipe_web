@@ -11,7 +11,7 @@ no_toc: true
 
 ## Dot layer (2 inputs)
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/merging_layers/dot/) Keras class.
 
 !["Dot layer (2 inputs)" card](assets/img/neural_network_cards/mergeLayer2_Dot.png)
 
@@ -29,11 +29,11 @@ no_toc: true
 
 * **Input A** --- [NeuralNetworkTensor](types/NeuralNetworkTensor)
 
-  
+  First input of the merging layer.
 
 * **Input B** --- [NeuralNetworkTensor](types/NeuralNetworkTensor)
 
-  
+  Second input of the merging layer.
 
 
 

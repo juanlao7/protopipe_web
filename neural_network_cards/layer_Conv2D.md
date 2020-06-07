@@ -11,7 +11,7 @@ no_toc: true
 
 ## Convolution 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/convolution_layers/convolution2d/) Keras class.
 
 !["Convolution 2D layer" card](assets/img/neural_network_cards/layer_Conv2D.png)
 

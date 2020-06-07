@@ -11,7 +11,7 @@ no_toc: true
 
 ## Up sampling 1D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/up_sampling1d/) Keras class.
 
 !["Up sampling 1D layer" card](assets/img/neural_network_cards/layer_UpSampling1D.png)
 

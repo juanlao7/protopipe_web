@@ -11,7 +11,7 @@ no_toc: true
 
 ## Input
 
-
+An input of the neural network.
 
 !["Input" card](assets/img/neural_network_cards/input.png)
 

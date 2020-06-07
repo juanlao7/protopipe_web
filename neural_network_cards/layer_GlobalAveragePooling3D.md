@@ -11,7 +11,7 @@ no_toc: true
 
 ## Global average pooling 3D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/pooling_layers/global_average_pooling3d/) Keras class.
 
 !["Global average pooling 3D layer" card](assets/img/neural_network_cards/layer_GlobalAveragePooling3D.png)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Masking layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/core_layers/masking/) Keras class.
 
 !["Masking layer" card](assets/img/neural_network_cards/layer_Masking.png)
 
@@ -21,7 +21,7 @@ no_toc: true
 
 * **Mask value** --- [Float](types/Float)
 
-  
+  For each timestep in the input tensor (dimension #1 in the tensor), if all values in the input tensor at that timestep are equal to **Mask value**, then the timestep will be masked (skipped) in all downstream layers (as long as they support masking).
 
 * **Input** --- [NeuralNetworkTensor](types/NeuralNetworkTensor)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Spatial dropout 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/spatial_dropout2d/) Keras class.
 
 !["Spatial dropout 2D layer" card](assets/img/neural_network_cards/layer_SpatialDropout2D.png)
 

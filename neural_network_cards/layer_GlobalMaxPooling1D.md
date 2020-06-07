@@ -11,7 +11,7 @@ no_toc: true
 
 ## Global max pooling 1D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/pooling_layers/global_max_pooling1d/) Keras class.
 
 !["Global max pooling 1D layer" card](assets/img/neural_network_cards/layer_GlobalMaxPooling1D.png)
 

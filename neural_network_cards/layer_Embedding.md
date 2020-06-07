@@ -11,7 +11,7 @@ no_toc: true
 
 ## Embedding layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/core_layers/embedding/) Keras class.
 
 !["Embedding layer" card](assets/img/neural_network_cards/layer_Embedding.png)
 

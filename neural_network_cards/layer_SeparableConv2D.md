@@ -11,7 +11,7 @@ no_toc: true
 
 ## Separable convolution 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/convolution_layers/separable_convolution2d/) Keras class.
 
 !["Separable convolution 2D layer" card](assets/img/neural_network_cards/layer_SeparableConv2D.png)
 

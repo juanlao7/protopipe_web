@@ -11,7 +11,7 @@ no_toc: true
 
 ## Zero padding 3D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/zero_padding3d/) Keras class.
 
 !["Zero padding 3D layer" card](assets/img/neural_network_cards/layer_ZeroPadding3D.png)
 

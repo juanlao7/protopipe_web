@@ -11,7 +11,7 @@ no_toc: true
 
 ## Layer normalization layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/normalization_layers/layer_normalization/) Keras class.
 
 !["Layer normalization layer" card](assets/img/neural_network_cards/layer_LayerNormalization.png)
 

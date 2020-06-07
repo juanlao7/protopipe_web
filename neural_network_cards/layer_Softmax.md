@@ -11,7 +11,7 @@ no_toc: true
 
 ## Softmax layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/softmax/) Keras class.
 
 !["Softmax layer" card](assets/img/neural_network_cards/layer_Softmax.png)
 

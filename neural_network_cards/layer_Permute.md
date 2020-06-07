@@ -11,7 +11,7 @@ no_toc: true
 
 ## Permute layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/permute/) Keras class.
 
 !["Permute layer" card](assets/img/neural_network_cards/layer_Permute.png)
 

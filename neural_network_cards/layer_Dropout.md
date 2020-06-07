@@ -11,7 +11,7 @@ no_toc: true
 
 ## Dropout layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/dropout/) Keras class.
 
 !["Dropout layer" card](assets/img/neural_network_cards/layer_Dropout.png)
 

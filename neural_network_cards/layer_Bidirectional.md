@@ -11,7 +11,7 @@ no_toc: true
 
 ## Bidirectional layer wrapper
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/recurrent_layers/bidirectional/) Keras class.
 
 !["Bidirectional layer wrapper" card](assets/img/neural_network_cards/layer_Bidirectional.png)
 

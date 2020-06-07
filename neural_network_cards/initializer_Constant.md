@@ -11,7 +11,7 @@ no_toc: true
 
 ## Constant initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#constant-class) Keras class.
 
 !["Constant initializer" card](assets/img/neural_network_cards/initializer_Constant.png)
 
@@ -32,7 +32,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

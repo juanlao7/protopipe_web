@@ -11,7 +11,7 @@ no_toc: true
 
 ## Gaussian noise layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/gaussian_noise/) Keras class.
 
 !["Gaussian noise layer" card](assets/img/neural_network_cards/layer_GaussianNoise.png)
 

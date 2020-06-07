@@ -11,7 +11,7 @@ no_toc: true
 
 ## L1 L2 regularizer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularizers/#l1_l2-function) Keras class.
 
 !["L1 L2 regularizer" card](assets/img/neural_network_cards/regularizer_l1_l2.png)
 
@@ -36,7 +36,7 @@ no_toc: true
 
 * **Regularizer instance** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 
-  Instance of a regularizer.
+  Instance of the regularizer.
 
 
 

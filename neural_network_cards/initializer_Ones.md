@@ -11,7 +11,7 @@ no_toc: true
 
 ## Ones initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#ones-class) Keras class.
 
 !["Ones initializer" card](assets/img/neural_network_cards/initializer_Ones.png)
 
@@ -23,7 +23,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

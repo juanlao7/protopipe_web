@@ -11,7 +11,7 @@ no_toc: true
 
 ## Activation layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/core_layers/activation/) Keras class.
 
 !["Activation layer" card](assets/img/neural_network_cards/layer_Activation.png)
 

@@ -11,7 +11,7 @@ no_toc: true
 
 ## Min max norm constraint
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/constraints/#minmaxnorm-class) Keras class.
 
 !["Min max norm constraint" card](assets/img/neural_network_cards/constraint_MinMaxNorm.png)
 
@@ -44,7 +44,7 @@ no_toc: true
 
 * **Constraint instance** --- [NeuralNetworkConstraint](types/NeuralNetworkConstraint)
 
-  Instance of a constraint.
+  Instance of the constraint.
 
 
 

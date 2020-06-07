@@ -11,7 +11,7 @@ no_toc: true
 
 ## Attention layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/attention_layers/attention/) Keras class.
 
 !["Attention layer" card](assets/img/neural_network_cards/layer_Attention.png)
 

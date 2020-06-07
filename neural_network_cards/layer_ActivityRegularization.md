@@ -11,7 +11,7 @@ no_toc: true
 
 ## Activity regularization layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/regularization_layers/activity_regularization/) Keras class.
 
 !["Activity regularization layer" card](assets/img/neural_network_cards/layer_ActivityRegularization.png)
 

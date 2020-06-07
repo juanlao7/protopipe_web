@@ -11,7 +11,7 @@ no_toc: true
 
 ## Batch normalization layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/normalization_layers/batch_normalization/) Keras class.
 
 !["Batch normalization layer" card](assets/img/neural_network_cards/layer_BatchNormalization.png)
 

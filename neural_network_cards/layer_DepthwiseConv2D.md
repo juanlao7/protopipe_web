@@ -11,7 +11,7 @@ no_toc: true
 
 ## Depthwise convolution 2D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/convolution_layers/depthwise_convolution2d/) Keras class.
 
 !["Depthwise convolution 2D layer" card](assets/img/neural_network_cards/layer_DepthwiseConv2D.png)
 

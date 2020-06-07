@@ -11,7 +11,7 @@ no_toc: true
 
 ## Parametric ReLU layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/prelu/) Keras class.
 
 !["Parametric ReLU layer" card](assets/img/neural_network_cards/layer_PReLU.png)
 

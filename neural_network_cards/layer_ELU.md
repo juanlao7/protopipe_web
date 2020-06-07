@@ -11,7 +11,7 @@ no_toc: true
 
 ## ELU layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/elu/) Keras class.
 
 !["ELU layer" card](assets/img/neural_network_cards/layer_ELU.png)
 

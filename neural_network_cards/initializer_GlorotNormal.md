@@ -11,7 +11,7 @@ no_toc: true
 
 ## Glorot normal initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#glorotnormal-class) Keras class.
 
 !["Glorot normal initializer" card](assets/img/neural_network_cards/initializer_GlorotNormal.png)
 
@@ -32,7 +32,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

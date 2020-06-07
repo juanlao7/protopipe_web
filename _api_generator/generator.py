@@ -128,6 +128,9 @@ def createCoreScreenshotPlan(moduleId, module):
     return plan
 
 def createNeuralNetworkScreenshotPlan(moduleId, module):
+    if moduleId != 'constraint_RadialConstraint':
+        return None
+
     plan = createCoreScreenshotPlan(moduleId, module)
     plan['openNeuralNetworkEditor'] = True
     return plan

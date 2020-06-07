@@ -11,7 +11,7 @@ no_toc: true
 
 ## Thresholded ReLU layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/threshold_relu/) Keras class.
 
 !["Thresholded ReLU layer" card](assets/img/neural_network_cards/layer_ThresholdedReLU.png)
 

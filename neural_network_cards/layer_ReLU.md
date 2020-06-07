@@ -11,7 +11,7 @@ no_toc: true
 
 ## ReLU layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/relu/) Keras class.
 
 !["ReLU layer" card](assets/img/neural_network_cards/layer_ReLU.png)
 

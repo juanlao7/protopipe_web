@@ -6,23 +6,14 @@ no_toc: true
     <li><a href="">Home</a></li>
     <li><a href="documentation">Documentation index</a></li>
     <li><a href="neural_network_cards/">Index of cards for building neural networks</a></li>
-    <li>Glorot uniform initializer</li>
+    <li>Radial constraint constraint</li>
 </ul>
 
-## Glorot uniform initializer
+## Radial constraint constraint
 
-This card is a wrapper of [this](https://keras.io/api/layers/initializers/#glorotuniform-class) Keras class.
+This card is a wrapper of [this](https://keras.io/api/layers/constraints/#radialconstraint-class) Keras class.
 
-!["Glorot uniform initializer" card](assets/img/neural_network_cards/initializer_GlorotUniform.png)
-
-
-### Inputs
-
-
-* **Seed** --- [Integer](types/Integer)
-
-  Random seed.
-
+!["Radial constraint constraint" card](assets/img/neural_network_cards/constraint_RadialConstraint.png)
 
 
 
@@ -30,9 +21,9 @@ This card is a wrapper of [this](https://keras.io/api/layers/initializers/#gloro
 ### Outputs
 
 
-* **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
+* **Constraint instance** --- [NeuralNetworkConstraint](types/NeuralNetworkConstraint)
 
-  Instance of the initializer.
+  Instance of the constraint.
 
 
 

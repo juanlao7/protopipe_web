@@ -11,7 +11,7 @@ no_toc: true
 
 ## Zeros initializer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/initializers/#zeros-class) Keras class.
 
 !["Zeros initializer" card](assets/img/neural_network_cards/initializer_Zeros.png)
 
@@ -23,7 +23,7 @@ no_toc: true
 
 * **Initializer instance** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Instance of an initializer.
+  Instance of the initializer.
 
 
 

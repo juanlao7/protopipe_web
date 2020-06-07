@@ -11,7 +11,7 @@ no_toc: true
 
 ## Locally connected 1D layer
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/locally_connected_layers/locall_connected1d/) Keras class.
 
 !["Locally connected 1D layer" card](assets/img/neural_network_cards/layer_LocallyConnected1D.png)
 

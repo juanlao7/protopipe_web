@@ -11,7 +11,7 @@ no_toc: true
 
 ## Unit norm constraint
 
-
+This card is a wrapper of [this](https://keras.io/api/layers/constraints/#unitnorm-class) Keras class.
 
 !["Unit norm constraint" card](assets/img/neural_network_cards/constraint_UnitNorm.png)
 
@@ -32,7 +32,7 @@ no_toc: true
 
 * **Constraint instance** --- [NeuralNetworkConstraint](types/NeuralNetworkConstraint)
 
-  Instance of a constraint.
+  Instance of the constraint.
 
 
 
