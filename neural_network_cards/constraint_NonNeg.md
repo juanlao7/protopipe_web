@@ -15,6 +15,8 @@ This card is a wrapper of [this](https://keras.io/api/layers/constraints/#nonneg
 
 !["Non neg constraint" card](assets/img/neural_network_cards/constraint_NonNeg.png)
 
+**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
+
 
 
 
@@ -28,6 +30,3 @@ This card is a wrapper of [this](https://keras.io/api/layers/constraints/#nonneg
 
 
 
-
-
-**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.

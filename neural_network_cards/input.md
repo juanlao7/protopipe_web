@@ -15,6 +15,8 @@ An input of the neural network.
 
 !["Input" card](assets/img/neural_network_cards/input.png)
 
+**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
+
 
 ### Inputs
 
@@ -41,6 +43,3 @@ An input of the neural network.
 
 
 
-
-
-**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.

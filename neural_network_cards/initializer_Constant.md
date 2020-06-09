@@ -15,6 +15,8 @@ This card is a wrapper of [this](https://keras.io/api/layers/initializers/#const
 
 !["Constant initializer" card](assets/img/neural_network_cards/initializer_Constant.png)
 
+**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
+
 
 ### Inputs
 
@@ -37,6 +39,3 @@ This card is a wrapper of [this](https://keras.io/api/layers/initializers/#const
 
 
 
-
-
-**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.

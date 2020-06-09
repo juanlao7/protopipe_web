@@ -15,6 +15,8 @@ This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/up
 
 !["Up sampling 1D layer" card](assets/img/neural_network_cards/layer_UpSampling1D.png)
 
+**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
+
 
 ### Inputs
 
@@ -45,6 +47,3 @@ This card is a wrapper of [this](https://keras.io/api/layers/reshaping_layers/up
 
 
 
-
-
-**Note:** the backend for building and training neural networks is based on [Keras](https://keras.io/). The documentation of this card is a variant of the documentation of its corresponding class.
