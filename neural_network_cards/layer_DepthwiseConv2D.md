@@ -55,11 +55,11 @@ This card is a wrapper of [this](https://keras.io/api/layers/convolution_layers/
 
 * **Depthwise initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  An initializer for the depthwise convolution kernel.
+  An initializer for the depthwise convolution kernel. If not specified, then [Glorot uniform initializer](neural_network_cards/initializer_GlorotUniform) is used.
 
 * **Bias initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the bias vector.
+  Initializer for the bias vector. If not specified, then [Zeros initializer](neural_network_cards/initializer_Zeros) is used.
 
 * **Depthwise regularizer** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 

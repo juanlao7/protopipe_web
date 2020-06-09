@@ -31,7 +31,7 @@ This card is a wrapper of [this](https://keras.io/api/layers/core_layers/embeddi
 
 * **Embeddings initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the embeddings matrix.
+  Initializer for the embeddings matrix. If not specified, then [Glorot uniform initializer](neural_network_cards/initializer_GlorotUniform) is used.
 
 * **Activity regularizer** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 

@@ -43,19 +43,19 @@ This card is a wrapper of [this](https://keras.io/api/layers/normalization_layer
 
 * **Beta initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the `beta` weight.
+  Initializer for the `beta` weight. If not specified, then [Zeros initializer](neural_network_cards/initializer_Zeros) is used.
 
 * **Gamma initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the `gamma` weight.
+  Initializer for the `gamma` weight. If not specified, then [Ones initializer](neural_network_cards/initializer_Ones) is used.
 
 * **Moving mean initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the moving mean.
+  Initializer for the moving mean. If not specified, then [Zeros initializer](neural_network_cards/initializer_Zeros) is used.
 
 * **Moving variance initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the moving variance.
+  Initializer for the moving variance. If not specified, then [Ones initializer](neural_network_cards/initializer_Ones) is used.
 
 * **Beta regularizer** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 

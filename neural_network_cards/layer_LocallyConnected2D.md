@@ -47,11 +47,11 @@ This card is a wrapper of [this](https://keras.io/api/layers/locally_connected_l
 
 * **Kernel initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the kernel weights matrix.
+  Initializer for the kernel weights matrix. If not specified, then [Glorot uniform initializer](neural_network_cards/initializer_GlorotUniform) is used.
 
 * **Bias initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer for the bias vector.
+  Initializer for the bias vector. If not specified, then [Zeros initializer](neural_network_cards/initializer_Zeros) is used.
 
 * **Kernel regularizer** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 

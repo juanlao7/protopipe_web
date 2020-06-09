@@ -23,7 +23,7 @@ This card is a wrapper of [this](https://keras.io/api/layers/activation_layers/p
 
 * **Alpha initializer** --- [NeuralNetworkInitializer](types/NeuralNetworkInitializer)
 
-  Initializer function for the weights.
+  Initializer function for the weights. If not specified, then [Zeros initializer](neural_network_cards/initializer_Zeros) is used.
 
 * **Alpha regularizer** --- [NeuralNetworkRegularizer](types/NeuralNetworkRegularizer)
 
