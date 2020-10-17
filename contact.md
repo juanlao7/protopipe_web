@@ -18,6 +18,6 @@
 
 ## Contact us
 
-<i class="icon-mail"></i> Please, for any kind of question or request, reach us at {{ site.company.email }}
+<i class="icon-mail"></i> Please, for any kind of question or request, contact me at {{ site.company.email }}
 
-Protopipe is a product offered by **[{{ site.company.name }}]({{ site.company.url }})**.
+Protopipe is a project maintained by **[{{ site.company.name }}]({{ site.company.url }})**.
