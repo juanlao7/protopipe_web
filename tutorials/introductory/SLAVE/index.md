@@ -16,7 +16,7 @@ The performance of the model will be determined by averaging all the accuracy me
 
 ![Empty projects screen](assets/img/projects_screen/introduction_1.png)
 
-In the [projects screen](projects_screen), press the *Create new project* button.
+In the [projects screen](documentation/projects_screen), press the *Create new project* button.
 
 !["Create new project" button](assets/img/projects_screen/create_1.png)
 
@@ -24,13 +24,13 @@ Write a name for the project.
 
 !["Create new project" dialog](assets/img/projects_screen/create_2.png)
 
-And press **Start**. The [work screen](work_screen) will appear.
+And press **Start**. The [work screen](documentation/work_screen) will appear.
 
 ![Empty work screen](assets/img/work_screen/introduction_1.png)
 
 ### 2. Upload the data
 
-Download the file `wine.data` from [here](tutorials/introductory/SLAVE/wine.data).
+Download the file `wine.data` from [here](tutorials/datasets/wine.data).
 
 Now we need to upload the file to the project. Press the *Create card* button.
 
@@ -125,7 +125,7 @@ Connect the **Shuffled** output from [Shuffle rows](cards/shuffleRows) to the **
 
 As we can see, the [K-fold cross-validation](cards/kFoldCrossValidation) card already has a default value of 5 for K, which exactly what we need.
 
-This card also triggers two different [events](basics#events): *On each fold*, that provides the training and testing [Tensors](types/Tensor) and *On finish*, that has no associated data.
+This card also triggers two different [events](documentation/basics#events): *On each fold*, that provides the training and testing [Tensors](types/Tensor) and *On finish*, that has no associated data.
 
 At this point our data is ready. We can start working on the training part of the pipeline.
 

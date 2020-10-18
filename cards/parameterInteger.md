@@ -11,7 +11,7 @@ no_toc: true
 
 ## Integer parameter
 
-Provides a [Integer](types/Integer) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+Provides a [Integer](types/Integer) value set by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 !["Integer parameter" card](assets/img/cards/parameterInteger.png)
 
@@ -32,7 +32,7 @@ Provides a [Integer](types/Integer) value set by [the global optimizer](work_scr
 
 * **Value** --- [Integer](types/Integer)
 
-  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 
 

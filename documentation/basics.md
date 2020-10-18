@@ -32,7 +32,7 @@ For instance a [String](types/String) is represented by a red circle, a list of 
 
 ![A card with inputs and outputs of different types](assets/img/basics/design_2.png)
 
-You can directly provide a value for some specific kind of inputs, such as [Strings](types/String) or [Integers](types/Integer). See [this page](work_screen#provide-an-input-directly) for more information.
+You can directly provide a value for some specific kind of inputs, such as [Strings](types/String) or [Integers](types/Integer). See [this page](documentation/work_screen#provide-an-input-directly) for more information.
 
 Cards aim to be general and atomic so they can be used in lots of different situations, but also complete and handy enough so you do not need to use hundreds of them for performing a simple task.
 
@@ -60,7 +60,7 @@ There is a special set of cards that represent parameters that must be optimized
 
 When processing a project, the optimizer will perform multiple experiments, analyzing the previous results and assigning new values to parameter cards on each iteration. After a certain number of iterations, the parameter cards will output approximated optimal values.
 
-See [this page](work_screen#fine-tune-parameters-automatically) for more information.
+See [this page](documentation/work_screen#fine-tune-parameters-automatically) for more information.
 
 #### Returns
 
@@ -70,11 +70,11 @@ There is a special set of cards that collect values for the later analysis phase
 
 ![Return float card](assets/img/basics/returns_1.png)
 
-See [this page](reports_screen) for more information.
+See [this page](documentation/reports_screen) for more information.
 
 #### Variables
 
-In some cases it is **not** possible to connect the output of a card A to the input of a card B because card A is processed inside an [event](basics#events) while card B is either processed in a different event or in no event at all.
+In some cases it is **not** possible to connect the output of a card A to the input of a card B because card A is processed inside an [event](documentation/basics#events) while card B is either processed in a different event or in no event at all.
 
 For instance, you may need to compute the testing error of a model inside a [K-fold cross-validation](cards/kFoldCrossValidation) and compute the mean of all obtained errors after all folds have been processed, but it is not possible to connect the output of a card inside the *On each fold* event to the input of a card of the *On finish* event.
 
@@ -120,7 +120,7 @@ On the other hand, in the next example there are 2 different processing threads,
 
 ![Two threads with 2 sequentially processed cards each](assets/img/basics/processing_2.png)
 
-[As explained above](basics#events), when a card triggers an event all its explicit and implicit listeners get processed parallelly, and the cards that depend on them sequentially in their respective threads. After the system finishes processing the event, it comes back to finish the processing of the original card, and continues processing all cards that depend on it.
+[As explained above](documentation/basics#events), when a card triggers an event all its explicit and implicit listeners get processed parallelly, and the cards that depend on them sequentially in their respective threads. After the system finishes processing the event, it comes back to finish the processing of the original card, and continues processing all cards that depend on it.
 
 A common mistake that may occur when accumulating values in a variable list inside an event (e.g., inside a [K-fold cross-validation](cards/kFoldCrossValidation) *On each fold* event) is that the getter card is left out of the event scope, like in the following example:
 
@@ -152,7 +152,7 @@ Protopipe comes equipped with several optimizing methods that automatize the sea
 
 ![Parameter optimization panel](assets/img/basics/parameter_1.png)
 
-See [this page](work_screen#fine-tune-parameters-automatically) for more information.
+See [this page](documentation/work_screen#fine-tune-parameters-automatically) for more information.
 
 ### Result analysis
 
@@ -164,4 +164,4 @@ Protopipe also has an integrated interactive tool for performing **cross-section
 
 ![Cross-sectional analysis](assets/img/basics/result_2.png)
 
-See [this page](reports_screen) for more information.
+See [this page](documentation/reports_screen) for more information.

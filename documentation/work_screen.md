@@ -10,7 +10,7 @@
 
 In this screen you can design and test machine learning pipelines.
 
-This is page explains how to use the main graphical interface of Protopipe. If you are more interested in learning the basics of Protopipe, see [this page](basics).
+This is page explains how to use the main graphical interface of Protopipe. If you are more interested in learning the basics of Protopipe, see [this page](documentation/basics).
 
 However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory/SLAVE).
 
@@ -145,4 +145,4 @@ The result of [processing a project](#process-the-project) is a report. The *Rep
 
 !["Reports" button](assets/img/work_screen/analyze_1.png)
 
-Press the *Reports* button to open [the reports screen](reports_screen).
+Press the *Reports* button to open [the reports screen](documentation/reports_screen).

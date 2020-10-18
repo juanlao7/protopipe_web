@@ -28,10 +28,10 @@
     <li style="list-style-type: none">
         <i class="icon-lifebuoy"></i> How to use Protopipe
         <ul>
-            <li><a href="basics">The basics</a></li>
-            <li><a href="projects_screen">Projects screen</a></li>
-            <li><a href="work_screen">Work screen</a></li>
-            <li><a href="reports_screen">Reports screen</a></li>
+            <li><a href="documentation/basics">The basics</a></li>
+            <li><a href="documentation/projects_screen">Projects screen</a></li>
+            <li><a href="documentation/work_screen">Work screen</a></li>
+            <li><a href="documentation/reports_screen">Reports screen</a></li>
         </ul>
     </li>
     <li style="list-style-type: none">
@@ -40,7 +40,8 @@
             <li>
                 Introductory
                 <ul>
-                    <li><a href="tutorials/introductory/SLAVE">Wine classification with SLAVE, a genetic fuzzy system</a></li>
+                    <!--<li><a href="tutorials/introductory/SLAVE">Wine classification with SLAVE, a genetic fuzzy system</a></li>-->
+                    <li><a href="tutorials/introductory/neural_networks">Wine classification with neural networks</a></li>
                 </ul>
             </li>
         </ul>

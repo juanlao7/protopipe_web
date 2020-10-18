@@ -11,7 +11,7 @@ no_toc: true
 
 ## Float parameter
 
-Provides a [Float](types/Float) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+Provides a [Float](types/Float) value set by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 !["Float parameter" card](assets/img/cards/parameterFloat.png)
 
@@ -32,7 +32,7 @@ Provides a [Float](types/Float) value set by [the global optimizer](work_screen#
 
 * **Value** --- [Float](types/Float)
 
-  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 
 

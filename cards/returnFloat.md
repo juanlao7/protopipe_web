@@ -11,7 +11,7 @@ no_toc: true
 
 ## Return float
 
-Stores a [Float](types/Float) value in [the final report](reports_screen).
+Stores a [Float](types/Float) value in [the final report](documentation/reports_screen).
 
 !["Return float" card](assets/img/cards/returnFloat.png)
 
@@ -21,7 +21,7 @@ Stores a [Float](types/Float) value in [the final report](reports_screen).
 
 * **Value** --- [Float](types/Float)
 
-  Value to store in [the final report](reports_screen).
+  Value to store in [the final report](documentation/reports_screen).
 
 
 

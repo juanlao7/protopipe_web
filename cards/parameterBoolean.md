@@ -11,7 +11,7 @@ no_toc: true
 
 ## Boolean parameter
 
-Provides a [Boolean](types/Boolean) value set by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+Provides a [Boolean](types/Boolean) value set by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 !["Boolean parameter" card](assets/img/cards/parameterBoolean.png)
 
@@ -23,7 +23,7 @@ Provides a [Boolean](types/Boolean) value set by [the global optimizer](work_scr
 
 * **Value** --- [Boolean](types/Boolean)
 
-  Value provided by [the global optimizer](work_screen#fine-tune-parameters-automatically).
+  Value provided by [the global optimizer](documentation/work_screen#fine-tune-parameters-automatically).
 
 
 

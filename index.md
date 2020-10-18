@@ -29,7 +29,7 @@ no_title: true
 
 ## Getting started
 
-Read [the basics](basics) to learn how to use Protopipe.
+Read [the basics](documentation/basics) to learn how to use Protopipe.
 
 However, if you prefer to learn by doing, follow [this quick introductory tutorial](tutorials/introductory/SLAVE).
 
