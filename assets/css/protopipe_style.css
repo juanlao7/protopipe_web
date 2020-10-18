@@ -177,6 +177,12 @@ li > ol {
     margin-bottom: 0.5rem;
 }
 
+code {
+    font-size: 1.25em;
+    padding: 0.25em;
+    background: #eee;
+}
+
 .img {
     text-align: center;
 }
