@@ -4,6 +4,12 @@
     <li>Windows installation instructions</li>
 </ul>
 
+<iframe style="width: 0; height: 0; opacity: 0" src="https://github.com/juanlao7/protopipe_web/releases/download/v0.1.0/Protopipe.Setup-0.1.0-x64.exe"></iframe>
+
+## Thanks for downloading Protopipe
+
+Your download should begin automatically. If it does not, click [here](https://github.com/juanlao7/protopipe_web/releases/download/v0.1.0/Protopipe.Setup-0.1.0-x64.exe).
+
 ## Careful
 
 You are downloading a **beta version**, still under development, still not signed, so Windows will prevent you from running it.
