@@ -46,12 +46,12 @@
     },
     "work_screen/create_1": {
         "elementWithMargin": "t:add",
-        "styles": [".ppui_protopipeFAB { animation: none !important; }"]
+        "styles": [".ppui_createCardMenu { animation: none !important; }"]
     },
     "work_screen/create_2": {
         "project": "projects/work_screen!create_2.zip",
-        "clickElementWhenReady": [".ppui_protopipeFAB"],
-        "elementWithMargin": ".ppui_protopipeFAB"
+        "clickElementWhenReady": [".ppui_createCardMenu"],
+        "elementWithMargin": ".ppui_createCardMenu"
     },
     "work_screen/create_3": {
         "project": "projects/work_screen!create_2.zip",
@@ -61,8 +61,8 @@
     "work_screen/create_4": {
         "project": "projects/work_screen!create_2.zip",
         "projectName": "work_screen/create_2",
-        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules"],
-        "elementWithMargin": ".ppui_protopipeFAB"
+        "clickElementWhenReady": [".ppui_createCardMenu", "t:Modules"],
+        "elementWithMargin": ".ppui_createCardMenu"
     },
     "work_screen/delete_1": {
         "project": "projects/work_screen!create_2.zip",
@@ -124,8 +124,8 @@
         "removeElements": [".ppui_style_darkLayer"]
     },
     "work_screen/tune_1": {
-        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules", "t:Parameters"],
-        "elementWithMargin": ".ppui_protopipeFAB"
+        "clickElementWhenReady": [".ppui_createCardMenu", "t:Modules", "t:Parameters"],
+        "elementWithMargin": ".ppui_createCardMenu"
     },
     "work_screen/tune_2": {
         "project": "projects/work_screen!tune_2.zip",
@@ -303,30 +303,238 @@
         "width": 750,
         "height": 500
     },
-    "SLAVE/upload_1": {
+	"neural_network_cards/editorScreenshot": {
+		"card": ["Models", "Neural networks", "Create neural network"],
+		"clickElementWhenReady": ["t:Edit"],
+		"width": 1280,
+        "height": 800,
+        "delay": 2000
+	},
+	"tutorials/neural_networks/upload_1": {
+        "project": "projects/neural_networks!upload_1.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_createCardMenu"],
+        "elementWithMargin": ".ppui_createCardMenu"
+    },
+	"tutorials/neural_networks/upload_2": {
+        "project": "projects/neural_networks!upload_1.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_openFile"
+    },
+	"tutorials/neural_networks/prepare_1": {
+        "project": "projects/neural_networks!upload_1.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_createCardMenu", "t:Modules", "t:Files and formats"],
+        "hover": ["t:Read as CSV"],
+        "elementWithMargin": ".ppui_createCardMenu"
+    },
+	"tutorials/neural_networks/prepare_2": {
+        "project": "projects/neural_networks!prepare_2.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+    },
+	"tutorials/neural_networks/prepare_3": {
+        "project": "projects/neural_networks!prepare_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["#blueprintCard_openFile", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 8000
+    },
+	"tutorials/neural_networks/prepare_4": {
+        "project": "projects/neural_networks!prepare_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["#blueprintCard_readAsCSV", "t:pageview"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "width": 1280,
+        "height": 800,
+        "delay": 8000
+    },
+	"tutorials/neural_networks/prepare_5": {
+        "project": "projects/neural_networks!prepare_5.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/prepare_6": {
+        "project": "projects/neural_networks!prepare_6.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_splitIntoXAndYByColumns"
+    },
+	"tutorials/neural_networks/prepare_7": {
+        "project": "projects/neural_networks!prepare_7.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/prepare_8": {
+        "project": "projects/neural_networks!prepare_8.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_standardScaleColumns"
+    },
+	"tutorials/neural_networks/prepare_9": {
+        "project": "projects/neural_networks!prepare_9.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/prepare_10": {
+        "project": "projects/neural_networks!prepare_10.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_oneHotEncodeColumns"
+    },
+	"tutorials/neural_networks/training_1": {
+		"project": "projects/neural_networks!training_1.zip",
+        "projectName": "Wine classification",
+		"clickElementWhenReady": ["t:Edit"],
+		"width": 1280,
+        "height": 800,
+        "delay": 2000
+	},
+	"tutorials/neural_networks/training_1_2": {
+        "project": "projects/neural_networks!training_1_2.zip",
+        "projectName": "Wine classification",
+		"clickElementWhenReady": ["t:Edit"],
+        "elementWithMargin": "#blueprintCard_input"
+    },
+	"tutorials/neural_networks/training_2": {
+        "project": "projects/neural_networks!training_2.zip",
+        "projectName": "Wine classification",
+		"clickElementWhenReady": ["t:Edit"],
+        "elementWithMargin": "#blueprintCard_layer_Dense"
+    },
+	"tutorials/neural_networks/training_3": {
+		"project": "projects/neural_networks!training_3.zip",
+        "projectName": "Wine classification",
+		"clickElementWhenReady": ["t:Edit"],
+		"width": 1280,
+        "height": 800,
+        "delay": 2000
+	},
+	"tutorials/neural_networks/training_4": {
+        "project": "projects/neural_networks!training_4.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_trainNeuralNetwork"
+    },
+	"tutorials/neural_networks/training_5": {
+        "project": "projects/neural_networks!training_5.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/training_6": {
+        "card": ["Parameters", "Integer parameter"],
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
+    },
+	"tutorials/neural_networks/training_7": {
+        "project": "projects/neural_networks!training_7.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/training_8": {
+        "project": "projects/neural_networks!training_8.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_parameterInteger"
+    },
+	"tutorials/neural_networks/training_9": {
+        "project": "projects/neural_networks!training_9.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/training_10": {
+        "project": "projects/neural_networks!training_10.zip",
+        "projectName": "Wine classification",
+        "elementWithMargin": "#blueprintCard_parameterFloat"
+    },
+	"tutorials/neural_networks/training_11": {
+        "project": "projects/neural_networks!training_11.zip",
+        "projectName": "Wine classification",
+        "frameCards": true
+	},
+	"tutorials/neural_networks/experimenting_1": {
+        "project": "projects/neural_networks!training_11.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "height": 600,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 100,
+        "marginBottom": -230
+    },
+	"tutorials/neural_networks/experimenting_2": {
+        "project": "projects/neural_networks!experimenting_2.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": ["t:tune"],
+        "elementWithMargin": ".ppui_drawerPanel",
+        "height": 600,
+        "margin": 0,
+        "marginTop": 30,
+        "marginLeft": 100,
+        "marginBottom": -230
+    },
+	"tutorials/neural_networks/experimenting_3": {
+        "card": ["Returns", "Return float"],
+        "cardImplicit": "Mean accuracy",
+        "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
+        "clickElementWhenReady": ["t:play_arrow"]
+    },
+	"tutorials/neural_networks/experimenting_4": {
+        "project": "projects/neural_networks!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Tue, 20 Oct 2020 00:47:05 GMT", "t:Experiments"],
+        "width": 1280,
+        "height": 800
+    },
+	"tutorials/neural_networks/experimenting_5": {
+        "project": "projects/neural_networks!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Tue, 20 Oct 2020 00:47:05 GMT", "t:Experiments", "th:last-child"],
+        "elementWithMargin": ".ppui_table"
+    },
+	"tutorials/neural_networks/analysis_1": {
+        "project": "projects/neural_networks!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Tue, 20 Oct 2020 00:47:05 GMT", "t:Cross-sectional analysis"],
+        "width": 1280,
+        "height": 800
+    },
+    "tutorials/neural_networks/analysis_2": {
+        "project": "projects/neural_networks!experimenting_4.zip",
+        "projectName": "Wine classification",
+        "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Tue, 20 Oct 2020 00:47:05 GMT", "t:Cross-sectional analysis", ".ppui_radioGroup > *:last-child"],
+        "elementWithMargin": "#reportsAndDrawerContainer > *:last-child",
+        "width": 1280,
+        "height": 800,
+        "margin": -115,
+        "marginLeft": -175,
+        "marginRight": -175,
+        "marginBottom": 0
+    },
+
+
+
+    "tutorials/SLAVE/upload_1": {
         "project": "projects/SLAVE!upload_1.zip",
         "projectName": "Wine classification",
-        "clickElementWhenReady": [".ppui_protopipeFAB"],
-        "elementWithMargin": ".ppui_protopipeFAB"
+        "clickElementWhenReady": [".ppui_createCardMenu"],
+        "elementWithMargin": ".ppui_createCardMenu"
     },
-    "SLAVE/upload_2": {
+    "tutorials/SLAVE/upload_2": {
         "project": "projects/SLAVE!upload_1.zip",
         "projectName": "Wine classification",
         "elementWithMargin": "#blueprintCard_openFile"
     },
-    "SLAVE/prepare_1": {
+    "tutorials/SLAVE/prepare_1": {
         "project": "projects/SLAVE!upload_1.zip",
         "projectName": "Wine classification",
-        "clickElementWhenReady": [".ppui_protopipeFAB", "t:Modules", "t:Files and formats"],
+        "clickElementWhenReady": [".ppui_createCardMenu", "t:Modules", "t:Files and formats"],
         "hover": ["t:Read as CSV"],
-        "elementWithMargin": ".ppui_protopipeFAB"
+        "elementWithMargin": ".ppui_createCardMenu"
     },
-    "SLAVE/prepare_2": {
+    "tutorials/SLAVE/prepare_2": {
         "project": "projects/SLAVE!prepare_2.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/prepare_3": {
+    "tutorials/SLAVE/prepare_3": {
         "project": "projects/SLAVE!prepare_2.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": ["#blueprintCard_openFile", "t:pageview"],
@@ -335,7 +543,7 @@
         "height": 800,
         "delay": 2000
     },
-    "SLAVE/prepare_4": {
+    "tutorials/SLAVE/prepare_4": {
         "project": "projects/SLAVE!prepare_2.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": ["#blueprintCard_readAsCSV", "t:pageview"],
@@ -344,12 +552,12 @@
         "height": 800,
         "delay": 2000
     },
-    "SLAVE/prepare_5": {
+    "tutorials/SLAVE/prepare_5": {
         "project": "projects/SLAVE!prepare_5.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/prepare_6": {
+    "tutorials/SLAVE/prepare_6": {
         "project": "projects/SLAVE!prepare_5.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": ["#blueprintCard_shuffleRows", "t:pageview"],
@@ -358,112 +566,112 @@
         "height": 800,
         "delay": 2000
     },
-    "SLAVE/prepare_7": {
+    "tutorials/SLAVE/prepare_7": {
         "project": "projects/SLAVE!prepare_7.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/training_1": {
+    "tutorials/SLAVE/training_1": {
         "project": "projects/SLAVE!training_1.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/training_2": {
+    "tutorials/SLAVE/training_2": {
         "project": "projects/SLAVE!training_2.zip",
         "projectName": "Wine classification",
         "elementWithMargin": "#blueprintCard_splitIntoXAndYByColumns"
     },
-    "SLAVE/training_3": {
+    "tutorials/SLAVE/training_3": {
         "project": "projects/SLAVE!training_3.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/training_4": {
+    "tutorials/SLAVE/training_4": {
         "card": ["Parameters", "Integer parameter"],
         "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
     },
-    "SLAVE/training_5": {
+    "tutorials/SLAVE/training_5": {
         "project": "projects/SLAVE!training_5.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/training_6": {
+    "tutorials/SLAVE/training_6": {
         "project": "projects/SLAVE!training_6.zip",
         "projectName": "Wine classification",
         "elementWithMargin": "#blueprintCard_parameterInteger"
     },
-    "SLAVE/training_7": {
+    "tutorials/SLAVE/training_7": {
         "project": "projects/SLAVE!training_7.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/training_8": {
+    "tutorials/SLAVE/training_8": {
         "project": "projects/SLAVE!training_8.zip",
         "projectName": "Wine classification",
         "elementWithMargin": "#blueprintCard_parameterFloat"
     },
-    "SLAVE/testing_1": {
+    "tutorials/SLAVE/testing_1": {
         "project": "projects/SLAVE!testing_1.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/testing_2": {
+    "tutorials/SLAVE/testing_2": {
         "project": "projects/SLAVE!testing_2.zip",
         "projectName": "Wine classification",
         "elementWithMargin": "#blueprintCard_splitIntoXAndYByColumns2"
     },
-    "SLAVE/testing_3": {
+    "tutorials/SLAVE/testing_3": {
         "project": "projects/SLAVE!testing_3.zip",
         "projectName": "Wine classification",
         "frameCards": true
     },
-    "SLAVE/testing_4": {
+    "tutorials/SLAVE/testing_4": {
         "project": "projects/SLAVE!testing_4.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_5": {
+    "tutorials/SLAVE/testing_5": {
         "project": "projects/SLAVE!testing_5.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_6": {
+    "tutorials/SLAVE/testing_6": {
         "project": "projects/SLAVE!testing_6.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_7": {
+    "tutorials/SLAVE/testing_7": {
         "project": "projects/SLAVE!testing_7.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_8": {
+    "tutorials/SLAVE/testing_8": {
         "project": "projects/SLAVE!testing_8.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_9": {
+    "tutorials/SLAVE/testing_9": {
         "project": "projects/SLAVE!testing_9.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/testing_10": {
+    "tutorials/SLAVE/testing_10": {
         "card": ["Returns", "Return float"],
         "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame"
     },
-    "SLAVE/testing_11": {
+    "tutorials/SLAVE/testing_11": {
         "project": "projects/SLAVE!testing_11.zip",
         "projectName": "Wine classification",
         "frameCards": true,
         "width": 3000
     },
-    "SLAVE/experimenting_1": {
+    "tutorials/SLAVE/experimenting_1": {
         "project": "projects/SLAVE!testing_11.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": ["t:tune"],
@@ -474,7 +682,7 @@
         "marginLeft": 100,
         "marginBottom": -230
     },
-    "SLAVE/experimenting_2": {
+    "tutorials/SLAVE/experimenting_2": {
         "project": "projects/SLAVE!experimenting_2.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": ["t:tune"],
@@ -485,20 +693,20 @@
         "marginLeft": 100,
         "marginBottom": -230
     },
-    "SLAVE/experimenting_3": {
+    "tutorials/SLAVE/experimenting_3": {
         "card": ["Returns", "Return float"],
         "cardImplicit": "Mean accuracy",
         "elementWithMargin": ".ppui_dialogModal > .ppui_dialogFrame",
         "clickElementWhenReady": ["t:play_arrow"]
     },
-    "SLAVE/experimenting_4": {
+    "tutorials/SLAVE/experimenting_4": {
         "project": "projects/SLAVE!experimenting_4.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Experiments"],
         "width": 1280,
         "height": 800
     },
-    "SLAVE/experimenting_5": {
+    "tutorials/SLAVE/experimenting_5": {
         "project": "projects/SLAVE!experimenting_4.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Experiments", "th:last-child", "th:last-child"],
@@ -506,14 +714,14 @@
         "width": 1280,
         "height": 800
     },
-    "SLAVE/analysis_1": {
+    "tutorials/SLAVE/analysis_1": {
         "project": "projects/SLAVE!experimenting_4.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Cross-sectional analysis"],
         "width": 1280,
         "height": 800
     },
-    "SLAVE/analysis_2": {
+    "tutorials/SLAVE/analysis_2": {
         "project": "projects/SLAVE!experimenting_4.zip",
         "projectName": "Wine classification",
         "clickElementWhenReady": [".ppui_topBar .ppui_SVGIcon", "t:Thu, 14 Nov 2019 09:53:25 GMT", "t:Cross-sectional analysis", ".ppui_radioGroup > *:last-child"],
