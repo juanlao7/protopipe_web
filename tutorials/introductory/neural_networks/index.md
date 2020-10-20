@@ -10,6 +10,8 @@ In this introductory tutorial we will train and test a single layer neural netwo
 
 Since this is an introductory tutorial, we will use the validation loss as an indicator of the model's performance---instead of evaluating the model against an unseen test dataset---. We will use that value to fine tune some hyperparameters, such as the *batch size* or the *learning rate* of the optimizer.
 
+The final project is available for download [here](tutorials/introductory/neural_networks/neural_networks.zip).
+
 ### 1. Creating a new project
 
 ![Empty projects screen](assets/img/projects_screen/introduction_1.png)
