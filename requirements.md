@@ -14,7 +14,7 @@ no_toc: true
 
 The Protopipe *desktop application* serves the Protopipe *web platform* to the local computer and to any other device on the same network.
 
-This application is compatible with the latest version of <i class="icon-windows"></i>Windows and <i class="icon-apple"></i>macOS.
+This application is compatible with the latest version of <i class="icon-windows"></i>Windows.<!-- and <i class="icon-apple"></i>macOS.-->
 
 ### Web platform
 

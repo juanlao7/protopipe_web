@@ -54,7 +54,7 @@ Desktop application, **beta version**.
 
 <div id="downloadButtons">
     <a class="button" href="windows_instructions" target="_blank"><i class="icon-windows"></i> <span><span>Download for Windows</span><span>64 bits</span></span></a>
-    <a class="button" href="macOS_instructions" target="_blank"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>
+    <!--<a class="button" href="macOS_instructions" target="_blank"><i class="icon-apple"></i> <span><span>Download for macOS</span><span>64 bits</span></span></a>-->
 </div>
 
 [End-User License Agreement (EULA)](eula)
